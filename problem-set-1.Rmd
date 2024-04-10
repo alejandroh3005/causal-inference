@@ -1,0 +1,160 @@
+---
+title: 'Biost 578: Problem Set 1'
+author: "Alejandro Hernandez"
+date: "Due Friday 19, April 2024"
+output:
+  html_document:
+    df_print: paged
+subtitle: Department of Biostatistics @ University of Washington
+---
+
+```{r setup, include=F}
+# clear environment
+rm(list=ls())
+
+# load relevant packages
+library(MASS)       # negative binomial distribution
+library(tidyverse)  # data manipulation
+# devtools::install_github("mbannick/RobinCar")
+library(RobinCar)   # causal models with covariate adjustment
+library(rigr)
+
+# setup options
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.kable.NA = '-')
+set.seed(0927)
+```
+
+```{r data-generation-function, include=F}
+# This is a function we will use for data generation. A=1 is treated and A=0 is control
+Fun_datagen <- function(Fun.n = 500, 
+                        Fun.y.type = c("continuous","binary","count"), 
+                        Fun.p = 2/3) {
+  
+  # generate the covariates Xc, Xb
+  df <- tibble(
+    Xc = runif(Fun.n), 
+    Xb = rbinom(Fun.n, size = 1, prob = 0.5)
+  )
+  
+  # generate treatment assignment A by simple randomization
+  df <- df %>% mutate(A = rbinom(n=Fun.n, size=1, prob=Fun.p))
+  
+  # generate outcome y
+  # if y is continuous
+  if (Fun.y.type == "continuous") {
+    df <- df %>% 
+      mutate(y = (1-A)*(Xc+0.1*Xb) + A*(0.3*Xc+0.3*Xb))
+  # if y is binary
+  } else if (Fun.y.type == "binary") {
+    df <- df %>% 
+      mutate(y = rbinom(n = Fun.n, 
+                        size = 1,
+                        prob = (1-A)*(0.5*Xc+0.25*Xc^2+0.1*Xb) + A*exp(Xc+Xc^2+0.3*Xb)/(1+exp(Xc+Xc^2+0.3*Xb))))
+  # if y is positive discrete
+  } else if (Fun.y.type == "count") {
+    df <- df %>% 
+      mutate(y = MASS::rnegbin(n = Fun.n, 
+                               mu = A*(2*Xc+5*Xc^2+0.1*Xb) + (1-A)*log(6*Xc^3+2+0.3*Xb), 
+                               theta = 4))
+  }
+  
+  df <- df %>% mutate(A = factor(A))
+  return(df)
+}
+```
+
+## Problem 1
+
+```{r problem-1}
+# Generate a simulated dataset with n = 500 and continuous outcome under simple
+# randomization using 1:2 allocation ratio to control and treatment
+dfSim <- Fun_datagen(Fun.n = 500, Fun.y.type = "continuous", Fun.p = 2/3)
+
+# dfSim %>% 
+  # mutate(Xb = factor(Xb)) %>% 
+  # summary
+
+#### (1a) ####
+# Fit a linear model Y ∼ A and obtain the coefficient of A. Compare it with the
+# ANOVA estimate of ATE
+slr <- rigr::regress("mean", y ~ A, data=dfSim)
+
+#### (1b) ####
+# Fit a linear model Y ∼ 1 + A + X and obtain the coefficient of A. This is the
+# ANCOVA estimate of ATE
+mlr <- rigr::regress("mean", 1 + y ~ A + Xc + Xb, data=dfSim)
+
+#### (1c) ####
+# Fit a linear model Y ∼ 1 + A + (X-Xbar) + A(X-Xbar) and obtain the coefficient
+# of A. This is the ANHECOVA estimate of ATE
+mlr_int <- dfSim %>%
+  mutate(centered_Xc = Xc - mean(Xc),
+         centered_Xb = Xb - mean(Xb)) %>%
+  regress("mean", data=., 
+          y ~ 1 + A + centered_Xc + centered_Xb + A*centered_Xc + A*centered_Xb)
+
+#### (1d) ####
+# Compare the ANHECOVA estimator in (c) with the model Y ∼ 1 + A + X + AX
+regress("mean", y ~ 1 + A + Xc + Xb + A*Xc + A*Xb, data=dfSim) %>% coef
+
+#### (1e) ####
+# Use the robincar_linear2 function in the RobinCar R package to obtain the 
+# estimators in (a)-(c). Compare the point estimators and the robust standard 
+# errors using these three estimation methods
+robin_slr <- RobinCar::robincar_linear2(df = dfSim, treat_col = "A", 
+                           response_col = "y", 
+                           adj_method = "ANOVA", contrast_h="diff")
+
+robin_mlr <- RobinCar::robincar_linear2(df = dfSim, treat_col = "A", 
+                           response_col = "y", 
+                           covariate_cols = c("Xc", "Xb"), 
+                           adj_method = "ANCOVA", contrast_h="diff")
+
+robin_mlr_int <- RobinCar::robincar_linear2(df = dfSim, treat_col = "A",
+                           response_col = "y", 
+                           covariate_cols = c("Xc", "Xb"), 
+                           adj_method = "ANHECOVA", contrast_h="diff")
+
+# estimates from rigr models
+bind_rows(slr$coefficients["A1",], 
+          mlr$coefficients["A1",], 
+          mlr_int$coefficients["A1",])[c(1,3,7)]
+
+# estimates from RobinCar models
+bind_rows(robin_slr$main$result[2,], 
+          robin_mlr$main$result[2,], 
+          robin_mlr_int$main$result[2,])[,-1]
+```
+
+## Problem 2
+
+```{r problem-2}
+# Generate a simulated dataset with n = 500 and binary outcome under simple 
+# randomization using 1:2 allocation ratio to control and treatment
+dfSim <- Fun_datagen(Fun.n = 500, Fun.y.type = "binary", Fun.p = 2/3)
+
+#### (2a) ####
+# Calculate the ANOVA estimator (the mean outcome difference between the treated
+# and control)
+
+#### (2b) ####
+# Fit a logistic model of P(Y=1|A,X) and estimate ATE using g-computation
+
+#### (2c) ####
+# Use the robincar_linear2 and robincar_glm2 functions in the RobinCar R package
+# to obtain the ANOVA and g-computation estimators in (a)-(b), as well as their 
+# robust standard errors. Compare the point estimators and the robust standard 
+# errors using these two estimation methods
+RobinCar::robincar_glm2(df=dfSim,
+                        treat_col = "A", response_col = "y",
+                        g_family = stats::binomial,
+                        formula = as.formula("y ~ A + Xc + Xb"),
+                        contrast_h="diff")
+```
+
+## Problem 3
+
+## Problem 4 (Ungraded)
+
+**End of document.**

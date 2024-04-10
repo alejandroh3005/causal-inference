@@ -14,7 +14,9 @@ devtools::install_github("mbannick/RobinCar")
 library(RobinCar)
 
 # This is a function we will use for data generation. A=1 is treated and A=0 is control
-Fun_datagen <- function(Fun.n = 500, Fun.y.type = c("continuous","binary","count"), Fun.p = 2/3){
+Fun_datagen <- function(Fun.n = 500, 
+                        Fun.y.type = c("continuous","binary","count"), 
+                        Fun.p = 2/3){
   
   # generate the covariates Xc, Xb
   df <- tibble(
