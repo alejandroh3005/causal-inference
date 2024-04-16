@@ -1647,26 +1647,138 @@ Washington</h3>
 ## Xb           7.397396e+15  0.000000e+00
 ## A1:Xc       -5.827388e+15  0.000000e+00
 ## A1:Xb        3.370734e+15  0.000000e+00</code></pre>
-<div data-pagedtable="false">
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Estimate"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["Robust SE"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["Pr(>|t|)"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"-0.2103184","2":"2.430453e-02","3":"6.936499e-17"},{"1":"-0.2210012","2":"1.168145e-02","3":"1.692538e-60"},{"1":"-0.2251166","2":"5.614866e-17","3":"0.000000e+00"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-</div>
-<div data-pagedtable="false">
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["estimate"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["se"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["pval (2-sided)"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"0.3059451","2":"0.009921065","3":"8.132798e-209"},{"1":"0.3019283","2":"0.008424483","3":"2.691016e-281"},{"1":"0.3047642","2":"0.007782730","3":"0.000000e+00"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-</div>
+<table>
+<caption>Rigr estimates of ATE</caption>
+<thead>
+<tr class="header">
+<th align="left">Estimator</th>
+<th align="right">Estimate</th>
+<th align="right">Robust SE</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">ANOVA</td>
+<td align="right">-0.2103</td>
+<td align="right">0.0243</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">ANCOVA</td>
+<td align="right">-0.2210</td>
+<td align="right">0.0117</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">ANHECOVA</td>
+<td align="right">-0.2251</td>
+<td align="right">0.0000</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>RobinCar estimates of ATE</caption>
+<thead>
+<tr class="header">
+<th align="left">Estimator</th>
+<th align="right">Estimate</th>
+<th align="right">Robust SE</th>
+<th align="right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">ANOVA</td>
+<td align="right">-0.2103</td>
+<td align="right">0.0243</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">ANCOVA</td>
+<td align="right">-0.2210</td>
+<td align="right">0.0117</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">ANHECOVA</td>
+<td align="right">-0.2251</td>
+<td align="right">0.0103</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="problem-2" class="section level2">
 <h2>Problem 2</h2>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["A"],"name":[1],"type":["fct"],"align":["left"]},{"label":["mean.response"],"name":[2],"type":["dbl"],"align":["right"]}],"data":[{"1":"0","2":"0.3964497"},{"1":"1","2":"0.7583082"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["A"],"name":[1],"type":["fct"],"align":["left"]},{"label":["mean.response"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["robin.means"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"0","2":"0.3964497","3":"0.3947835"},{"1":"1","2":"0.7583082","3":"0.7593151"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["method"],"name":[1],"type":["chr"],"align":["left"]},{"label":["estimator"],"name":[2],"type":["chr"],"align":["left"]},{"label":["estimate"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"g-computation LogReg","2":"rigr","3":"1.8238630"},{"1":"","2":"robincar","3":"0.3645315"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
 </div>
 <div id="problem-3" class="section level2">
 <h2>Problem 3</h2>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["A"],"name":[1],"type":["fct"],"align":["left"]},{"label":["mean.response"],"name":[2],"type":["dbl"],"align":["right"]}],"data":[{"1":"0","2":"1.095745"},{"1":"1","2":"2.586538"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre><code>## Warning in func(): Prediction unbiasedness does not hold.</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["A"],"name":[1],"type":["fct"],"align":["left"]},{"label":["mean.response"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["robin.means"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"0","2":"1.095745","3":"1.128308"},{"1":"1","2":"2.586538","3":"2.545675"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["method"],"name":[1],"type":["chr"],"align":["left"]},{"label":["estimator"],"name":[2],"type":["chr"],"align":["left"]},{"label":["estimate"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"g-computation NegBinom","2":"rigr","3":"0.7336158"},{"1":"","2":"robincar","3":"1.4173666"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
 </div>
 <div id="problem-4-ungraded" class="section level2">
 <h2>Problem 4 (Ungraded)</h2>
+<p>In this problem, we consider randomization inference for non-binary
+treatments. Consider a setting in which we have n units labelled i = 1,
+…, <em>n</em>, but instead of the usual binary intervention, we have K
+possible treatments, i.e.  A<sub>i</sub> ∈ {1, …, <em>K</em>}. Consider
+the generalization of the completely randomized design seen in class,
+with K treatments. That is, for fixed values 0 &lt;
+<em>n<sub>1</sub></em>, …, <em>n<sub>K</sub></em> &lt; <em>n</em>, we
+assign exactly <em>n<sub>1</sub></em>units to treatment 1,
+<em>n<sub>2</sub></em> units to treatment 2, …, and
+<em>n<sub>K</sub></em> units to treatment <em>K</em>, such that all
+items have equal probability.</p>
+<div id="a" class="section level3">
+<h3>(a)</h3>
+<p>For <em>k</em> <span class="math inline">\(\in\)</span> {1, …,
+<em>K</em>}, determine P (A<sub>i</sub> = <em>k</em>).</p>
+</div>
+<div id="b" class="section level3">
+<h3>(b)</h3>
+<p>Assuming SUTVA, how many potential outcomes does each unit have?</p>
+</div>
+<div id="c" class="section level3">
+<h3>(c)</h3>
+<p>For <em>k</em> <span class="math inline">\(\not =\)</span>
+<em>k’</em> <span class="math inline">\(\in\)</span> {1, …, <em>K</em>}
+write down <span class="math inline">\(\tau\)</span><sub>kk’</sub> for
+the sample average treatment effect of k vs k′ (with all the potential
+outcomes as fixed). That is, contrasting k and k′ instead of 1 and 0 as
+in the binary case.</p>
 <p><strong>End of document.</strong></p>
+</div>
 </div>
 
 

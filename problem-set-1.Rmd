@@ -3,6 +3,7 @@ title: 'Biost 578: Problem Set 1'
 author: "Alejandro Hernandez"
 date: "Due Friday 19, April 2024"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 subtitle: Department of Biostatistics @ University of Washington
@@ -17,10 +18,12 @@ library(MASS)       # negative binomial distribution
 library(tidyverse)  # data manipulation
 # devtools::install_github("mbannick/RobinCar")
 library(RobinCar)   # causal models with covariate adjustment
-library(rigr)
+library(rigr)       # regression
+library(knitr)      # table formatting
+library(modelr)
 
 # setup options
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = F, warning = F)
 options(knitr.kable.NA = '-')
 set.seed(0927)
 ```
@@ -96,7 +99,7 @@ mlr_int <- dfSim %>%
 
 #### (1d) ####
 # Compare the ANHECOVA estimator in (c) with the model Y ∼ 1 + A + X + AX
-regress("mean", y ~ 1 + A + Xc + Xb + A*Xc + A*Xb, data=dfSim) %>% coef
+# regress("mean", y ~ 1 + A + Xc + Xb + A*Xc + A*Xb, data=dfSim) %>% coef
 
 #### (1e) ####
 # Use the robincar_linear2 function in the RobinCar R package to obtain the 
@@ -119,12 +122,21 @@ robin_mlr_int <- RobinCar::robincar_linear2(df = dfSim, treat_col = "A",
 # estimates from rigr models
 bind_rows(slr$coefficients["A1",], 
           mlr$coefficients["A1",], 
-          mlr_int$coefficients["A1",])[c(1,3,7)]
+          mlr_int$coefficients["A1",])[c(1,3,7)] %>%
+  mutate(Estimator = c("ANOVA", "ANCOVA", "ANHECOVA"), 
+         .before = "Estimate") %>%
+  knitr::kable(digits = 4, 
+               caption = "Rigr estimates of ATE")
 
 # estimates from RobinCar models
-bind_rows(robin_slr$main$result[2,], 
-          robin_mlr$main$result[2,], 
-          robin_mlr_int$main$result[2,])[,-1]
+bind_rows(robin_slr$contrast$result,
+          robin_mlr$contrast$result,
+          robin_mlr_int$contrast$result)[,-1] %>%
+  mutate(Estimator = c("ANOVA", "ANCOVA", "ANHECOVA"), 
+         .before = "estimate") %>%
+  knitr::kable(digits = 4, 
+               caption = "RobinCar estimates of ATE",
+               col.names = c("Estimator", "Estimate", "Robust SE", "Pr(>|t|)"))
 ```
 
 ## Problem 2
@@ -132,29 +144,146 @@ bind_rows(robin_slr$main$result[2,],
 ```{r problem-2}
 # Generate a simulated dataset with n = 500 and binary outcome under simple 
 # randomization using 1:2 allocation ratio to control and treatment
+set.seed(0927)
 dfSim <- Fun_datagen(Fun.n = 500, Fun.y.type = "binary", Fun.p = 2/3)
 
 #### (2a) ####
 # Calculate the ANOVA estimator (the mean outcome difference between the treated
 # and control)
+outcome.means <- dfSim %>% group_by(A) %>% summarize(mean.response = mean(y))
+
+ATE.anova <- (outcome.means[2,2] - outcome.means[1,2])[[1]]
+
 
 #### (2b) ####
 # Fit a logistic model of P(Y=1|A,X) and estimate ATE using g-computation
+log.reg <- rigr::regress("odds", y ~ A + Xb + Xc, data = dfSim)
+
+treatment_potential <- dfSim %>% mutate(A = factor(1)) %>% 
+  predict(log.reg, newdata = ., type = "response")
+
+control_potential <- dfSim %>% mutate(A = factor(0)) %>% 
+  predict(log.reg, newdata = ., type = "response")
+
+ATE.gcomp <- mean(treatment_potential - control_potential)
+
 
 #### (2c) ####
 # Use the robincar_linear2 and robincar_glm2 functions in the RobinCar R package
 # to obtain the ANOVA and g-computation estimators in (a)-(b), as well as their 
 # robust standard errors. Compare the point estimators and the robust standard 
 # errors using these two estimation methods
-RobinCar::robincar_glm2(df=dfSim,
+robin_lr <- RobinCar::robincar_glm2(df = dfSim,
                         treat_col = "A", response_col = "y",
                         g_family = stats::binomial,
                         formula = as.formula("y ~ A + Xc + Xb"),
-                        contrast_h="diff")
+                        contrast_h = "diff")
+
+ATE.anova.robin <- diff(robin_lr$main$result$estimate)[[1]]
+ATE.gcomp.robin <- robin_lr$contrast$result
+
+
+# all estimates of average treatment effect (ATE)
+data.frame(
+  Estimator = c("ANOVA", "ANOVA (RobinCar)", 
+                "g-computation (rigr)", "g-computation (RobinCar)"),
+  Estimate = c(ATE.anova, ATE.anova.robin, 
+               ATE.gcomp, ATE.gcomp.robin$estimate[[1]]),
+  Robust.SE = c(NA, NA, NA, ATE.gcomp.robin$se[[1]])) %>%
+  knitr::kable(caption = "Estimators of ATE",
+               digits = 3)
 ```
 
 ## Problem 3
 
+```{r problem-3}
+# Generate a simulated dataset with n = 500 and count outcome under simple 
+# randomization using 1:2 allocation ratio to control and treatment 
+set.seed(0927)
+dfSim <- Fun_datagen(Fun.n = 500, Fun.y.type = "count", Fun.p = 2/3)
+
+#### (3a) ####
+# Calculate the ANOVA estimator (the mean outcome difference between the treated
+# and control)
+outcome.means <- dfSim %>% group_by(A) %>% summarize(mean.response = mean(y))
+ATE.anova <- (outcome.means[2,2] - outcome.means[1,2])[[1]]
+
+
+#### (3b) ####
+# Fit a negative binomial model of Y ~ A + X with an unknown dispersion param
+# and estimate ATE using g-computation. Is this g-computation estimator 
+# (asymptotically) unbiased?
+neg.binom <- MASS::glm.nb(y ~ A + Xc + Xb, data=dfSim)
+
+treatment_potential <- dfSim %>% mutate(A = factor(1)) %>% 
+  predict(neg.binom, newdata = ., type = "response")
+
+control_potential <- dfSim %>% mutate(A = factor(0)) %>% 
+  predict(neg.binom, newdata = ., type = "response")
+
+ATE.gcomp <- mean(treatment_potential - control_potential)
+
+
+#### (3c) ####
+# When the g-computation estimator is biased, the robincar_glm2 automatically 
+# calculates the AIPW estimator which is a debiased g-computation estimator. 
+# Use the robincar_linear2 and robincar_glm2 functions to obtain the ANOVA 
+# estimator in (a) and the AIPW estimator using the negative binomial model in 
+# (b), as well as their robust standard errors. Compare the point estimators and 
+# the robust standard errors using these two estimation method
+outcome.means.robin <- RobinCar::robincar_linear2(df = dfSim,
+                                                  treat_col = "A",
+                                                  response_col = "y")$result
+ATE.anova.robin <- diff(outcome.means.robin$estimate)[[1]]
+
+robin_nb <- RobinCar::robincar_glm2(df = dfSim, treat_col = "A", 
+                                    response_col = "y", g_family = "nb",
+                                    formula = as.formula("y ~ A + Xc + Xb"))
+ATE.gcomp.robin <- RobinCar::robincar_contrast(result = robin_nb,
+                                               contrast_h = "diff")$result
+
+# all estimates of average treatment effect (ATE)
+data.frame(
+  Estimator = c("ANOVA", "ANOVA (RobinCar)", 
+                "g-computation (rigr)", "g-computation (RobinCar)"),
+  Estimate = c(ATE.anova, ATE.anova.robin, 
+               ATE.gcomp, ATE.gcomp.robin$estimate[[1]]),
+  Robust.SE = c(NA, NA, NA, ATE.gcomp.robin$se[[1]])) %>%
+  knitr::kable(caption = "Estimators of ATE", digits = 3)
+```
+
 ## Problem 4 (Ungraded)
+
+In this problem, we consider randomization inference for non-binary treatments. 
+Consider a setting in which we have n units labelled i = 1, ..., *n*, but 
+instead of the usual binary intervention, we have K possible treatments, i.e. 
+A~i~ $\in$ {1, ..., *K*}. 
+Consider the generalization of the completely randomized design seen in class, 
+with K treatments. 
+That is, for fixed values 0 < *n~1~*, ..., *n~K~* < *n*, we assign exactly 
+*n~1~*units to treatment 1, *n~2~* units to treatment 2, ..., and *n~K~* units 
+to treatment *K*, such that all items have equal probability.
+
+### (a)
+
+For *k* $\in$ {1, ..., *K*}, determine P (A~i~ = *k*).
+
+### (b)
+
+Assuming SUTVA, how many potential outcomes does each unit have?
+
+
+### (c)
+
+For *k* $\not =$ *k'* $\in$ {1, ..., *K*} write down $\tau$~kk'~ for the sample average treatment effect of *k* vs *k'* (with all the potential outcomes as fixed). That is, contrasting *k* and *k'* instead of 1 and 0 as in the binary case. *(Hint: refer to the statistical theory for Neyman repeated sampling inference on pages 33-34 in Lecture 2).*
+
+
+### (d)
+
+Propose an analog $\tau$~kk'~_hat to the difference-in-means estimator, for estimating $\tau$~kk'~.
+
+### (e)
+
+Prove that $\tau$~kk'~_hat is unbiased for $\tau$~kk'~.
 
 **End of document.**
