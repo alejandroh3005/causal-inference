@@ -1,0 +1,1952 @@
+"","physically.inactive","years.lived.since.1971.up.to.1992","sex","smoking.status","income.poverty.ratio","age.at.interview","race","education","working.last.three.months","married","alcohol.consumption","dietary.adequacy"
+"1",TRUE,8,"Female","Never",NA,74,"Nonwhite","0-8",FALSE,FALSE,"Never",2
+"3",FALSE,16,"Male","Current",1.52,74,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",5
+"4",FALSE,21,"Male","Current",3.11,53,"Nonwhite","12",TRUE,TRUE,"1-4 times per month",3
+"6",FALSE,13,"Male","Never",9.18,65,"White","College Grad",TRUE,FALSE,"2+ times per week",2
+"7",FALSE,21,"Female","Current",2.62,47,"Nonwhite","9-11",TRUE,TRUE,"Never",4
+"8",FALSE,17,"Male","Current",2.62,53,"Nonwhite","9-11",TRUE,TRUE,"Just about everyday/everyday",2
+"9",FALSE,15,"Female","Never",1.26,60,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",2
+"10",TRUE,21,"Female","Never",2.13,56,"White","12",FALSE,TRUE,"<1 time per month",2
+"11",TRUE,21,"Female","Never",0.72,69,"White","College Grad",FALSE,FALSE,"Never",1
+"12",TRUE,14,"Male","Never",1.35,73,"White","0-8",FALSE,FALSE,"2+ times per week",4
+"13",FALSE,10,"Male","Never",0.52,66,"White","12",FALSE,TRUE,"Never",5
+"14",TRUE,1,"Female","Never",1.26,54,"Nonwhite","0-8",FALSE,TRUE,"Never",5
+"15",TRUE,21,"Female","Never",0.77,48,"White","9-11",FALSE,FALSE,"Never",5
+"16",FALSE,10,"Female","Current",1.63,68,"White","0-8",FALSE,TRUE,"<1 time per month",2
+"17",TRUE,21,"Male","Never",2.05,54,"Nonwhite","9-11",TRUE,TRUE,"Never",5
+"18",FALSE,10,"Male","Never",1.48,67,"Nonwhite","12",TRUE,TRUE,"Never",5
+"19",FALSE,21,"Female","Never",6.41,48,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"20",FALSE,19,"Male","Never",7.7,48,"White","12",TRUE,FALSE,"2+ times per week",5
+"21",FALSE,21,"Male","Former",2.65,69,"White","12",TRUE,TRUE,"Never",5
+"22",TRUE,8,"Female","Former",2.58,61,"White","9-11",TRUE,FALSE,"Just about everyday/everyday",4
+"23",FALSE,10,"Male","Current",4.55,51,"White","Some College",TRUE,TRUE,"1-4 times per month",5
+"24",FALSE,21,"Female","Never",8.24,51,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",4
+"25",FALSE,21,"Female","Never",4.58,56,"White","12",FALSE,TRUE,"Just about everyday/everyday",4
+"26",FALSE,21,"Female","Never",1.85,49,"White","12",FALSE,TRUE,"Just about everyday/everyday",5
+"27",FALSE,21,"Male","Never",1.5,69,"Nonwhite","0-8",FALSE,TRUE,"Never",3
+"28",FALSE,1,"Male","Current",2.62,70,"White","9-11",FALSE,TRUE,"2+ times per week",5
+"29",FALSE,8,"Male","Former",NA,72,"White","9-11",FALSE,TRUE,"1-4 times per month",4
+"30",FALSE,21,"Female","Never",1.43,66,"White","9-11",FALSE,TRUE,"Never",5
+"31",FALSE,21,"Female","Never",0.95,60,"White","9-11",TRUE,FALSE,"Never",5
+"32",TRUE,13,"Male","Current",1.74,51,"White","9-11",FALSE,TRUE,"2+ times per week",4
+"33",FALSE,21,"Female","Never",1.74,47,"Nonwhite","12",FALSE,TRUE,"1-4 times per month",3
+"34",TRUE,12,"Female","Never",NA,66,"White","0-8",FALSE,FALSE,"Never",5
+"35",FALSE,16,"Male","Never",5.39,59,"White","0-8",TRUE,FALSE,"Never",5
+"36",FALSE,21,"Female","Never",4.58,57,"White","12",TRUE,TRUE,"<1 time per month",0
+"37",FALSE,7,"Male","Never",3.47,71,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"38",FALSE,21,"Female","Never",2.67,67,"White","0-8",FALSE,FALSE,"<1 time per month",5
+"39",FALSE,21,"Female","Current",3.58,47,"White","12",TRUE,TRUE,"<1 time per month",5
+"40",FALSE,21,"Female","Current",NA,49,"White","Some College",TRUE,FALSE,"Never",4
+"42",FALSE,16,"Male","Current",2.65,74,"White","12",FALSE,TRUE,"1-4 times per month",4
+"43",FALSE,21,"Female","Never",2.65,70,"White","0-8",FALSE,TRUE,"1-4 times per month",2
+"44",FALSE,11,"Female","Never",3.15,70,"White","9-11",FALSE,FALSE,"Never",5
+"45",FALSE,13,"Female","Never",1.81,71,"White","0-8",FALSE,TRUE,"Never",2
+"46",FALSE,2,"Male","Current",4.58,64,"White","9-11",FALSE,TRUE,"1-4 times per month",4
+"47",TRUE,11,"Male","Current",0.87,49,"White","9-11",FALSE,TRUE,"2+ times per week",5
+"48",FALSE,2,"Male","Former",0.87,58,"Nonwhite","0-8",FALSE,FALSE,"Never",5
+"49",FALSE,21,"Female","Never",3.02,49,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",4
+"51",FALSE,21,"Male","Never",3.47,66,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",5
+"52",FALSE,21,"Male","Never",3.85,60,"White","Some College",TRUE,TRUE,"1-4 times per month",5
+"53",FALSE,21,"Male","Current",4.58,47,"White","9-11",TRUE,FALSE,"Just about everyday/everyday",1
+"54",TRUE,9,"Male","Current",1.69,70,"White","9-11",FALSE,FALSE,"<1 time per month",5
+"55",FALSE,21,"Male","Never",2.62,71,"White","9-11",FALSE,TRUE,"2+ times per week",4
+"56",FALSE,21,"Female","Never",2.62,65,"White","9-11",FALSE,TRUE,"2+ times per week",3
+"57",FALSE,17,"Female","Never",1.94,70,"White","12",FALSE,FALSE,"2+ times per week",3
+"58",FALSE,8,"Male","Current",1.81,73,"White","0-8",FALSE,TRUE,"Never",5
+"59",FALSE,18,"Male","Current",2.56,47,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"60",FALSE,1,"Female","Never",0.36,71,"Nonwhite","0-8",FALSE,FALSE,"Just about everyday/everyday",5
+"61",TRUE,7,"Male","Current",3.11,58,"White","Some College",TRUE,FALSE,"Just about everyday/everyday",5
+"62",FALSE,15,"Female","Former",4.58,52,"White","12",TRUE,TRUE,"Just about everyday/everyday",1
+"63",FALSE,21,"Female","Never",1.04,48,"White","College Grad",TRUE,FALSE,"<1 time per month",4
+"64",TRUE,21,"Male","Never",3.85,53,"White","College Grad",TRUE,TRUE,"<1 time per month",5
+"65",FALSE,21,"Male","Current",3.85,60,"White","Some College",TRUE,FALSE,"2+ times per week",5
+"66",FALSE,21,"Male","Former",NA,48,"White","Missing",FALSE,TRUE,"Just about everyday/everyday",5
+"67",FALSE,15,"Male","Current",4.58,53,"White","9-11",TRUE,FALSE,"2+ times per week",5
+"68",FALSE,21,"Female","Never",2.05,46,"White","12",TRUE,TRUE,"Never",1
+"69",FALSE,21,"Female","Never",2,63,"White","0-8",FALSE,TRUE,"Never",1
+"70",FALSE,14,"Male","Never",0.73,70,"White","0-8",FALSE,TRUE,"2+ times per week",5
+"71",TRUE,11,"Female","Never",0.94,74,"White","0-8",FALSE,TRUE,"<1 time per month",0
+"72",TRUE,21,"Female","Never",0.2,66,"White","0-8",FALSE,TRUE,"Never",1
+"73",FALSE,21,"Female","Current",1.42,56,"White","12",FALSE,TRUE,"<1 time per month",4
+"74",FALSE,4,"Female","Never",1.97,50,"White","12",FALSE,TRUE,"<1 time per month",2
+"75",FALSE,21,"Male","Current",6.04,47,"White","College Grad",TRUE,TRUE,"<1 time per month",4
+"76",FALSE,14,"Male","Current",2.62,53,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"77",FALSE,21,"Female","Never",3.11,52,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"78",FALSE,21,"Male","Never",2.62,57,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"79",FALSE,16,"Male","Never",3.58,71,"Nonwhite","0-8",TRUE,TRUE,"Never",5
+"80",FALSE,21,"Male","Former",4.61,47,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",3
+"81",TRUE,14,"Male","Current",NA,57,"White","12",TRUE,TRUE,"1-4 times per month",5
+"82",FALSE,21,"Female","Never",2.07,48,"White","12",TRUE,FALSE,"1-4 times per month",5
+"83",TRUE,21,"Female","Current",1.38,64,"White","0-8",FALSE,FALSE,"Never",3
+"84",TRUE,21,"Female","Never",1.6,51,"White","12",FALSE,TRUE,"<1 time per month",3
+"85",FALSE,13,"Male","Former",3.11,61,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",3
+"86",FALSE,21,"Female","Never",3.11,46,"White","12",FALSE,TRUE,"<1 time per month",2
+"87",FALSE,17,"Male","Current",4.58,62,"White","12",TRUE,TRUE,"Never",5
+"88",FALSE,15,"Male","Never",2.62,69,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"92",TRUE,21,"Male","Former",2.62,61,"White","College Grad",TRUE,TRUE,"2+ times per week",4
+"94",FALSE,18,"Male","Former",NA,61,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",5
+"95",FALSE,9,"Male","Never",2.04,70,"White","College Grad",FALSE,TRUE,"1-4 times per month",5
+"96",TRUE,1,"Female","Never",2.28,53,"White","9-11",FALSE,TRUE,"<1 time per month",0
+"97",TRUE,21,"Female","Former",NA,61,"White","College Grad",TRUE,FALSE,"2+ times per week",5
+"98",TRUE,21,"Male","Never",2.62,48,"White","College Grad",FALSE,TRUE,"1-4 times per month",5
+"99",TRUE,7,"Male","Current",0.19,60,"White","12",FALSE,FALSE,"Just about everyday/everyday",4
+"100",FALSE,18,"Female","Never",NA,63,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"101",TRUE,21,"Male","Former",9.98,47,"White","College Grad",TRUE,FALSE,"Just about everyday/everyday",5
+"102",TRUE,18,"Male","Current",0.7,65,"Nonwhite","0-8",FALSE,FALSE,"<1 time per month",3
+"103",FALSE,13,"Female","Never",0.89,74,"Nonwhite","9-11",TRUE,FALSE,"Never",5
+"104",FALSE,20,"Female","Never",1.29,57,"Nonwhite","9-11",TRUE,FALSE,"1-4 times per month",4
+"106",FALSE,16,"Male","Former",1.84,72,"White","9-11",FALSE,FALSE,"2+ times per week",5
+"107",FALSE,18,"Male","Never",2,68,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"110",FALSE,21,"Male","Former",5.1,67,"Nonwhite","0-8",TRUE,TRUE,"Never",5
+"112",FALSE,14,"Female","Never",1.69,71,"White","12",FALSE,FALSE,"<1 time per month",4
+"113",FALSE,21,"Male","Former",3.02,47,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"114",TRUE,21,"Female","Current",3.85,48,"Nonwhite","9-11",FALSE,TRUE,"2+ times per week",3
+"115",FALSE,21,"Male","Current",1.26,52,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",4
+"116",FALSE,21,"Male","Current",4.55,54,"Nonwhite","College Grad",TRUE,TRUE,"2+ times per week",4
+"118",FALSE,19,"Female","Never",3.85,62,"White","12",FALSE,TRUE,"1-4 times per month",5
+"119",FALSE,21,"Female","Never",0.69,67,"White","9-11",FALSE,FALSE,"<1 time per month",2
+"120",FALSE,15,"Male","Former",0.8,69,"Nonwhite","0-8",FALSE,FALSE,"Never",2
+"121",TRUE,5,"Male","Never",2.62,71,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",4
+"122",FALSE,21,"Female","Never",5.1,64,"Nonwhite","9-11",FALSE,TRUE,"Never",5
+"123",FALSE,11,"Male","Current",0.46,48,"Nonwhite","12",FALSE,TRUE,"1-4 times per month",5
+"124",FALSE,18,"Female","Never",4.58,59,"White","0-8",FALSE,TRUE,"Never",4
+"125",FALSE,21,"Male","Former",6.41,51,"White","9-11",TRUE,TRUE,"2+ times per week",5
+"126",FALSE,21,"Female","Current",3.11,57,"Nonwhite","9-11",FALSE,TRUE,"1-4 times per month",3
+"127",FALSE,21,"Female","Never",1.9,53,"Nonwhite","9-11",TRUE,FALSE,"1-4 times per month",1
+"128",FALSE,21,"Male","Never",3.9,52,"White","0-8",TRUE,FALSE,"1-4 times per month",4
+"129",TRUE,21,"Female","Never",NA,48,"White","0-8",FALSE,TRUE,"Never",3
+"130",FALSE,3,"Male","Current",1.74,56,"White","9-11",TRUE,TRUE,"2+ times per week",3
+"131",FALSE,21,"Male","Current",6.41,50,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"132",FALSE,21,"Female","Current",4.58,56,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",4
+"133",FALSE,19,"Female","Never",NA,62,"Nonwhite","0-8",TRUE,TRUE,"<1 time per month",1
+"134",TRUE,8,"Female","Never",NA,67,"Nonwhite","Missing",FALSE,FALSE,"Never",2
+"135",FALSE,6,"Male","Current",1.4,71,"Nonwhite","0-8",FALSE,TRUE,"Just about everyday/everyday",2
+"136",FALSE,14,"Female","Never",9.05,65,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",4
+"138",FALSE,21,"Male","Current",NA,66,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",4
+"139",FALSE,20,"Female","Current",0.78,66,"White","0-8",TRUE,FALSE,"Just about everyday/everyday",3
+"140",FALSE,16,"Male","Current",3.47,65,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",5
+"141",FALSE,2,"Male","Never",1.22,67,"White","9-11",FALSE,TRUE,"<1 time per month",5
+"142",FALSE,21,"Female","Never",4.58,58,"White","12",FALSE,TRUE,"Just about everyday/everyday",4
+"143",FALSE,21,"Male","Current",1.65,47,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",4
+"144",TRUE,21,"Male","Never",3.06,71,"White","0-8",TRUE,FALSE,"<1 time per month",3
+"145",FALSE,13,"Male","Former",1.74,53,"White","9-11",TRUE,TRUE,"2+ times per week",5
+"146",FALSE,16,"Male","Former",3.11,60,"White","0-8",TRUE,TRUE,"2+ times per week",5
+"147",FALSE,12,"Female","Never",1.55,72,"White","0-8",FALSE,FALSE,"Just about everyday/everyday",3
+"149",FALSE,13,"Male","Never",8.24,63,"White","9-11",TRUE,TRUE,"Never",3
+"150",FALSE,17,"Male","Former",5.1,65,"White","College Grad",FALSE,TRUE,"Just about everyday/everyday",2
+"152",TRUE,17,"Male","Current",3.02,62,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",3
+"153",FALSE,21,"Male","Former",4.58,64,"White","College Grad",FALSE,TRUE,"Just about everyday/everyday",5
+"154",FALSE,5,"Male","Never",NA,74,"White","Missing",FALSE,TRUE,"<1 time per month",1
+"155",FALSE,21,"Female","Current",3.23,54,"White","9-11",TRUE,FALSE,"Just about everyday/everyday",5
+"156",TRUE,3,"Female","Former",0.57,70,"White","0-8",FALSE,FALSE,"<1 time per month",3
+"157",FALSE,21,"Male","Former",1.26,48,"Nonwhite","9-11",TRUE,TRUE,"1-4 times per month",4
+"158",FALSE,21,"Male","Former",2.05,47,"White","9-11",TRUE,TRUE,"2+ times per week",5
+"159",FALSE,21,"Female","Never",0.5,66,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",3
+"160",FALSE,14,"Male","Never",1.52,71,"Nonwhite","9-11",FALSE,TRUE,"Never",2
+"161",TRUE,8,"Male","Current",1.99,66,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",3
+"163",TRUE,19,"Female","Never",NA,69,"White","College Grad",FALSE,FALSE,"Never",4
+"164",TRUE,21,"Female","Never",1.99,51,"White","12",FALSE,TRUE,"<1 time per month",0
+"166",TRUE,8,"Male","Never",1.42,67,"White","0-8",FALSE,TRUE,"Never",4
+"167",FALSE,13,"Female","Never",4.43,49,"Nonwhite","Some College",TRUE,TRUE,"1-4 times per month",4
+"169",FALSE,18,"Male","Former",6.2,58,"White","12",TRUE,TRUE,"Just about everyday/everyday",3
+"172",FALSE,21,"Male","Current",1.99,61,"Nonwhite","Some College",TRUE,TRUE,"Just about everyday/everyday",4
+"173",FALSE,8,"Male","Former",4.94,66,"White","12",TRUE,TRUE,"2+ times per week",5
+"174",FALSE,21,"Female","Current",4.08,51,"Nonwhite","9-11",TRUE,FALSE,"<1 time per month",5
+"175",FALSE,21,"Female","Never",3.47,49,"White","Some College",FALSE,TRUE,"<1 time per month",2
+"176",FALSE,21,"Male","Current",5.22,56,"White","9-11",TRUE,TRUE,"Never",5
+"177",FALSE,21,"Male","Current",2.54,55,"Nonwhite","9-11",TRUE,TRUE,"2+ times per week",4
+"178",TRUE,21,"Female","Never",2,67,"Nonwhite","0-8",FALSE,TRUE,"Never",5
+"179",TRUE,21,"Male","Former",4.09,51,"White","College Grad",TRUE,TRUE,"<1 time per month",4
+"180",TRUE,21,"Female","Current",0.52,55,"White","9-11",FALSE,FALSE,"1-4 times per month",0
+"181",FALSE,21,"Male","Current",6.2,58,"White","12",TRUE,TRUE,"Just about everyday/everyday",2
+"182",FALSE,11,"Male","Current",3.01,46,"Nonwhite","12",TRUE,TRUE,"2+ times per week",4
+"183",FALSE,21,"Female","Never",0.93,65,"White","12",FALSE,FALSE,"1-4 times per month",5
+"184",FALSE,17,"Female","Never",1.24,65,"White","0-8",FALSE,FALSE,"1-4 times per month",5
+"185",FALSE,19,"Male","Never",0.52,68,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",3
+"186",TRUE,5,"Female","Never",1.61,69,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"187",FALSE,8,"Male","Never",0.23,59,"White","0-8",TRUE,FALSE,"Never",5
+"188",TRUE,20,"Female","Former",0.64,66,"White","9-11",FALSE,FALSE,"<1 time per month",4
+"189",FALSE,21,"Male","Never",6.04,58,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"190",FALSE,21,"Female","Current",3.47,54,"White","0-8",TRUE,TRUE,"Never",5
+"191",FALSE,21,"Male","Current",1.9,52,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"192",FALSE,21,"Female","Never",5.1,68,"White","College Grad",FALSE,TRUE,"<1 time per month",5
+"193",FALSE,21,"Male","Former",1.17,51,"White","12",TRUE,TRUE,"<1 time per month",5
+"194",FALSE,7,"Male","Never",2.38,65,"White","0-8",FALSE,TRUE,"2+ times per week",5
+"195",FALSE,18,"Male","Never",4.23,58,"White","Some College",TRUE,TRUE,"1-4 times per month",5
+"196",FALSE,21,"Male","Never",4.58,51,"White","0-8",TRUE,TRUE,"1-4 times per month",3
+"197",FALSE,19,"Male","Former",4.58,49,"White","12",TRUE,TRUE,"1-4 times per month",5
+"198",FALSE,15,"Male","Current",4.23,65,"White","9-11",TRUE,TRUE,"1-4 times per month",4
+"199",FALSE,21,"Female","Never",3.01,53,"White","12",FALSE,TRUE,"<1 time per month",5
+"200",FALSE,16,"Male","Former",7.7,65,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",5
+"201",FALSE,10,"Male","Current",0.58,57,"Nonwhite","Missing",FALSE,TRUE,"<1 time per month",5
+"202",FALSE,21,"Female","Current",5.44,59,"Nonwhite","12",FALSE,TRUE,"<1 time per month",5
+"204",FALSE,21,"Male","Former",4.34,71,"White","0-8",FALSE,FALSE,"2+ times per week",5
+"205",TRUE,19,"Male","Never",2.69,71,"White","9-11",FALSE,TRUE,"2+ times per week",5
+"206",FALSE,21,"Female","Never",2.07,61,"White","0-8",FALSE,FALSE,"<1 time per month",4
+"208",FALSE,21,"Male","Former",4.58,59,"White","0-8",TRUE,TRUE,"2+ times per week",5
+"209",FALSE,21,"Female","Never",3.47,59,"White","9-11",FALSE,TRUE,"2+ times per week",2
+"210",FALSE,20,"Male","Former",6.04,47,"White","College Grad",FALSE,TRUE,"<1 time per month",4
+"211",TRUE,21,"Female","Former",3.02,49,"White","12",FALSE,TRUE,"<1 time per month",4
+"212",FALSE,21,"Male","Current",1.69,59,"Nonwhite","0-8",TRUE,TRUE,"2+ times per week",5
+"213",FALSE,12,"Male","Former",2.58,46,"White","9-11",TRUE,TRUE,"2+ times per week",5
+"214",FALSE,21,"Male","Current",1.85,49,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"215",FALSE,5,"Male","Never",2.45,67,"White","0-8",TRUE,TRUE,"Never",4
+"216",FALSE,21,"Female","Never",1.31,67,"White","9-11",FALSE,TRUE,"<1 time per month",2
+"217",FALSE,21,"Male","Never",2.4,56,"White","0-8",TRUE,FALSE,"Never",3
+"218",FALSE,21,"Female","Never",1.55,50,"White","12",TRUE,TRUE,"1-4 times per month",2
+"219",TRUE,17,"Female","Never",2.28,46,"White","12",FALSE,TRUE,"Never",3
+"220",FALSE,21,"Female","Never",1.94,52,"White","0-8",FALSE,FALSE,"1-4 times per month",2
+"221",FALSE,21,"Female","Never",NA,52,"White","12",TRUE,TRUE,"1-4 times per month",4
+"222",FALSE,21,"Female","Never",1.28,69,"White","12",TRUE,FALSE,"<1 time per month",4
+"223",FALSE,14,"Male","Never",9.98,71,"White","College Grad",TRUE,TRUE,"Never",5
+"224",FALSE,21,"Male","Current",3.02,46,"White","12",TRUE,TRUE,"1-4 times per month",0
+"225",FALSE,17,"Male","Never",0.48,69,"White","0-8",FALSE,FALSE,"Never",4
+"226",FALSE,21,"Female","Never",3.85,50,"White","9-11",TRUE,TRUE,"2+ times per week",2
+"227",FALSE,21,"Female","Never",2.72,54,"White","12",TRUE,TRUE,"<1 time per month",3
+"228",FALSE,11,"Male","Former",3.85,59,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",4
+"229",FALSE,8,"Female","Current",0.51,51,"Nonwhite","9-11",FALSE,FALSE,"1-4 times per month",3
+"230",FALSE,21,"Male","Former",4.58,47,"White","9-11",TRUE,TRUE,"1-4 times per month",4
+"231",FALSE,21,"Female","Never",5.39,58,"White","12",FALSE,TRUE,"Never",5
+"232",FALSE,21,"Female","Never",1.98,53,"White","9-11",TRUE,FALSE,"Never",2
+"233",FALSE,8,"Female","Never",1.89,60,"White","9-11",TRUE,FALSE,"1-4 times per month",3
+"234",FALSE,21,"Male","Never",5.38,50,"White","Some College",TRUE,TRUE,"<1 time per month",4
+"235",TRUE,9,"Male","Never",8.41,70,"White","Some College",FALSE,TRUE,"Never",4
+"236",TRUE,2,"Female","Never",3.02,73,"White","9-11",FALSE,FALSE,"Never",2
+"237",TRUE,21,"Male","Current",1.76,68,"White","0-8",FALSE,TRUE,"1-4 times per month",3
+"238",FALSE,14,"Female","Never",2.55,74,"White","12",FALSE,FALSE,"<1 time per month",3
+"239",FALSE,21,"Male","Current",1.74,51,"White","Some College",TRUE,TRUE,"1-4 times per month",5
+"240",FALSE,18,"Male","Never",2.05,56,"White","0-8",TRUE,TRUE,"<1 time per month",4
+"241",FALSE,21,"Male","Former",6.41,57,"White","12",TRUE,TRUE,"1-4 times per month",4
+"242",FALSE,21,"Female","Never",3.01,45,"White","12",TRUE,TRUE,"1-4 times per month",1
+"243",FALSE,14,"Male","Former",6.41,60,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",4
+"244",FALSE,17,"Male","Former",1.37,68,"White","0-8",FALSE,TRUE,"<1 time per month",0
+"245",FALSE,21,"Female","Never",2.07,49,"White","0-8",TRUE,FALSE,"<1 time per month",1
+"246",TRUE,21,"Female","Never",2.13,59,"White","12",TRUE,FALSE,"Never",4
+"247",TRUE,14,"Female","Former",4.58,59,"White","9-11",FALSE,TRUE,"Never",4
+"248",FALSE,21,"Male","Current",1.95,68,"Nonwhite","0-8",FALSE,FALSE,"1-4 times per month",5
+"249",FALSE,21,"Female","Never",0.59,45,"Nonwhite","9-11",FALSE,FALSE,"Never",2
+"250",FALSE,15,"Male","Current",2.62,58,"White","0-8",TRUE,TRUE,"<1 time per month",3
+"251",FALSE,3,"Male","Never",1.56,69,"White","0-8",FALSE,TRUE,"Never",5
+"252",FALSE,21,"Male","Former",2.62,55,"White","Some College",TRUE,TRUE,"Never",5
+"253",FALSE,19,"Female","Current",3.29,65,"White","9-11",FALSE,FALSE,"Never",5
+"254",FALSE,21,"Male","Never",3.47,69,"White","Some College",FALSE,TRUE,"Never",4
+"255",FALSE,21,"Male","Former",6.41,53,"White","12",TRUE,TRUE,"<1 time per month",3
+"256",FALSE,21,"Male","Current",0.81,66,"Nonwhite","0-8",TRUE,FALSE,"1-4 times per month",5
+"257",FALSE,18,"Female","Never",3.11,54,"White","12",TRUE,TRUE,"Never",4
+"258",FALSE,13,"Male","Former",1.19,73,"White","0-8",FALSE,TRUE,"Never",4
+"259",FALSE,21,"Female","Former",2.22,57,"White","12",TRUE,TRUE,"Never",3
+"260",FALSE,21,"Female","Never",1.95,67,"White","9-11",TRUE,FALSE,"Never",3
+"261",FALSE,18,"Male","Current",3.09,48,"White","0-8",TRUE,TRUE,"Never",4
+"262",FALSE,21,"Female","Never",1.56,54,"White","12",FALSE,TRUE,"Never",4
+"263",FALSE,21,"Female","Current",4.58,46,"White","9-11",TRUE,TRUE,"1-4 times per month",3
+"264",FALSE,17,"Male","Never",NA,57,"Nonwhite","Missing",TRUE,FALSE,"Never",3
+"265",FALSE,21,"Female","Current",0.92,68,"White","12",TRUE,TRUE,"Never",4
+"266",TRUE,6,"Male","Current",2.62,65,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",2
+"267",TRUE,21,"Male","Never",0.71,65,"Nonwhite","0-8",FALSE,FALSE,"1-4 times per month",3
+"268",FALSE,8,"Male","Never",1.44,72,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"269",TRUE,8,"Male","Former",1.11,70,"Nonwhite","9-11",FALSE,TRUE,"Never",2
+"270",FALSE,13,"Female","Never",4.21,63,"White","0-8",TRUE,FALSE,"Never",0
+"271",FALSE,21,"Female","Never",3.11,55,"White","9-11",TRUE,TRUE,"<1 time per month",3
+"272",FALSE,21,"Female","Never",1.53,61,"White","Some College",FALSE,FALSE,"Never",3
+"274",TRUE,21,"Female","Never",0.78,69,"Nonwhite","0-8",FALSE,FALSE,"Never",1
+"276",FALSE,2,"Male","Former",0.75,67,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",2
+"277",TRUE,2,"Female","Never",1.59,69,"White","0-8",FALSE,TRUE,"Never",4
+"278",FALSE,12,"Female","Never",3.47,65,"White","0-8",FALSE,TRUE,"Never",5
+"279",FALSE,21,"Male","Current",5.39,48,"White","College Grad",TRUE,TRUE,"2+ times per week",5
+"281",FALSE,9,"Male","Former",3.47,73,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",5
+"282",FALSE,21,"Female","Current",1.65,62,"Nonwhite","9-11",TRUE,FALSE,"1-4 times per month",5
+"283",FALSE,8,"Female","Never",3.23,72,"Nonwhite","12",FALSE,FALSE,"Never",3
+"285",FALSE,21,"Female","Never",1.24,66,"Nonwhite","9-11",FALSE,FALSE,"<1 time per month",1
+"287",FALSE,3,"Male","Current",6.93,71,"White","9-11",FALSE,FALSE,"<1 time per month",5
+"288",FALSE,21,"Male","Never",4.58,60,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",1
+"289",FALSE,17,"Female","Never",1.03,74,"White","0-8",FALSE,FALSE,"Never",3
+"290",TRUE,21,"Female","Current",3.11,57,"White","12",TRUE,TRUE,"1-4 times per month",4
+"291",FALSE,13,"Male","Former",2.24,73,"White","0-8",FALSE,TRUE,"1-4 times per month",4
+"293",FALSE,20,"Male","Current",NA,58,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",5
+"294",FALSE,21,"Male","Current",4.58,54,"White","12",TRUE,TRUE,"2+ times per week",5
+"295",FALSE,21,"Female","Never",3.23,57,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",3
+"296",TRUE,9,"Female","Former",0.92,66,"White","0-8",FALSE,FALSE,"<1 time per month",2
+"297",TRUE,21,"Female","Current",6.41,48,"White","Some College",FALSE,TRUE,"<1 time per month",4
+"298",FALSE,3,"Female","Current",2.05,55,"White","12",TRUE,TRUE,"1-4 times per month",5
+"299",TRUE,17,"Female","Never",3.11,60,"White","12",FALSE,TRUE,"2+ times per week",4
+"300",TRUE,21,"Male","Never",3.47,74,"White","9-11",FALSE,TRUE,"Never",4
+"302",TRUE,6,"Female","Current",NA,70,"Nonwhite","0-8",FALSE,FALSE,"Never",4
+"303",TRUE,10,"Female","Never",0.98,70,"Nonwhite","0-8",FALSE,TRUE,"Never",0
+"304",TRUE,14,"Male","Never",0.8,67,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",5
+"305",TRUE,5,"Male","Never",1.74,70,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",3
+"306",TRUE,10,"Female","Never",1.27,69,"White","9-11",FALSE,TRUE,"Never",4
+"308",FALSE,12,"Female","Never",0.69,69,"Nonwhite","0-8",FALSE,TRUE,"Never",3
+"309",TRUE,13,"Female","Former",0.63,71,"Nonwhite","0-8",FALSE,FALSE,"Never",3
+"312",FALSE,1,"Female","Never",0.85,55,"Nonwhite","0-8",FALSE,TRUE,"Never",2
+"313",TRUE,19,"Female","Never",1.74,55,"Nonwhite","0-8",TRUE,FALSE,"Never",3
+"314",TRUE,7,"Female","Never",0.65,68,"Nonwhite","0-8",FALSE,FALSE,"<1 time per month",3
+"315",TRUE,9,"Female","Never",0.66,66,"Nonwhite","12",FALSE,FALSE,"Never",0
+"316",FALSE,21,"Male","Current",6.91,65,"White","College Grad",FALSE,TRUE,"2+ times per week",4
+"318",TRUE,21,"Female","Never",5.22,47,"White","College Grad",TRUE,TRUE,"1-4 times per month",4
+"319",TRUE,7,"Female","Never",1.52,70,"White","0-8",FALSE,TRUE,"Never",1
+"320",FALSE,20,"Female","Current",1.34,65,"White","Some College",FALSE,FALSE,"1-4 times per month",3
+"322",TRUE,10,"Male","Current",1.22,73,"White","12",FALSE,FALSE,"<1 time per month",5
+"323",FALSE,17,"Male","Never",4.09,65,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",4
+"324",FALSE,21,"Female","Current",2.54,56,"White","9-11",TRUE,TRUE,"Never",3
+"325",FALSE,7,"Male","Current",2.54,72,"White","College Grad",TRUE,TRUE,"2+ times per week",4
+"326",TRUE,8,"Male","Current",0.83,70,"Nonwhite","0-8",FALSE,FALSE,"1-4 times per month",5
+"327",FALSE,17,"Female","Current",NA,68,"White","12",FALSE,TRUE,"2+ times per week",4
+"328",TRUE,21,"Female","Current",0.81,49,"Nonwhite","9-11",FALSE,FALSE,"Never",2
+"329",TRUE,21,"Female","Current",8.86,55,"White","College Grad",FALSE,TRUE,"Just about everyday/everyday",3
+"330",FALSE,21,"Female","Never",3.01,64,"White","12",FALSE,TRUE,"Just about everyday/everyday",5
+"332",TRUE,8,"Male","Never",1.21,68,"Nonwhite","0-8",FALSE,FALSE,"Never",3
+"333",FALSE,21,"Female","Current",NA,47,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",5
+"334",TRUE,21,"Female","Never",4.43,63,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"335",FALSE,21,"Female","Never",8.86,56,"White","12",FALSE,TRUE,"2+ times per week",5
+"336",FALSE,13,"Female","Current",2.6,60,"White","Some College",TRUE,FALSE,"<1 time per month",5
+"337",TRUE,21,"Male","Current",1.42,63,"White","9-11",FALSE,FALSE,"2+ times per week",1
+"338",FALSE,16,"Male","Former",1.68,58,"White","12",FALSE,TRUE,"<1 time per month",5
+"339",FALSE,21,"Male","Current",3.01,58,"White","12",TRUE,TRUE,"1-4 times per month",5
+"340",FALSE,21,"Male","Former",3.01,48,"White","12",TRUE,TRUE,"<1 time per month",5
+"341",FALSE,21,"Male","Former",1.62,66,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",3
+"342",FALSE,16,"Male","Former",NA,71,"White","12",FALSE,TRUE,"2+ times per week",5
+"343",FALSE,21,"Female","Never",1.09,55,"Nonwhite","9-11",TRUE,FALSE,"Never",1
+"344",FALSE,21,"Male","Current",0.49,66,"Nonwhite","0-8",FALSE,TRUE,"Never",4
+"345",TRUE,21,"Female","Never",2.28,45,"White","12",FALSE,FALSE,"<1 time per month",4
+"346",TRUE,7,"Female","Never",1.92,70,"White","12",FALSE,TRUE,"Never",4
+"347",FALSE,11,"Female","Never",3.36,67,"White","12",FALSE,TRUE,"Never",4
+"348",FALSE,14,"Male","Former",4.94,67,"White","College Grad",FALSE,TRUE,"Never",5
+"349",FALSE,14,"Male","Current",4.43,51,"White","9-11",TRUE,TRUE,"1-4 times per month",4
+"351",TRUE,21,"Female","Former",2.54,51,"White","College Grad",FALSE,TRUE,"<1 time per month",4
+"353",FALSE,21,"Female","Former",4.08,60,"White","College Grad",TRUE,FALSE,"1-4 times per month",5
+"354",FALSE,12,"Male","Current",6.2,55,"White","12",TRUE,FALSE,"<1 time per month",5
+"356",FALSE,21,"Female","Never",3.22,50,"White","12",FALSE,TRUE,"Never",5
+"357",FALSE,21,"Male","Former",3.73,46,"White","12",TRUE,TRUE,"2+ times per week",5
+"358",FALSE,16,"Male","Never",3.36,73,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"359",FALSE,21,"Female","Never",2.76,63,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"360",FALSE,21,"Male","Former",2.92,46,"White","9-11",TRUE,TRUE,"Never",3
+"361",FALSE,12,"Male","Former",3.36,65,"White","0-8",FALSE,TRUE,"1-4 times per month",4
+"362",FALSE,21,"Female","Never",4.43,51,"White","9-11",TRUE,TRUE,"1-4 times per month",2
+"363",FALSE,15,"Female","Current",4.43,54,"White","12",FALSE,TRUE,"2+ times per week",2
+"364",FALSE,17,"Male","Current",3.01,59,"White","9-11",TRUE,TRUE,"Never",4
+"365",FALSE,21,"Male","Current",2.48,52,"White","12",TRUE,TRUE,"Never",5
+"366",TRUE,17,"Female","Never",6.91,68,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",3
+"367",TRUE,14,"Female","Current",NA,63,"White","College Grad",FALSE,FALSE,"Just about everyday/everyday",4
+"368",FALSE,14,"Female","Former",4.09,65,"Nonwhite","0-8",TRUE,TRUE,"Never",2
+"369",TRUE,21,"Female","Current",0.39,49,"White","0-8",FALSE,FALSE,"Never",2
+"370",FALSE,20,"Male","Current",2.22,59,"White","12",TRUE,FALSE,"2+ times per week",4
+"371",TRUE,20,"Male","Never",0.55,45,"White","0-8",FALSE,FALSE,"Never",4
+"372",FALSE,15,"Male","Never",1.03,69,"White","0-8",FALSE,TRUE,"1-4 times per month",4
+"373",FALSE,13,"Female","Never",3.47,65,"White","Some College",TRUE,FALSE,"1-4 times per month",5
+"374",TRUE,21,"Female","Never",0.96,66,"White","0-8",FALSE,FALSE,"Never",2
+"375",TRUE,12,"Male","Never",0.72,66,"White","0-8",TRUE,TRUE,"2+ times per week",3
+"377",TRUE,7,"Male","Former",2.08,74,"White","Some College",FALSE,TRUE,"Never",1
+"378",TRUE,20,"Male","Current",1.22,66,"White","0-8",FALSE,TRUE,"1-4 times per month",2
+"379",TRUE,5,"Female","Current",0.56,69,"White","0-8",FALSE,FALSE,"1-4 times per month",1
+"380",FALSE,13,"Female","Never",0.75,73,"Nonwhite","0-8",TRUE,FALSE,"Never",1
+"381",FALSE,8,"Male","Never",3.01,60,"White","9-11",TRUE,TRUE,"Never",4
+"382",FALSE,21,"Male","Never",0.58,57,"White","0-8",TRUE,TRUE,"<1 time per month",4
+"384",TRUE,20,"Female","Former",0.62,69,"White","0-8",FALSE,TRUE,"Never",4
+"385",FALSE,21,"Female","Current",6.2,46,"White","12",TRUE,FALSE,"Just about everyday/everyday",1
+"386",TRUE,4,"Male","Never",1.25,70,"White","0-8",FALSE,TRUE,"2+ times per week",5
+"388",TRUE,21,"Female","Never",1.4,61,"White","0-8",FALSE,TRUE,"Never",3
+"389",FALSE,4,"Male","Former",4.09,66,"Nonwhite","0-8",FALSE,TRUE,"Never",3
+"390",FALSE,21,"Male","Former",1.45,65,"White","0-8",FALSE,FALSE,"Never",5
+"391",TRUE,21,"Female","Never",0.37,62,"White","0-8",FALSE,FALSE,"Never",2
+"392",TRUE,8,"Male","Former",0.97,67,"White","0-8",FALSE,TRUE,"Never",3
+"393",FALSE,19,"Male","Current",1.22,71,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",2
+"394",FALSE,20,"Male","Current",1.42,54,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",4
+"395",FALSE,21,"Female","Never",0.88,49,"White","0-8",FALSE,TRUE,"1-4 times per month",1
+"396",TRUE,4,"Female","Former",0.54,63,"White","0-8",FALSE,TRUE,"Never",5
+"397",FALSE,21,"Female","Former",0.86,57,"White","0-8",TRUE,FALSE,"<1 time per month",2
+"398",FALSE,21,"Male","Never",1.49,60,"White","0-8",TRUE,TRUE,"<1 time per month",3
+"399",FALSE,21,"Male","Never",1.99,48,"White","12",TRUE,TRUE,"2+ times per week",4
+"400",FALSE,12,"Female","Current",6.2,64,"White","12",TRUE,TRUE,"1-4 times per month",5
+"401",FALSE,12,"Female","Never",1.93,65,"Nonwhite","Some College",TRUE,FALSE,"1-4 times per month",3
+"402",FALSE,18,"Male","Current",0.44,58,"White","12",FALSE,TRUE,"1-4 times per month",4
+"403",FALSE,21,"Female","Never",NA,65,"White","9-11",TRUE,TRUE,"Never",1
+"404",TRUE,21,"Female","Never",0.87,68,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",3
+"405",FALSE,20,"Male","Never",2.39,58,"White","0-8",TRUE,TRUE,"Never",5
+"406",FALSE,4,"Male","Current",1.26,65,"White","9-11",TRUE,TRUE,"Never",3
+"407",FALSE,21,"Female","Current",0.91,68,"Nonwhite","0-8",TRUE,FALSE,"1-4 times per month",2
+"408",TRUE,5,"Female","Current",0.72,67,"White","0-8",FALSE,FALSE,"Never",3
+"409",FALSE,13,"Male","Current",1.33,67,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",5
+"410",TRUE,21,"Female","Never",0.35,64,"White","0-8",FALSE,FALSE,"Never",4
+"411",FALSE,21,"Male","Never",1.75,60,"White","0-8",TRUE,TRUE,"Never",4
+"413",TRUE,5,"Male","Current",0.13,67,"Nonwhite","0-8",FALSE,FALSE,"<1 time per month",2
+"414",TRUE,1,"Male","Current",0.73,55,"Nonwhite","0-8",FALSE,FALSE,"Never",1
+"415",TRUE,21,"Female","Never",1.02,50,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",2
+"416",FALSE,20,"Male","Never",0.58,69,"Nonwhite","0-8",TRUE,TRUE,"Never",5
+"417",FALSE,21,"Female","Never",0.75,67,"White","0-8",FALSE,TRUE,"Never",3
+"418",FALSE,21,"Female","Never",0.44,74,"White","0-8",FALSE,FALSE,"Never",4
+"419",FALSE,11,"Female","Never",9.88,68,"White","Some College",FALSE,TRUE,"Never",4
+"420",TRUE,21,"Female","Never",2.74,56,"Nonwhite","0-8",TRUE,FALSE,"<1 time per month",3
+"421",FALSE,20,"Female","Current",3.22,45,"Nonwhite","0-8",TRUE,TRUE,"<1 time per month",0
+"422",FALSE,13,"Male","Current",3.77,48,"White","0-8",TRUE,TRUE,"<1 time per month",4
+"423",FALSE,21,"Male","Current",0.59,68,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",4
+"424",FALSE,14,"Female","Never",0.59,69,"Nonwhite","0-8",FALSE,TRUE,"Never",5
+"425",TRUE,3,"Male","Current",1.11,69,"White","0-8",FALSE,TRUE,"Never",3
+"426",TRUE,17,"Male","Never",0.7,72,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",3
+"427",FALSE,20,"Male","Never",1.55,66,"White","0-8",FALSE,TRUE,"Never",5
+"428",FALSE,15,"Male","Former",0.7,71,"Nonwhite","0-8",FALSE,FALSE,"<1 time per month",2
+"429",TRUE,10,"Male","Never",0.74,66,"Nonwhite","0-8",FALSE,TRUE,"Never",0
+"430",TRUE,20,"Female","Never",0.19,52,"Nonwhite","0-8",FALSE,TRUE,"Never",2
+"431",TRUE,12,"Male","Current",1.79,66,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",3
+"432",TRUE,21,"Female","Never",0.69,66,"Nonwhite","0-8",TRUE,FALSE,"<1 time per month",3
+"433",FALSE,21,"Male","Current",1.04,71,"White","0-8",FALSE,TRUE,"Never",4
+"434",FALSE,16,"Male","Current",3.73,51,"White","9-11",TRUE,TRUE,"<1 time per month",3
+"435",TRUE,17,"Male","Never",2.33,71,"White","0-8",FALSE,TRUE,"Never",5
+"437",FALSE,18,"Male","Never",1.01,69,"Nonwhite","0-8",FALSE,TRUE,"Never",5
+"438",FALSE,18,"Female","Never",0.36,74,"Nonwhite","9-11",FALSE,FALSE,"<1 time per month",2
+"439",FALSE,15,"Male","Never",2.24,72,"White","0-8",FALSE,TRUE,"Never",5
+"440",FALSE,9,"Female","Never",NA,69,"White","College Grad",FALSE,FALSE,"Never",4
+"442",TRUE,21,"Male","Current",0.17,56,"Nonwhite","0-8",FALSE,TRUE,"Never",1
+"443",FALSE,21,"Female","Never",1.33,68,"Nonwhite","0-8",FALSE,TRUE,"Never",2
+"444",FALSE,21,"Female","Never",0.83,64,"White","0-8",FALSE,FALSE,"Never",3
+"445",FALSE,16,"Male","Current",0.77,56,"Nonwhite","0-8",TRUE,FALSE,"Never",3
+"446",TRUE,1,"Male","Current",0.34,58,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",3
+"447",FALSE,21,"Male","Current",2.2,45,"White","12",TRUE,TRUE,"1-4 times per month",4
+"448",TRUE,15,"Female","Current",4.08,54,"White","Some College",FALSE,FALSE,"<1 time per month",3
+"449",FALSE,7,"Male","Former",0.51,73,"Nonwhite","0-8",TRUE,TRUE,"Never",3
+"450",FALSE,21,"Male","Current",2.92,51,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",4
+"451",FALSE,7,"Male","Current",8.89,68,"White","9-11",FALSE,TRUE,"1-4 times per month",5
+"452",FALSE,21,"Female","Never",1.33,60,"White","9-11",TRUE,FALSE,"Never",0
+"453",FALSE,2,"Male","Never",0.48,64,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",1
+"454",TRUE,21,"Female","Former",0.83,67,"Nonwhite","0-8",FALSE,TRUE,"Never",2
+"455",FALSE,21,"Male","Current",3.73,55,"White","9-11",TRUE,TRUE,"Never",4
+"456",FALSE,10,"Male","Former",0.91,69,"White","0-8",FALSE,TRUE,"Never",3
+"457",FALSE,21,"Male","Never",0.38,47,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",5
+"458",FALSE,7,"Male","Current",4.4,52,"White","9-11",TRUE,TRUE,"<1 time per month",5
+"459",FALSE,15,"Female","Never",0.71,64,"Nonwhite","0-8",FALSE,FALSE,"Never",1
+"460",FALSE,21,"Female","Never",3.54,50,"White","0-8",FALSE,TRUE,"Never",3
+"461",FALSE,6,"Female","Never",0.24,74,"Nonwhite","0-8",FALSE,FALSE,"Never",0
+"462",FALSE,21,"Female","Never",1.22,51,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",3
+"463",TRUE,16,"Male","Never",0.38,67,"Nonwhite","0-8",FALSE,TRUE,"Never",3
+"464",FALSE,21,"Female","Never",1.92,65,"White","0-8",FALSE,FALSE,"Never",3
+"465",TRUE,21,"Female","Current",8.86,51,"White","Some College",FALSE,TRUE,"<1 time per month",3
+"466",FALSE,12,"Female","Never",1.79,68,"White","0-8",FALSE,FALSE,"Never",4
+"467",TRUE,3,"Male","Former",1.4,65,"Nonwhite","0-8",FALSE,TRUE,"Never",3
+"468",FALSE,18,"Male","Never",2.54,59,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",4
+"469",TRUE,13,"Female","Current",1.35,68,"White","0-8",FALSE,FALSE,"<1 time per month",4
+"471",FALSE,12,"Female","Never",1.07,65,"Nonwhite","0-8",FALSE,TRUE,"Never",4
+"472",FALSE,21,"Male","Former",6.91,65,"White","12",TRUE,TRUE,"Never",5
+"473",FALSE,12,"Male","Never",3.36,72,"White","Some College",FALSE,TRUE,"<1 time per month",4
+"474",FALSE,21,"Female","Never",3.01,47,"White","12",TRUE,TRUE,"<1 time per month",4
+"475",FALSE,21,"Male","Former",8.89,66,"White","12",TRUE,TRUE,"1-4 times per month",5
+"476",TRUE,8,"Female","Never",1.04,69,"White","0-8",FALSE,TRUE,"Never",2
+"477",FALSE,21,"Female","Current",1.13,64,"White","9-11",TRUE,TRUE,"Never",4
+"478",FALSE,16,"Female","Never",0.47,67,"Nonwhite","0-8",FALSE,FALSE,"<1 time per month",2
+"479",FALSE,5,"Female","Never",0.65,70,"White","0-8",FALSE,TRUE,"<1 time per month",2
+"480",FALSE,21,"Male","Former",1.06,51,"Nonwhite","0-8",TRUE,TRUE,"Never",4
+"481",FALSE,5,"Male","Never",2.13,57,"White","0-8",TRUE,TRUE,"Never",1
+"483",TRUE,21,"Female","Never",1,69,"White","0-8",FALSE,TRUE,"Never",0
+"484",TRUE,5,"Male","Current",1.1,72,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",0
+"485",TRUE,12,"Female","Never",1.1,68,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",1
+"486",FALSE,5,"Female","Never",NA,70,"White","9-11",FALSE,FALSE,"Never",4
+"487",FALSE,21,"Male","Former",1.26,45,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"490",FALSE,9,"Male","Never",0.93,65,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",4
+"491",FALSE,16,"Male","Former",0.8,68,"Nonwhite","0-8",FALSE,TRUE,"Never",3
+"492",TRUE,18,"Female","Never",0.7,67,"White","0-8",FALSE,TRUE,"Never",1
+"494",FALSE,19,"Male","Current",2.08,56,"White","0-8",FALSE,TRUE,"Never",3
+"496",FALSE,21,"Male","Never",0.25,54,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",4
+"497",FALSE,21,"Female","Never",1.83,65,"White","0-8",FALSE,TRUE,"Never",3
+"498",FALSE,21,"Female","Never",1.85,55,"White","0-8",TRUE,TRUE,"1-4 times per month",0
+"499",FALSE,21,"Male","Former",0.55,68,"White","0-8",FALSE,TRUE,"Never",2
+"500",FALSE,4,"Male","Never",1.51,74,"Nonwhite","0-8",FALSE,TRUE,"Never",2
+"501",FALSE,21,"Female","Never",1.1,65,"White","0-8",FALSE,FALSE,"Never",3
+"502",FALSE,21,"Male","Never",4.4,54,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"503",FALSE,21,"Male","Former",1.13,45,"White","9-11",TRUE,TRUE,"1-4 times per month",3
+"504",FALSE,8,"Male","Never",0.56,65,"White","0-8",TRUE,TRUE,"1-4 times per month",3
+"505",FALSE,21,"Male","Former",2.29,51,"White","12",TRUE,TRUE,"1-4 times per month",5
+"506",FALSE,10,"Female","Never",0.66,73,"White","0-8",FALSE,FALSE,"2+ times per week",5
+"507",FALSE,11,"Female","Current",0.4,69,"White","0-8",FALSE,TRUE,"Never",3
+"508",TRUE,20,"Female","Never",1.26,65,"White","9-11",FALSE,TRUE,"Never",3
+"509",FALSE,21,"Male","Never",0.21,65,"White","0-8",TRUE,TRUE,"<1 time per month",3
+"510",FALSE,21,"Male","Never",1.04,45,"White","12",TRUE,TRUE,"1-4 times per month",4
+"511",FALSE,18,"Male","Never",0.69,69,"White","0-8",FALSE,FALSE,"1-4 times per month",3
+"512",TRUE,4,"Female","Never",0.77,68,"White","0-8",FALSE,TRUE,"Never",1
+"513",FALSE,15,"Female","Never",1.01,49,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",4
+"514",FALSE,21,"Male","Former",2.38,54,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"515",TRUE,6,"Male","Current",1.13,68,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",3
+"516",FALSE,18,"Female","Never",0.85,67,"White","0-8",FALSE,FALSE,"Never",1
+"517",FALSE,6,"Male","Never",0.18,61,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"518",FALSE,21,"Male","Current",0.82,53,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"519",TRUE,21,"Female","Never",0.59,63,"Nonwhite","0-8",FALSE,TRUE,"Never",2
+"520",FALSE,21,"Male","Never",2.33,47,"White","9-11",TRUE,TRUE,"Never",3
+"521",FALSE,15,"Male","Current",0.71,49,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"522",FALSE,12,"Male","Current",0.7,63,"White","0-8",FALSE,TRUE,"1-4 times per month",4
+"523",FALSE,21,"Male","Former",1.42,50,"White","12",TRUE,TRUE,"<1 time per month",5
+"524",FALSE,21,"Male","Former",1.07,67,"White","0-8",FALSE,TRUE,"Never",4
+"525",TRUE,19,"Male","Current",3.54,54,"White","9-11",TRUE,TRUE,"1-4 times per month",2
+"526",FALSE,21,"Male","Former",0.53,58,"White","0-8",TRUE,TRUE,"Never",4
+"527",FALSE,20,"Male","Never",NA,65,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",5
+"528",TRUE,9,"Female","Never",0.68,45,"Nonwhite","9-11",FALSE,FALSE,"<1 time per month",0
+"529",TRUE,18,"Female","Never",0.55,62,"White","0-8",FALSE,TRUE,"Never",4
+"530",FALSE,21,"Male","Former",3.54,57,"White","College Grad",TRUE,TRUE,"<1 time per month",5
+"531",FALSE,21,"Female","Never",3.01,57,"White","9-11",FALSE,TRUE,"<1 time per month",3
+"532",FALSE,10,"Male","Current",0.92,63,"Nonwhite","0-8",TRUE,TRUE,"2+ times per week",4
+"533",TRUE,10,"Male","Former",0.94,73,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",3
+"534",FALSE,13,"Male","Former",2.33,47,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"535",FALSE,21,"Male","Never",1.5,52,"White","0-8",FALSE,TRUE,"Never",5
+"536",FALSE,21,"Male","Current",2.13,60,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"537",FALSE,3,"Male","Never",0.35,68,"Nonwhite","0-8",FALSE,TRUE,"Never",1
+"538",FALSE,20,"Female","Never",0.7,48,"White","12",FALSE,TRUE,"Never",3
+"539",FALSE,3,"Male","Current",NA,64,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",3
+"540",FALSE,21,"Female","Never",0.75,54,"Nonwhite","0-8",TRUE,FALSE,"Never",4
+"541",FALSE,21,"Female","Never",4.25,68,"White","Some College",FALSE,FALSE,"<1 time per month",4
+"542",FALSE,10,"Male","Current",0.38,47,"Nonwhite","0-8",TRUE,TRUE,"Never",5
+"543",FALSE,21,"Male","Never",3.36,65,"White","Missing",TRUE,FALSE,"<1 time per month",3
+"544",FALSE,16,"Male","Never",1.19,71,"White","0-8",TRUE,TRUE,"Never",5
+"545",FALSE,15,"Male","Never",0.79,60,"Nonwhite","9-11",FALSE,TRUE,"Just about everyday/everyday",0
+"546",FALSE,21,"Female","Current",1.62,60,"White","12",FALSE,TRUE,"Never",2
+"547",FALSE,10,"Female","Never",0.81,66,"White","0-8",FALSE,TRUE,"Never",3
+"548",FALSE,21,"Female","Never",1.5,61,"White","12",FALSE,TRUE,"2+ times per week",3
+"549",FALSE,21,"Male","Never",0.65,67,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",5
+"550",FALSE,14,"Male","Current",2.2,50,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",5
+"551",TRUE,13,"Female","Never",1.2,73,"Nonwhite","0-8",FALSE,FALSE,"Never",1
+"552",TRUE,16,"Male","Never",2.92,66,"White","College Grad",TRUE,TRUE,"Never",5
+"553",TRUE,5,"Female","Current",1.83,73,"White","College Grad",FALSE,FALSE,"Just about everyday/everyday",3
+"556",TRUE,19,"Female","Never",1.2,71,"Nonwhite","0-8",FALSE,FALSE,"Never",2
+"557",TRUE,5,"Male","Current",0.95,71,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",1
+"558",FALSE,21,"Male","Never",4.43,50,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"560",TRUE,21,"Female","Current",1.65,64,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",1
+"561",TRUE,19,"Female","Never",3.47,71,"White","0-8",FALSE,FALSE,"<1 time per month",4
+"562",TRUE,1,"Male","Current",3.73,48,"Nonwhite","9-11",TRUE,TRUE,"2+ times per week",4
+"563",FALSE,21,"Female","Current",3.73,51,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"564",TRUE,21,"Male","Never",3.22,45,"White","College Grad",TRUE,TRUE,"Never",4
+"565",TRUE,5,"Male","Current",2.05,69,"Nonwhite","0-8",FALSE,FALSE,"1-4 times per month",3
+"566",TRUE,21,"Male","Former",3.77,61,"White","College Grad",TRUE,FALSE,"<1 time per month",5
+"567",TRUE,19,"Male","Current",3.73,50,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",4
+"568",TRUE,3,"Male","Current",3.36,71,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",5
+"569",TRUE,21,"Male","Current",NA,60,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",2
+"570",TRUE,2,"Male","Current",NA,67,"Nonwhite","0-8",FALSE,TRUE,"Just about everyday/everyday",2
+"571",FALSE,14,"Male","Current",NA,65,"White","12",TRUE,TRUE,"2+ times per week",5
+"572",TRUE,12,"Male","Never",1.5,66,"White","12",FALSE,TRUE,"Never",4
+"573",TRUE,7,"Male","Former",1.5,70,"White","9-11",FALSE,FALSE,"<1 time per month",4
+"574",TRUE,13,"Female","Never",1.02,72,"White","0-8",FALSE,TRUE,"Never",3
+"575",TRUE,7,"Female","Never",1.12,67,"Nonwhite","0-8",FALSE,FALSE,"Never",0
+"576",TRUE,13,"Male","Never",1.68,67,"Nonwhite","0-8",TRUE,TRUE,"2+ times per week",3
+"577",TRUE,7,"Male","Current",0.87,65,"White","0-8",FALSE,FALSE,"<1 time per month",2
+"578",TRUE,18,"Male","Never",1.02,71,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"579",FALSE,17,"Male","Current",1.5,50,"White","9-11",FALSE,TRUE,"1-4 times per month",4
+"580",TRUE,8,"Female","Never",NA,68,"White","9-11",FALSE,FALSE,"Never",4
+"581",TRUE,17,"Female","Never",0.59,67,"White","0-8",FALSE,FALSE,"Never",4
+"582",FALSE,21,"Male","Never",NA,50,"White","12",TRUE,TRUE,"Never",5
+"583",FALSE,20,"Male","Never",3.95,65,"White","12",TRUE,TRUE,"<1 time per month",5
+"584",FALSE,2,"Male","Current",1.81,65,"White","0-8",TRUE,TRUE,"Never",3
+"585",FALSE,21,"Male","Never",0.44,74,"Nonwhite","0-8",FALSE,FALSE,"Never",4
+"586",TRUE,5,"Female","Never",0.79,71,"White","0-8",FALSE,FALSE,"<1 time per month",3
+"587",TRUE,21,"Female","Never",0.84,69,"White","9-11",FALSE,TRUE,"Never",5
+"588",FALSE,21,"Male","Current",0.77,65,"White","0-8",FALSE,TRUE,"<1 time per month",1
+"589",FALSE,21,"Male","Never",1.99,50,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",4
+"590",TRUE,16,"Female","Never",0.65,65,"White","0-8",FALSE,TRUE,"Never",0
+"595",TRUE,21,"Female","Current",9.98,53,"White","College Grad",TRUE,FALSE,"Just about everyday/everyday",5
+"597",TRUE,21,"Female","Never",NA,71,"Nonwhite","0-8",FALSE,FALSE,"1-4 times per month",2
+"600",TRUE,11,"Male","Current",1.29,61,"Nonwhite","9-11",FALSE,FALSE,"1-4 times per month",3
+"601",TRUE,21,"Female","Former",4.94,66,"White","12",FALSE,TRUE,"Never",4
+"604",TRUE,13,"Female","Never",2,48,"White","9-11",TRUE,FALSE,"Never",2
+"605",FALSE,21,"Male","Never",4.43,64,"White","12",TRUE,TRUE,"2+ times per week",5
+"606",TRUE,21,"Male","Never",1.41,50,"White","Missing",TRUE,TRUE,"2+ times per week",5
+"607",TRUE,4,"Male","Current",0.92,70,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",3
+"608",FALSE,21,"Male","Current",NA,56,"Nonwhite","12",TRUE,TRUE,"2+ times per week",1
+"609",TRUE,21,"Female","Current",NA,49,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",0
+"610",FALSE,11,"Male","Never",3.36,67,"White","0-8",TRUE,FALSE,"1-4 times per month",5
+"611",TRUE,9,"Male","Former",0.98,69,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",5
+"613",FALSE,21,"Male","Current",2.3,52,"White","9-11",TRUE,TRUE,"1-4 times per month",4
+"614",FALSE,8,"Male","Current",3.36,66,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"615",FALSE,8,"Female","Current",0.83,66,"White","0-8",FALSE,FALSE,"<1 time per month",4
+"616",FALSE,21,"Female","Current",1.04,68,"White","Some College",FALSE,FALSE,"Never",3
+"617",FALSE,21,"Female","Current",4.43,49,"White","9-11",TRUE,TRUE,"1-4 times per month",4
+"618",FALSE,16,"Female","Never",1.78,71,"White","12",FALSE,TRUE,"Never",4
+"619",FALSE,4,"Male","Current",1.35,69,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"620",FALSE,21,"Male","Never",4.94,69,"White","0-8",FALSE,TRUE,"Never",5
+"621",FALSE,5,"Female","Former",2.57,65,"White","9-11",FALSE,TRUE,"2+ times per week",5
+"622",FALSE,21,"Male","Current",7.77,49,"White","12",TRUE,FALSE,"Just about everyday/everyday",4
+"623",FALSE,21,"Female","Never",3.54,64,"White","0-8",FALSE,TRUE,"Never",2
+"624",FALSE,21,"Female","Never",1.98,49,"White","12",FALSE,TRUE,"Never",3
+"625",FALSE,21,"Male","Former",3.54,64,"White","9-11",FALSE,TRUE,"1-4 times per month",5
+"626",FALSE,21,"Female","Never",3.01,54,"White","12",FALSE,TRUE,"<1 time per month",3
+"627",TRUE,5,"Female","Former",0.89,71,"White","Some College",FALSE,TRUE,"<1 time per month",5
+"628",FALSE,4,"Female","Never",0.79,69,"White","12",FALSE,TRUE,"Never",4
+"629",FALSE,3,"Male","Current",1.88,73,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"630",FALSE,21,"Male","Former",1.38,65,"White","9-11",TRUE,TRUE,"Never",5
+"631",FALSE,21,"Female","Never",1.51,52,"White","12",TRUE,TRUE,"Never",3
+"632",TRUE,21,"Female","Former",0.35,47,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"633",FALSE,21,"Male","Current",1.99,57,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",2
+"634",FALSE,11,"Male","Former",1.19,69,"White","12",FALSE,TRUE,"Never",2
+"635",TRUE,21,"Female","Never",1.75,69,"White","0-8",FALSE,FALSE,"Never",5
+"636",FALSE,21,"Male","Former",0.76,57,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"637",FALSE,20,"Female","Never",1.27,73,"White","9-11",FALSE,TRUE,"Never",1
+"638",TRUE,2,"Male","Never",1.8,71,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"639",FALSE,21,"Female","Never",1.09,68,"White","0-8",FALSE,TRUE,"Never",1
+"640",FALSE,21,"Female","Never",1.62,62,"White","9-11",FALSE,TRUE,"1-4 times per month",5
+"641",FALSE,20,"Female","Former",4.43,66,"White","12",FALSE,TRUE,"<1 time per month",4
+"642",TRUE,12,"Male","Never",1.94,72,"White","12",FALSE,TRUE,"<1 time per month",4
+"643",FALSE,21,"Male","Never",2.57,69,"White","12",FALSE,TRUE,"Just about everyday/everyday",4
+"644",FALSE,21,"Male","Former",3.01,54,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"645",FALSE,21,"Female","Never",1.19,68,"White","Some College",FALSE,TRUE,"Never",3
+"646",FALSE,9,"Male","Former",5.22,59,"White","0-8",TRUE,TRUE,"1-4 times per month",1
+"647",FALSE,18,"Male","Former",1.27,73,"White","0-8",TRUE,TRUE,"Never",5
+"648",FALSE,15,"Female","Current",6,60,"White","12",TRUE,FALSE,"1-4 times per month",1
+"649",FALSE,21,"Female","Never",2.57,65,"White","12",FALSE,TRUE,"1-4 times per month",1
+"650",FALSE,10,"Female","Never",2.48,67,"White","0-8",FALSE,FALSE,"<1 time per month",0
+"651",FALSE,4,"Female","Never",3.36,69,"White","0-8",FALSE,TRUE,"Never",5
+"652",FALSE,14,"Female","Former",NA,66,"White","Some College",FALSE,FALSE,"Just about everyday/everyday",5
+"653",FALSE,7,"Male","Former",3.36,71,"White","9-11",FALSE,TRUE,"1-4 times per month",5
+"654",FALSE,14,"Female","Never",1.17,66,"White","12",FALSE,FALSE,"<1 time per month",5
+"656",TRUE,19,"Female","Never",2.6,66,"White","College Grad",FALSE,FALSE,"Just about everyday/everyday",5
+"659",FALSE,12,"Female","Current",2.5,74,"White","0-8",FALSE,FALSE,"Just about everyday/everyday",5
+"661",TRUE,9,"Female","Never",0.9,73,"White","0-8",FALSE,FALSE,"<1 time per month",3
+"662",TRUE,21,"Female","Former",4.43,51,"White","12",FALSE,TRUE,"<1 time per month",3
+"663",FALSE,21,"Male","Never",3.47,47,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",5
+"664",FALSE,14,"Female","Never",3.36,72,"White","9-11",FALSE,TRUE,"1-4 times per month",5
+"665",FALSE,21,"Male","Current",1.19,49,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",4
+"666",FALSE,21,"Female","Never",2.92,54,"White","0-8",FALSE,TRUE,"Never",5
+"667",FALSE,21,"Female","Never",2.15,65,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"668",FALSE,9,"Female","Never",2.92,52,"White","9-11",TRUE,TRUE,"<1 time per month",4
+"669",FALSE,20,"Male","Former",1.5,45,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"670",FALSE,21,"Male","Former",8.86,45,"White","Some College",TRUE,TRUE,"2+ times per week",5
+"671",FALSE,21,"Female","Never",3.36,56,"White","9-11",TRUE,FALSE,"<1 time per month",5
+"672",FALSE,16,"Female","Former",4.41,48,"White","12",FALSE,TRUE,"1-4 times per month",4
+"673",FALSE,21,"Male","Never",3.36,69,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"674",FALSE,21,"Female","Never",2.75,70,"White","College Grad",FALSE,FALSE,"<1 time per month",5
+"675",FALSE,21,"Female","Never",2.99,51,"White","9-11",FALSE,TRUE,"<1 time per month",3
+"676",FALSE,21,"Male","Former",3.36,71,"White","9-11",FALSE,TRUE,"1-4 times per month",4
+"677",FALSE,21,"Male","Current",3.77,53,"White","12",TRUE,FALSE,"1-4 times per month",5
+"679",FALSE,21,"Male","Current",6.2,54,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"680",FALSE,21,"Male","Never",0.67,49,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",5
+"681",FALSE,14,"Female","Current",0.57,55,"White","0-8",FALSE,TRUE,"Never",5
+"682",TRUE,19,"Male","Former",1.79,50,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"683",FALSE,21,"Female","Current",6,47,"White","12",TRUE,TRUE,"2+ times per week",5
+"684",TRUE,12,"Female","Never",0.58,45,"White","0-8",FALSE,TRUE,"Never",1
+"685",FALSE,14,"Male","Former",5.55,58,"White","College Grad",TRUE,FALSE,"2+ times per week",5
+"686",FALSE,9,"Female","Current",3.36,69,"White","Some College",FALSE,TRUE,"<1 time per month",4
+"687",FALSE,21,"Female","Current",7.98,61,"White","12",FALSE,TRUE,"2+ times per week",2
+"688",FALSE,21,"Male","Current",NA,49,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",5
+"690",FALSE,21,"Female","Former",0.81,54,"Nonwhite","0-8",FALSE,FALSE,"<1 time per month",0
+"691",FALSE,15,"Male","Former",0.76,67,"Nonwhite","0-8",FALSE,FALSE,"Never",1
+"692",TRUE,21,"Female","Current",0.96,53,"Nonwhite","Some College",FALSE,FALSE,"<1 time per month",5
+"693",TRUE,21,"Male","Current",1.15,52,"Nonwhite","0-8",TRUE,TRUE,"2+ times per week",4
+"694",FALSE,19,"Female","Never",2.09,64,"White","College Grad",FALSE,TRUE,"<1 time per month",4
+"695",FALSE,21,"Female","Never",4.25,66,"White","9-11",FALSE,FALSE,"1-4 times per month",5
+"696",FALSE,20,"Male","Current",1.99,47,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",5
+"698",FALSE,11,"Male","Never",3.36,74,"Nonwhite","Missing",FALSE,TRUE,"Never",3
+"699",FALSE,21,"Male","Current",4.43,51,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"700",FALSE,21,"Female","Never",1.2,50,"Nonwhite","College Grad",FALSE,FALSE,"<1 time per month",1
+"701",FALSE,14,"Male","Former",9.98,55,"White","12",TRUE,FALSE,"Just about everyday/everyday",5
+"702",FALSE,21,"Female","Former",1.06,65,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",2
+"703",FALSE,21,"Female","Never",6.2,49,"White","Some College",TRUE,FALSE,"<1 time per month",4
+"704",FALSE,19,"Male","Never",8.07,57,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",5
+"705",TRUE,3,"Female","Current",0.24,57,"White","12",FALSE,FALSE,"Never",2
+"706",FALSE,21,"Male","Former",3.77,58,"White","College Grad",TRUE,FALSE,"Just about everyday/everyday",5
+"707",TRUE,7,"Female","Current",2.05,71,"White","0-8",FALSE,TRUE,"Never",4
+"708",FALSE,21,"Female","Never",1.34,60,"White","12",FALSE,TRUE,"Never",1
+"709",FALSE,20,"Female","Never",1.45,67,"White","9-11",TRUE,TRUE,"Never",5
+"710",FALSE,3,"Male","Former",0.64,74,"White","9-11",FALSE,FALSE,"Just about everyday/everyday",4
+"711",FALSE,21,"Female","Never",2.92,45,"White","12",FALSE,TRUE,"<1 time per month",4
+"712",FALSE,21,"Female","Current",1.84,61,"White","12",FALSE,TRUE,"Never",5
+"713",FALSE,14,"Female","Current",6.91,67,"White","12",FALSE,TRUE,"Never",5
+"715",FALSE,21,"Female","Never",3.38,65,"White","12",FALSE,FALSE,"1-4 times per month",5
+"716",FALSE,21,"Male","Never",3.01,60,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"717",FALSE,21,"Female","Never",7.46,48,"White","College Grad",FALSE,TRUE,"<1 time per month",5
+"718",FALSE,18,"Male","Never",1.53,66,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",1
+"719",FALSE,21,"Female","Never",1.91,66,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"720",FALSE,13,"Male","Former",3.36,69,"White","Some College",TRUE,TRUE,"Never",3
+"724",FALSE,17,"Male","Never",2.38,61,"Nonwhite","9-11",TRUE,TRUE,"1-4 times per month",5
+"726",FALSE,11,"Female","Never",1.99,65,"Nonwhite","0-8",FALSE,TRUE,"Never",5
+"727",FALSE,21,"Female","Former",4.43,56,"White","12",FALSE,TRUE,"Never",2
+"728",TRUE,21,"Male","Former",0.32,48,"Nonwhite","0-8",FALSE,FALSE,"Never",2
+"729",FALSE,21,"Female","Never",1.6,60,"White","12",FALSE,TRUE,"Never",2
+"730",FALSE,19,"Female","Never",0.93,67,"Nonwhite","0-8",FALSE,TRUE,"Never",4
+"731",FALSE,21,"Female","Current",8.89,57,"White","College Grad",FALSE,TRUE,"2+ times per week",4
+"732",FALSE,21,"Male","Never",1.15,54,"Nonwhite","9-11",TRUE,FALSE,"Just about everyday/everyday",2
+"733",FALSE,21,"Female","Never",0.89,59,"White","0-8",FALSE,FALSE,"Never",2
+"734",FALSE,21,"Female","Never",1.46,52,"White","12",TRUE,FALSE,"2+ times per week",5
+"735",TRUE,10,"Male","Current",NA,53,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",5
+"736",FALSE,15,"Male","Current",2.18,72,"White","12",FALSE,FALSE,"Never",3
+"737",FALSE,21,"Male","Never",4.2,72,"White","College Grad",FALSE,FALSE,"<1 time per month",4
+"738",TRUE,7,"Male","Current",3.36,72,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"739",FALSE,21,"Female","Never",4.25,65,"White","College Grad",TRUE,FALSE,"Never",5
+"740",FALSE,19,"Female","Never",3.13,73,"White","9-11",TRUE,FALSE,"Never",4
+"741",FALSE,21,"Female","Never",7.29,59,"White","12",FALSE,TRUE,"<1 time per month",5
+"742",FALSE,21,"Female","Current",1.93,53,"White","9-11",FALSE,TRUE,"1-4 times per month",3
+"744",TRUE,12,"Female","Current",3.43,67,"White","0-8",FALSE,TRUE,"Never",5
+"745",FALSE,21,"Female","Never",1.69,74,"White","9-11",FALSE,TRUE,"Never",5
+"746",FALSE,14,"Male","Former",2.54,65,"White","12",TRUE,TRUE,"Never",5
+"747",FALSE,21,"Female","Never",1.86,70,"White","Some College",FALSE,TRUE,"Never",2
+"748",FALSE,21,"Male","Former",4.09,55,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",5
+"749",TRUE,8,"Female","Never",3.36,69,"White","0-8",FALSE,TRUE,"Never",4
+"750",FALSE,21,"Female","Former",6.71,49,"White","12",TRUE,TRUE,"1-4 times per month",2
+"751",TRUE,16,"Female","Never",4.43,54,"White","12",FALSE,TRUE,"Never",4
+"752",FALSE,21,"Female","Never",1.65,67,"White","12",FALSE,TRUE,"Never",5
+"753",TRUE,12,"Male","Current",3.01,60,"White","12",FALSE,TRUE,"1-4 times per month",4
+"754",TRUE,7,"Female","Never",1.16,74,"White","9-11",FALSE,FALSE,"Never",4
+"755",FALSE,17,"Female","Never",3.95,70,"White","0-8",TRUE,TRUE,"<1 time per month",2
+"756",FALSE,21,"Male","Never",5.21,61,"White","9-11",TRUE,TRUE,"<1 time per month",5
+"757",FALSE,21,"Male","Never",3.43,60,"White","12",TRUE,TRUE,"Never",4
+"758",FALSE,21,"Male","Current",2.92,49,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"759",FALSE,17,"Female","Current",4.25,68,"White","9-11",TRUE,FALSE,"1-4 times per month",5
+"762",FALSE,18,"Male","Current",NA,69,"White","12",TRUE,TRUE,"<1 time per month",2
+"763",FALSE,21,"Male","Never",9.98,71,"White","College Grad",TRUE,FALSE,"Just about everyday/everyday",5
+"764",FALSE,18,"Female","Current",2.54,47,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",4
+"766",FALSE,14,"Male","Current",6.71,50,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",5
+"767",FALSE,21,"Male","Never",3.73,45,"Nonwhite","Some College",TRUE,TRUE,"Never",5
+"768",FALSE,8,"Female","Never",3.36,68,"White","9-11",FALSE,TRUE,"<1 time per month",2
+"769",FALSE,21,"Male","Former",5.85,63,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",5
+"770",TRUE,7,"Male","Never",3.36,71,"White","College Grad",TRUE,TRUE,"<1 time per month",4
+"771",FALSE,21,"Female","Current",1.51,51,"White","12",TRUE,TRUE,"<1 time per month",3
+"772",FALSE,21,"Female","Never",2.22,53,"Nonwhite","0-8",TRUE,FALSE,"1-4 times per month",2
+"773",FALSE,21,"Male","Never",3.22,56,"Nonwhite","Some College",TRUE,TRUE,"<1 time per month",5
+"775",FALSE,18,"Female","Never",4.25,74,"Nonwhite","0-8",TRUE,FALSE,"<1 time per month",5
+"779",FALSE,21,"Female","Former",4.43,46,"White","12",FALSE,TRUE,"Just about everyday/everyday",4
+"780",FALSE,21,"Male","Never",2.42,72,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"781",TRUE,6,"Female","Never",0.58,64,"White","0-8",FALSE,FALSE,"<1 time per month",5
+"782",FALSE,12,"Male","Current",0.4,59,"White","9-11",TRUE,FALSE,"1-4 times per month",5
+"783",FALSE,21,"Female","Never",2.57,65,"White","0-8",FALSE,TRUE,"2+ times per week",5
+"784",FALSE,21,"Female","Former",1.39,68,"White","0-8",FALSE,FALSE,"1-4 times per month",5
+"785",FALSE,21,"Female","Never",2.48,45,"Nonwhite","12",TRUE,TRUE,"Never",1
+"786",FALSE,21,"Female","Former",NA,52,"Nonwhite","9-11",TRUE,FALSE,"Never",5
+"787",FALSE,12,"Male","Never",1.59,74,"White","0-8",FALSE,TRUE,"2+ times per week",3
+"788",FALSE,21,"Male","Former",3.73,54,"White","Some College",TRUE,TRUE,"<1 time per month",4
+"789",FALSE,21,"Female","Current",5.26,46,"White","12",TRUE,TRUE,"1-4 times per month",4
+"790",FALSE,21,"Female","Former",2.11,54,"White","9-11",TRUE,FALSE,"1-4 times per month",0
+"792",FALSE,21,"Female","Never",3.73,51,"White","9-11",TRUE,TRUE,"<1 time per month",4
+"794",FALSE,17,"Male","Former",6.71,73,"Nonwhite","9-11",TRUE,TRUE,"Never",5
+"795",FALSE,21,"Male","Never",2.92,51,"White","9-11",TRUE,TRUE,"Never",4
+"796",FALSE,8,"Female","Never",2.42,71,"White","0-8",FALSE,TRUE,"1-4 times per month",4
+"797",TRUE,16,"Male","Current",2.92,50,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"798",TRUE,9,"Male","Current",1.16,73,"White","0-8",FALSE,FALSE,"1-4 times per month",3
+"799",TRUE,21,"Male","Former",3.73,52,"White","Some College",TRUE,TRUE,"1-4 times per month",3
+"800",FALSE,14,"Male","Current",1.61,74,"White","0-8",FALSE,FALSE,"Just about everyday/everyday",1
+"801",FALSE,8,"Female","Current",1.87,63,"White","12",TRUE,FALSE,"<1 time per month",5
+"802",FALSE,21,"Female","Former",1.99,55,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",5
+"803",FALSE,21,"Female","Current",2.83,54,"White","12",FALSE,TRUE,"2+ times per week",0
+"804",FALSE,19,"Male","Never",3.72,72,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"805",FALSE,12,"Male","Former",3.16,66,"White","12",FALSE,TRUE,"Never",5
+"806",FALSE,21,"Male","Former",2.33,45,"White","12",TRUE,TRUE,"Never",4
+"807",TRUE,21,"Male","Current",1.41,66,"White","12",FALSE,TRUE,"Just about everyday/everyday",4
+"808",TRUE,14,"Female","Never",3.16,74,"White","9-11",FALSE,TRUE,"Never",1
+"809",FALSE,18,"Male","Current",8.14,66,"White","12",FALSE,FALSE,"1-4 times per month",4
+"810",FALSE,21,"Female","Former",7.01,49,"White","College Grad",FALSE,TRUE,"2+ times per week",4
+"811",FALSE,21,"Male","Never",9.29,67,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",5
+"813",FALSE,21,"Male","Current",1.68,65,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",0
+"814",FALSE,19,"Male","Current",3.16,68,"White","0-8",TRUE,TRUE,"1-4 times per month",3
+"815",FALSE,21,"Female","Never",3.16,63,"White","12",FALSE,TRUE,"1-4 times per month",4
+"816",FALSE,21,"Female","Never",3.16,70,"White","0-8",FALSE,TRUE,"<1 time per month",3
+"817",FALSE,21,"Female","Never",2.05,67,"White","12",FALSE,FALSE,"Never",4
+"818",FALSE,21,"Female","Never",2.83,67,"White","9-11",FALSE,TRUE,"2+ times per week",3
+"819",FALSE,15,"Female","Current",0.28,66,"White","9-11",FALSE,FALSE,"<1 time per month",4
+"820",FALSE,19,"Male","Current",2.75,53,"White","9-11",TRUE,TRUE,"2+ times per week",4
+"821",FALSE,21,"Male","Former",2.9,54,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",2
+"822",FALSE,21,"Female","Never",2.83,59,"White","12",FALSE,TRUE,"Never",3
+"823",FALSE,21,"Female","Never",2.44,67,"White","0-8",FALSE,TRUE,"Never",4
+"824",FALSE,21,"Female","Former",2.9,46,"White","12",FALSE,TRUE,"1-4 times per month",5
+"825",FALSE,21,"Male","Never",4.91,61,"White","0-8",TRUE,TRUE,"Never",3
+"827",FALSE,21,"Female","Never",1.35,66,"White","9-11",TRUE,TRUE,"Never",5
+"828",FALSE,21,"Female","Never",1.63,67,"White","9-11",FALSE,FALSE,"1-4 times per month",0
+"829",FALSE,19,"Male","Former",0.85,65,"White","9-11",FALSE,TRUE,"Never",5
+"830",TRUE,9,"Male","Former",0.81,68,"White","0-8",FALSE,FALSE,"Never",2
+"831",TRUE,20,"Female","Never",1.14,71,"White","12",FALSE,FALSE,"Never",3
+"832",FALSE,18,"Female","Never",4.94,71,"White","Some College",FALSE,TRUE,"<1 time per month",4
+"833",TRUE,21,"Female","Never",5.85,50,"White","12",TRUE,TRUE,"Never",2
+"834",FALSE,21,"Female","Former",1.29,45,"White","9-11",FALSE,TRUE,"<1 time per month",3
+"836",FALSE,21,"Male","Current",2.48,48,"White","12",TRUE,TRUE,"2+ times per week",4
+"837",FALSE,14,"Female","Never",1.77,71,"White","0-8",FALSE,FALSE,"Never",3
+"838",FALSE,21,"Male","Former",6.2,48,"White","12",TRUE,TRUE,"<1 time per month",5
+"839",TRUE,6,"Male","Former",1.41,70,"White","0-8",FALSE,FALSE,"Never",4
+"840",FALSE,8,"Female","Never",0.96,68,"White","0-8",FALSE,TRUE,"Never",2
+"841",FALSE,21,"Male","Current",1.68,48,"White","9-11",TRUE,TRUE,"1-4 times per month",2
+"842",FALSE,13,"Female","Never",0.85,60,"White","9-11",FALSE,TRUE,"Never",4
+"843",FALSE,19,"Male","Never",9.98,62,"White","Some College",TRUE,TRUE,"Never",3
+"844",FALSE,21,"Female","Never",2.99,57,"White","Some College",TRUE,TRUE,"Never",5
+"845",TRUE,13,"Female","Never",1.18,65,"Nonwhite","12",FALSE,FALSE,"1-4 times per month",1
+"849",TRUE,14,"Female","Never",3.36,71,"White","College Grad",FALSE,TRUE,"Never",5
+"850",FALSE,19,"Male","Current",2.92,64,"White","College Grad",FALSE,TRUE,"<1 time per month",5
+"851",FALSE,21,"Female","Never",1.22,72,"White","Some College",FALSE,FALSE,"Just about everyday/everyday",3
+"852",FALSE,21,"Male","Never",2.03,66,"White","0-8",FALSE,FALSE,"2+ times per week",5
+"853",FALSE,13,"Male","Current",0.74,65,"White","9-11",FALSE,FALSE,"1-4 times per month",4
+"854",FALSE,14,"Male","Current",1.49,71,"White","9-11",FALSE,TRUE,"Never",5
+"855",FALSE,21,"Female","Current",2.21,64,"White","Some College",TRUE,FALSE,"1-4 times per month",4
+"856",FALSE,20,"Male","Never",3.36,74,"White","0-8",TRUE,TRUE,"<1 time per month",4
+"857",TRUE,21,"Female","Former",2.2,52,"White","0-8",TRUE,FALSE,"1-4 times per month",2
+"858",FALSE,21,"Male","Never",2.51,66,"White","9-11",TRUE,TRUE,"Never",5
+"859",FALSE,21,"Male","Never",4.43,62,"White","12",TRUE,TRUE,"1-4 times per month",3
+"860",FALSE,2,"Male","Former",3.73,71,"White","Some College",TRUE,TRUE,"1-4 times per month",5
+"861",FALSE,21,"Female","Never",1.54,66,"White","0-8",FALSE,TRUE,"<1 time per month",1
+"862",TRUE,6,"Female","Current",2.57,72,"Nonwhite","0-8",FALSE,TRUE,"Never",3
+"863",TRUE,9,"Male","Current",0.75,72,"White","9-11",FALSE,FALSE,"Just about everyday/everyday",2
+"864",FALSE,16,"Female","Never",2.16,64,"White","Some College",TRUE,FALSE,"Never",2
+"865",TRUE,21,"Female","Current",3.01,49,"White","Some College",TRUE,TRUE,"2+ times per week",3
+"866",FALSE,17,"Male","Former",1.22,57,"Nonwhite","9-11",TRUE,TRUE,"1-4 times per month",4
+"867",FALSE,10,"Female","Current",3.36,65,"White","9-11",FALSE,TRUE,"<1 time per month",5
+"868",FALSE,18,"Female","Never",4.25,65,"White","9-11",TRUE,FALSE,"Never",3
+"869",FALSE,20,"Male","Current",2.63,65,"White","0-8",FALSE,FALSE,"1-4 times per month",5
+"871",TRUE,8,"Male","Current",2.63,66,"White","0-8",FALSE,FALSE,"1-4 times per month",2
+"872",TRUE,21,"Female","Never",0.99,51,"White","9-11",FALSE,FALSE,"Never",1
+"873",TRUE,9,"Female","Current",NA,69,"White","0-8",FALSE,FALSE,"Never",4
+"874",TRUE,3,"Male","Current",1,65,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"875",TRUE,21,"Female","Never",1.61,52,"Nonwhite","9-11",FALSE,TRUE,"2+ times per week",2
+"876",TRUE,20,"Female","Former",0.66,72,"White","0-8",FALSE,FALSE,"Never",2
+"877",FALSE,15,"Male","Former",NA,69,"White","12",TRUE,FALSE,"2+ times per week",4
+"878",TRUE,21,"Female","Current",0.65,68,"Nonwhite","0-8",FALSE,TRUE,"Never",2
+"879",FALSE,21,"Female","Former",1.83,63,"White","0-8",FALSE,FALSE,"Never",3
+"880",FALSE,21,"Female","Never",1.77,69,"White","0-8",FALSE,TRUE,"Never",5
+"881",FALSE,19,"Male","Current",0.96,65,"White","0-8",FALSE,TRUE,"Never",3
+"883",FALSE,21,"Female","Never",2.54,50,"White","9-11",FALSE,TRUE,"Never",4
+"884",TRUE,13,"Male","Current",2.57,73,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",5
+"885",FALSE,21,"Female","Current",0.97,67,"Nonwhite","9-11",FALSE,TRUE,"Never",0
+"886",TRUE,21,"Female","Never",1.63,74,"White","0-8",FALSE,FALSE,"Never",4
+"887",FALSE,17,"Male","Former",3.36,65,"White","0-8",FALSE,TRUE,"Never",4
+"888",FALSE,17,"Female","Never",0.73,73,"White","0-8",TRUE,FALSE,"Never",5
+"889",FALSE,16,"Male","Never",0.73,48,"White","0-8",TRUE,FALSE,"Never",5
+"890",FALSE,21,"Male","Never",3.73,66,"Nonwhite","Some College",TRUE,TRUE,"Never",4
+"891",FALSE,7,"Male","Former",1.35,72,"White","0-8",FALSE,TRUE,"Never",4
+"892",TRUE,21,"Female","Never",2.54,53,"White","9-11",FALSE,TRUE,"Never",5
+"893",FALSE,21,"Male","Current",3.47,47,"White","12",TRUE,TRUE,"1-4 times per month",4
+"894",TRUE,21,"Female","Never",2.43,68,"White","0-8",FALSE,TRUE,"Never",2
+"895",FALSE,13,"Male","Former",1.22,60,"White","0-8",FALSE,TRUE,"Never",2
+"896",TRUE,21,"Female","Current",2.63,50,"White","Some College",TRUE,FALSE,"<1 time per month",2
+"897",TRUE,5,"Female","Current",1.3,72,"Nonwhite","0-8",FALSE,FALSE,"Never",4
+"898",TRUE,17,"Male","Former",0.65,71,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",1
+"899",FALSE,21,"Female","Never",2.61,57,"White","0-8",FALSE,TRUE,"Never",5
+"900",TRUE,16,"Female","Never",1.26,72,"White","0-8",FALSE,FALSE,"Never",2
+"901",FALSE,9,"Male","Never",1.89,73,"White","0-8",FALSE,TRUE,"Never",5
+"902",FALSE,21,"Male","Current",2.31,52,"White","0-8",TRUE,FALSE,"Just about everyday/everyday",1
+"903",FALSE,11,"Male","Current",2.54,72,"White","0-8",FALSE,TRUE,"Never",4
+"904",TRUE,21,"Male","Never",1.5,53,"White","12",TRUE,TRUE,"Never",3
+"908",FALSE,21,"Female","Current",3.18,65,"Nonwhite","0-8",FALSE,FALSE,"1-4 times per month",4
+"909",FALSE,21,"Female","Never",0.52,65,"Nonwhite","0-8",FALSE,FALSE,"Never",2
+"910",FALSE,10,"Male","Current",0.8,65,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",4
+"911",FALSE,20,"Male","Current",1.45,66,"White","12",FALSE,TRUE,"Just about everyday/everyday",3
+"913",TRUE,21,"Female","Current",0.4,68,"Nonwhite","0-8",FALSE,FALSE,"Never",1
+"914",TRUE,10,"Male","Current",0.39,65,"White","0-8",FALSE,TRUE,"2+ times per week",3
+"917",FALSE,17,"Female","Never",1.52,72,"White","0-8",FALSE,FALSE,"Never",3
+"918",FALSE,3,"Male","Current",1.93,65,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",3
+"919",FALSE,17,"Female","Never",0.89,74,"White","0-8",FALSE,TRUE,"Never",3
+"920",FALSE,18,"Male","Former",1.14,71,"White","0-8",FALSE,TRUE,"1-4 times per month",4
+"921",FALSE,21,"Female","Never",3.16,66,"White","College Grad",FALSE,TRUE,"Never",5
+"922",FALSE,12,"Male","Current",2.26,68,"White","9-11",FALSE,TRUE,"2+ times per week",4
+"923",FALSE,21,"Female","Never",0.68,71,"Nonwhite","0-8",FALSE,FALSE,"1-4 times per month",0
+"924",FALSE,13,"Male","Never",4.52,67,"White","College Grad",TRUE,TRUE,"1-4 times per month",4
+"925",FALSE,3,"Female","Never",1.43,68,"White","12",FALSE,TRUE,"Never",5
+"926",FALSE,21,"Male","Never",8.29,46,"White","Some College",TRUE,TRUE,"Never",3
+"927",FALSE,21,"Female","Never",1.45,68,"White","0-8",FALSE,TRUE,"Never",3
+"928",FALSE,20,"Female","Former",1.18,68,"White","0-8",FALSE,TRUE,"Never",0
+"929",FALSE,3,"Male","Never",2.35,73,"Nonwhite","0-8",TRUE,TRUE,"Never",5
+"930",FALSE,21,"Female","Never",0.49,57,"White","Some College",FALSE,FALSE,"Never",4
+"931",FALSE,16,"Male","Current",0.81,64,"White","0-8",FALSE,TRUE,"<1 time per month",1
+"932",FALSE,18,"Male","Former",1.87,60,"White","12",FALSE,TRUE,"<1 time per month",5
+"933",FALSE,7,"Male","Current",1.08,70,"White","0-8",FALSE,TRUE,"1-4 times per month",4
+"934",FALSE,21,"Male","Current",2.38,60,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"935",FALSE,14,"Male","Former",0.7,70,"White","0-8",FALSE,FALSE,"1-4 times per month",5
+"936",FALSE,21,"Female","Never",0.67,52,"White","0-8",FALSE,TRUE,"Never",5
+"937",TRUE,15,"Female","Never",0.3,57,"Nonwhite","0-8",FALSE,FALSE,"Never",4
+"938",TRUE,5,"Female","Current",0.82,52,"White","9-11",FALSE,FALSE,"1-4 times per month",2
+"939",FALSE,21,"Female","Never",1.99,60,"White","9-11",FALSE,TRUE,"Never",5
+"940",TRUE,21,"Female","Former",0.42,55,"Nonwhite","0-8",FALSE,FALSE,"Never",3
+"941",FALSE,18,"Male","Current",0.74,57,"White","12",FALSE,FALSE,"Never",4
+"942",FALSE,13,"Male","Current",3.51,50,"White","College Grad",TRUE,TRUE,"Never",3
+"943",FALSE,21,"Female","Never",4.15,46,"White","12",FALSE,TRUE,"Never",3
+"944",FALSE,21,"Male","Never",4.91,48,"White","9-11",TRUE,TRUE,"2+ times per week",4
+"945",FALSE,12,"Male","Current",4.15,53,"Nonwhite","0-8",TRUE,TRUE,"Never",4
+"946",FALSE,21,"Male","Never",3.16,65,"White","College Grad",FALSE,TRUE,"Never",5
+"947",FALSE,21,"Male","Never",0.78,46,"Nonwhite","0-8",TRUE,TRUE,"Never",4
+"948",FALSE,21,"Male","Former",1.16,66,"White","0-8",FALSE,FALSE,"Never",4
+"949",FALSE,18,"Male","Current",0.56,68,"White","0-8",FALSE,FALSE,"2+ times per week",5
+"950",FALSE,21,"Female","Never",0.33,62,"Nonwhite","0-8",FALSE,FALSE,"Never",0
+"951",TRUE,21,"Female","Never",0.89,71,"White","9-11",FALSE,FALSE,"Never",3
+"952",TRUE,9,"Female","Current",2.3,65,"White","0-8",TRUE,FALSE,"<1 time per month",5
+"953",TRUE,21,"Female","Former",0.51,65,"Nonwhite","0-8",TRUE,FALSE,"Never",2
+"954",TRUE,21,"Female","Never",3.12,46,"Nonwhite","9-11",TRUE,FALSE,"Never",0
+"955",FALSE,18,"Female","Never",3.38,70,"White","College Grad",FALSE,FALSE,"Never",4
+"956",FALSE,21,"Female","Never",3.38,65,"White","College Grad",FALSE,FALSE,"Never",2
+"957",TRUE,14,"Female","Never",1.3,71,"White","9-11",TRUE,TRUE,"Never",2
+"958",FALSE,21,"Female","Never",2.48,51,"White","0-8",FALSE,TRUE,"Never",5
+"960",TRUE,11,"Male","Former",1.72,67,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"961",TRUE,6,"Female","Never",0.72,74,"White","0-8",FALSE,FALSE,"Never",3
+"962",FALSE,21,"Female","Never",4.43,49,"White","0-8",FALSE,TRUE,"Never",3
+"963",TRUE,11,"Female","Never",1.5,74,"White","0-8",FALSE,FALSE,"Never",2
+"964",TRUE,6,"Female","Never",1.53,74,"Nonwhite","0-8",FALSE,FALSE,"Never",1
+"965",FALSE,21,"Female","Former",NA,48,"White","9-11",TRUE,FALSE,"Never",2
+"967",FALSE,5,"Female","Current",2.63,47,"White","Some College",FALSE,FALSE,"1-4 times per month",2
+"968",TRUE,13,"Female","Current",0.72,48,"White","0-8",FALSE,FALSE,"<1 time per month",1
+"969",TRUE,12,"Female","Current",1.28,67,"White","9-11",FALSE,FALSE,"Never",3
+"970",TRUE,14,"Male","Current",0.22,57,"White","0-8",TRUE,FALSE,"1-4 times per month",4
+"971",FALSE,21,"Female","Current",3.01,64,"White","12",FALSE,TRUE,"Just about everyday/everyday",1
+"972",TRUE,21,"Female","Current",1.3,45,"Nonwhite","Some College",TRUE,FALSE,"1-4 times per month",5
+"973",TRUE,21,"Female","Never",1.25,50,"Nonwhite","9-11",TRUE,TRUE,"Never",4
+"974",FALSE,21,"Female","Current",8.86,47,"White","Some College",FALSE,TRUE,"2+ times per week",3
+"975",FALSE,21,"Female","Never",2.54,52,"White","12",TRUE,TRUE,"2+ times per week",3
+"976",TRUE,21,"Female","Never",1.7,47,"Nonwhite","12",FALSE,FALSE,"Never",1
+"977",FALSE,21,"Female","Never",1.99,50,"White","12",FALSE,TRUE,"1-4 times per month",5
+"978",FALSE,19,"Male","Never",3.01,58,"Nonwhite","Some College",TRUE,TRUE,"1-4 times per month",2
+"979",FALSE,21,"Male","Current",6.2,52,"White","Some College",TRUE,TRUE,"1-4 times per month",4
+"980",FALSE,13,"Male","Current",2.6,73,"White","0-8",TRUE,FALSE,"Never",4
+"981",FALSE,18,"Male","Former",4.94,65,"Nonwhite","College Grad",TRUE,TRUE,"Never",3
+"982",FALSE,17,"Male","Current",1.77,54,"Nonwhite","9-11",FALSE,TRUE,"<1 time per month",2
+"983",FALSE,21,"Female","Former",4.08,57,"White","Some College",TRUE,FALSE,"Just about everyday/everyday",4
+"984",FALSE,11,"Female","Never",0.73,68,"White","9-11",FALSE,FALSE,"<1 time per month",4
+"985",TRUE,13,"Female","Never",0.38,72,"White","9-11",FALSE,FALSE,"Never",4
+"986",TRUE,14,"Male","Current",1.45,70,"White","9-11",TRUE,TRUE,"Never",2
+"987",FALSE,21,"Female","Current",1.96,47,"White","9-11",FALSE,TRUE,"<1 time per month",1
+"989",FALSE,15,"Male","Never",1.46,68,"White","0-8",TRUE,FALSE,"<1 time per month",4
+"990",TRUE,7,"Female","Never",1.47,63,"White","0-8",FALSE,FALSE,"Never",2
+"991",TRUE,21,"Female","Never",0.75,66,"White","0-8",FALSE,TRUE,"Never",3
+"992",FALSE,11,"Male","Former",2.16,74,"White","Some College",FALSE,TRUE,"Never",2
+"993",FALSE,21,"Female","Current",1.41,51,"White","0-8",TRUE,FALSE,"Never",4
+"995",FALSE,10,"Male","Never",3.36,74,"White","College Grad",FALSE,TRUE,"Never",5
+"996",FALSE,13,"Female","Never",1.25,71,"White","0-8",TRUE,FALSE,"Never",5
+"997",FALSE,21,"Male","Never",2.92,51,"White","12",TRUE,TRUE,"Never",5
+"998",FALSE,20,"Male","Current",1.5,49,"Nonwhite","0-8",FALSE,TRUE,"Never",3
+"999",FALSE,13,"Male","Current",0.39,47,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",4
+"1000",FALSE,21,"Female","Never",3.73,46,"White","12",TRUE,TRUE,"<1 time per month",1
+"1001",FALSE,21,"Female","Never",4.43,55,"White","9-11",TRUE,TRUE,"Never",0
+"1002",FALSE,15,"Male","Current",3.01,50,"White","12",TRUE,TRUE,"Never",2
+"1003",FALSE,21,"Female","Never",1.66,60,"White","0-8",FALSE,TRUE,"Never",1
+"1004",FALSE,20,"Female","Never",2.16,69,"White","Some College",FALSE,TRUE,"Never",2
+"1005",FALSE,10,"Female","Never",0.55,67,"White","0-8",FALSE,FALSE,"Never",4
+"1006",FALSE,21,"Female","Never",1.2,55,"White","Missing",TRUE,FALSE,"Never",4
+"1008",TRUE,7,"Female","Never",0.21,72,"Nonwhite","0-8",FALSE,FALSE,"Never",3
+"1009",FALSE,21,"Male","Former",1.02,74,"Nonwhite","0-8",FALSE,TRUE,"Never",3
+"1012",TRUE,9,"Male","Former",NA,70,"White","0-8",FALSE,TRUE,"Never",5
+"1013",FALSE,21,"Female","Former",8.34,56,"White","Some College",FALSE,TRUE,"<1 time per month",3
+"1014",TRUE,20,"Female","Never",4.91,65,"White","12",TRUE,TRUE,"Never",4
+"1015",FALSE,20,"Male","Current",0.95,66,"Nonwhite","0-8",FALSE,FALSE,"Just about everyday/everyday",2
+"1016",TRUE,13,"Female","Never",1.79,65,"White","12",TRUE,FALSE,"<1 time per month",5
+"1017",FALSE,21,"Male","Never",7.01,56,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",5
+"1018",FALSE,14,"Male","Former",2.07,50,"White","Some College",TRUE,TRUE,"2+ times per week",4
+"1019",FALSE,18,"Male","Current",4.91,55,"White","College Grad",TRUE,TRUE,"Never",5
+"1020",FALSE,13,"Male","Never",2.38,69,"White","12",TRUE,TRUE,"2+ times per week",5
+"1021",FALSE,7,"Male","Former",5.84,58,"White","9-11",TRUE,FALSE,"1-4 times per month",5
+"1022",FALSE,5,"Male","Never",0.21,56,"Nonwhite","0-8",TRUE,FALSE,"Just about everyday/everyday",4
+"1023",TRUE,8,"Male","Never",NA,66,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",5
+"1024",FALSE,21,"Male","Current",2.83,48,"Nonwhite","0-8",TRUE,TRUE,"Just about everyday/everyday",3
+"1025",FALSE,21,"Male","Current",3.51,65,"White","0-8",FALSE,TRUE,"Never",2
+"1026",FALSE,16,"Female","Never",1.84,72,"White","0-8",TRUE,FALSE,"Never",0
+"1027",TRUE,19,"Female","Current",2.09,57,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",1
+"1028",TRUE,19,"Male","Current",2.12,65,"White","0-8",FALSE,TRUE,"<1 time per month",1
+"1029",TRUE,19,"Male","Current",1.59,65,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"1030",FALSE,21,"Male","Never",1.87,60,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",5
+"1031",FALSE,21,"Female","Never",2.44,74,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",3
+"1032",FALSE,11,"Female","Current",1.92,65,"White","Some College",TRUE,FALSE,"Never",3
+"1033",FALSE,19,"Female","Current",1.23,66,"White","0-8",FALSE,FALSE,"Just about everyday/everyday",2
+"1034",TRUE,19,"Female","Never",2.83,66,"White","9-11",FALSE,TRUE,"<1 time per month",5
+"1035",TRUE,3,"Male","Never",1.57,67,"White","0-8",FALSE,FALSE,"2+ times per week",5
+"1036",TRUE,21,"Female","Never",1.03,70,"White","12",FALSE,FALSE,"<1 time per month",4
+"1037",TRUE,10,"Female","Never",0.92,65,"White","9-11",FALSE,FALSE,"Never",2
+"1039",TRUE,11,"Female","Current",2.15,69,"White","0-8",FALSE,TRUE,"Never",2
+"1040",FALSE,21,"Female","Never",1.17,53,"White","0-8",TRUE,FALSE,"<1 time per month",3
+"1041",FALSE,2,"Male","Current",4.17,55,"White","12",TRUE,TRUE,"2+ times per week",3
+"1042",FALSE,21,"Female","Never",8.34,60,"White","College Grad",TRUE,TRUE,"Never",2
+"1043",FALSE,21,"Female","Former",1.2,73,"White","0-8",FALSE,TRUE,"Never",0
+"1044",TRUE,16,"Female","Never",2.02,70,"White","College Grad",FALSE,TRUE,"<1 time per month",4
+"1045",FALSE,4,"Male","Current",2.38,52,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"1046",FALSE,12,"Male","Current",8.36,66,"White","12",FALSE,FALSE,"2+ times per week",3
+"1047",FALSE,21,"Female","Never",4.17,50,"White","Some College",TRUE,TRUE,"Never",4
+"1048",FALSE,21,"Male","Former",2.83,64,"White","0-8",TRUE,TRUE,"2+ times per week",3
+"1049",FALSE,21,"Male","Never",4.17,57,"White","12",TRUE,TRUE,"<1 time per month",5
+"1051",FALSE,14,"Female","Current",0.46,65,"White","9-11",FALSE,FALSE,"Never",2
+"1052",FALSE,19,"Female","Never",3.16,66,"White","12",TRUE,TRUE,"<1 time per month",5
+"1053",FALSE,21,"Male","Former",1.58,70,"White","0-8",TRUE,TRUE,"Never",5
+"1054",TRUE,21,"Female","Never",0.9,69,"Nonwhite","0-8",FALSE,FALSE,"Never",0
+"1055",FALSE,21,"Male","Never",5.46,65,"White","12",TRUE,TRUE,"Never",5
+"1056",FALSE,20,"Female","Current",3.16,67,"White","12",FALSE,TRUE,"Just about everyday/everyday",1
+"1057",TRUE,4,"Female","Never",0.75,72,"White","0-8",FALSE,FALSE,"Never",2
+"1058",FALSE,21,"Female","Current",3.84,52,"White","College Grad",TRUE,FALSE,"Never",2
+"1059",FALSE,9,"Female","Former",6.51,67,"White","College Grad",TRUE,TRUE,"1-4 times per month",3
+"1061",FALSE,20,"Female","Current",0.89,70,"White","9-11",FALSE,FALSE,"1-4 times per month",5
+"1062",FALSE,21,"Female","Never",2.12,73,"White","12",TRUE,FALSE,"Never",3
+"1065",FALSE,21,"Male","Current",3.26,46,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",4
+"1066",FALSE,10,"Male","Never",8.34,60,"White","0-8",TRUE,TRUE,"Never",5
+"1067",FALSE,21,"Male","Never",4.91,53,"White","12",TRUE,TRUE,"Never",5
+"1068",FALSE,7,"Female","Current",3.16,67,"White","12",FALSE,TRUE,"1-4 times per month",0
+"1069",FALSE,16,"Female","Never",1.73,65,"White","12",FALSE,FALSE,"Never",5
+"1070",FALSE,21,"Female","Never",NA,57,"White","9-11",TRUE,FALSE,"1-4 times per month",4
+"1071",FALSE,14,"Male","Never",3.72,67,"White","9-11",FALSE,TRUE,"Never",5
+"1072",FALSE,3,"Male","Never",1.87,68,"White","12",FALSE,TRUE,"Never",5
+"1073",FALSE,21,"Male","Former",5.84,60,"White","12",TRUE,TRUE,"1-4 times per month",5
+"1074",FALSE,11,"Male","Current",NA,70,"White","12",FALSE,TRUE,"Just about everyday/everyday",4
+"1075",TRUE,3,"Male","Current",NA,66,"White","0-8",FALSE,TRUE,"2+ times per week",3
+"1076",FALSE,21,"Female","Former",4.31,54,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"1077",FALSE,21,"Female","Current",5.84,52,"White","9-11",TRUE,TRUE,"1-4 times per month",3
+"1078",TRUE,13,"Female","Never",NA,68,"White","12",FALSE,FALSE,"<1 time per month",3
+"1079",FALSE,21,"Female","Never",3.16,63,"White","12",FALSE,TRUE,"1-4 times per month",5
+"1080",FALSE,16,"Male","Former",2.07,70,"White","9-11",FALSE,TRUE,"1-4 times per month",3
+"1083",TRUE,6,"Male","Current",2.06,64,"White","0-8",FALSE,TRUE,"Never",3
+"1084",FALSE,21,"Female","Never",1.13,74,"White","0-8",FALSE,FALSE,"Never",5
+"1085",TRUE,5,"Male","Current",1.61,62,"White","0-8",FALSE,TRUE,"Never",3
+"1086",TRUE,21,"Female","Never",0.84,66,"White","0-8",FALSE,FALSE,"Never",5
+"1087",TRUE,10,"Male","Current",0.66,71,"White","0-8",FALSE,TRUE,"<1 time per month",2
+"1088",FALSE,21,"Male","Former",1.64,73,"White","0-8",FALSE,TRUE,"Never",5
+"1090",FALSE,9,"Male","Never",0.7,68,"White","0-8",TRUE,TRUE,"Never",3
+"1091",TRUE,7,"Male","Current",0.61,68,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"1093",FALSE,5,"Male","Former",2.82,66,"White","0-8",TRUE,TRUE,"Never",5
+"1094",FALSE,21,"Female","Never",1.05,66,"White","0-8",FALSE,FALSE,"Never",4
+"1095",FALSE,13,"Male","Current",1.86,69,"White","0-8",FALSE,TRUE,"Never",3
+"1096",FALSE,21,"Male","Current",2.83,48,"White","0-8",TRUE,TRUE,"Never",2
+"1097",FALSE,5,"Male","Never",3.72,70,"White","0-8",FALSE,TRUE,"Never",3
+"1098",FALSE,19,"Male","Former",2.83,57,"White","0-8",FALSE,TRUE,"Never",5
+"1099",FALSE,19,"Male","Never",2.58,66,"White","0-8",FALSE,TRUE,"Never",3
+"1100",FALSE,19,"Male","Current",0.9,50,"White","0-8",TRUE,TRUE,"1-4 times per month",3
+"1101",FALSE,21,"Female","Never",1.69,66,"White","0-8",FALSE,TRUE,"<1 time per month",0
+"1102",FALSE,21,"Female","Current",3.85,50,"White","12",FALSE,TRUE,"Never",1
+"1103",FALSE,21,"Female","Never",1.52,65,"White","Some College",FALSE,TRUE,"Never",5
+"1104",FALSE,11,"Male","Current",0.97,65,"White","0-8",FALSE,TRUE,"Never",1
+"1105",FALSE,21,"Male","Current",2.38,52,"White","0-8",TRUE,TRUE,"Never",5
+"1106",FALSE,14,"Female","Never",1.3,72,"White","0-8",FALSE,TRUE,"Never",4
+"1107",FALSE,21,"Female","Current",1.12,49,"White","0-8",FALSE,FALSE,"Never",2
+"1108",TRUE,5,"Female","Never",3.01,69,"White","0-8",FALSE,TRUE,"Never",5
+"1109",FALSE,21,"Female","Never",3.51,46,"White","12",FALSE,TRUE,"Never",1
+"1110",FALSE,21,"Female","Former",2.35,51,"White","9-11",TRUE,FALSE,"<1 time per month",3
+"1111",FALSE,16,"Male","Never",4.15,65,"White","12",TRUE,TRUE,"Never",4
+"1112",FALSE,17,"Female","Never",0.44,59,"White","0-8",FALSE,FALSE,"Never",4
+"1113",FALSE,21,"Male","Former",3.16,69,"White","9-11",TRUE,TRUE,"2+ times per week",4
+"1114",FALSE,17,"Male","Never",3.51,60,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",3
+"1115",FALSE,21,"Female","Never",0.77,64,"White","0-8",FALSE,FALSE,"Never",3
+"1116",FALSE,12,"Female","Never",0.86,61,"White","0-8",FALSE,TRUE,"Never",0
+"1117",FALSE,21,"Male","Current",0.54,50,"White","0-8",FALSE,FALSE,"Never",3
+"1118",FALSE,21,"Male","Former",3.51,51,"White","Some College",TRUE,TRUE,"Never",4
+"1119",FALSE,21,"Female","Never",4.17,59,"White","12",TRUE,TRUE,"<1 time per month",3
+"1120",FALSE,21,"Female","Former",2.19,65,"White","12",TRUE,TRUE,"Never",3
+"1121",FALSE,21,"Male","Former",5.84,53,"White","12",TRUE,TRUE,"1-4 times per month",5
+"1122",FALSE,19,"Male","Former",1.26,67,"White","0-8",FALSE,TRUE,"Never",3
+"1123",FALSE,21,"Male","Current",2.83,54,"White","0-8",TRUE,TRUE,"Never",2
+"1124",FALSE,21,"Female","Never",1.87,47,"White","9-11",TRUE,TRUE,"Never",3
+"1125",FALSE,12,"Male","Current",1.63,63,"White","0-8",FALSE,TRUE,"Never",3
+"1126",FALSE,21,"Male","Never",3.23,54,"White","0-8",TRUE,TRUE,"<1 time per month",1
+"1127",FALSE,21,"Male","Never",2.82,52,"White","0-8",TRUE,TRUE,"Never",2
+"1128",FALSE,21,"Female","Former",7.5,55,"White","College Grad",TRUE,TRUE,"Never",4
+"1129",FALSE,21,"Male","Current",8.34,51,"White","9-11",TRUE,TRUE,"1-4 times per month",3
+"1130",TRUE,21,"Male","Former",2.83,57,"White","12",TRUE,TRUE,"1-4 times per month",5
+"1131",FALSE,20,"Male","Current",8.29,56,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"1132",TRUE,21,"Female","Never",4.91,49,"White","Some College",FALSE,TRUE,"Never",4
+"1133",FALSE,10,"Male","Never",5.39,68,"White","0-8",TRUE,FALSE,"Never",4
+"1134",FALSE,20,"Male","Current",3.67,69,"White","College Grad",TRUE,FALSE,"2+ times per week",5
+"1135",TRUE,21,"Female","Never",2.18,69,"White","Some College",FALSE,FALSE,"<1 time per month",3
+"1136",TRUE,21,"Male","Former",3.87,50,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",5
+"1137",FALSE,5,"Male","Current",3.87,48,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",3
+"1138",FALSE,19,"Male","Former",2.07,68,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"1139",FALSE,20,"Female","Former",2.93,74,"White","12",FALSE,TRUE,"<1 time per month",4
+"1141",TRUE,6,"Male","Current",2.16,50,"White","9-11",TRUE,TRUE,"1-4 times per month",4
+"1142",FALSE,21,"Female","Never",3.26,60,"White","12",FALSE,TRUE,"2+ times per week",5
+"1143",TRUE,21,"Male","Never",2.93,65,"White","12",FALSE,TRUE,"Never",4
+"1144",TRUE,13,"Female","Never",2.93,63,"White","12",FALSE,TRUE,"Never",5
+"1146",FALSE,21,"Female","Never",5.86,55,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",5
+"1147",FALSE,16,"Female","Never",1.86,74,"White","9-11",FALSE,TRUE,"2+ times per week",2
+"1148",TRUE,16,"Male","Former",1.15,66,"White","12",FALSE,TRUE,"<1 time per month",5
+"1149",FALSE,21,"Female","Never",2.63,51,"White","12",FALSE,TRUE,"2+ times per week",4
+"1150",TRUE,21,"Male","Current",2.21,54,"White","Some College",FALSE,TRUE,"1-4 times per month",1
+"1151",FALSE,3,"Male","Former",6.04,66,"White","12",FALSE,TRUE,"Just about everyday/everyday",4
+"1152",FALSE,21,"Female","Current",5.42,53,"White","College Grad",TRUE,TRUE,"2+ times per week",4
+"1153",TRUE,8,"Male","Former",3.67,67,"White","12",FALSE,FALSE,"1-4 times per month",5
+"1154",FALSE,20,"Male","Current",3.87,60,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"1155",FALSE,21,"Male","Never",7.74,55,"White","College Grad",TRUE,TRUE,"2+ times per week",5
+"1156",FALSE,21,"Male","Never",3.87,53,"White","Some College",TRUE,TRUE,"<1 time per month",4
+"1157",TRUE,17,"Female","Former",2.93,66,"White","12",FALSE,TRUE,"2+ times per week",5
+"1158",FALSE,21,"Male","Current",2.15,49,"White","Some College",TRUE,TRUE,"1-4 times per month",5
+"1159",FALSE,21,"Male","Never",9.69,58,"White","College Grad",TRUE,TRUE,"<1 time per month",4
+"1160",FALSE,2,"Male","Never",3.51,66,"White","Some College",FALSE,TRUE,"Never",4
+"1161",TRUE,21,"Female","Never",0.29,62,"Nonwhite","0-8",FALSE,FALSE,"Never",5
+"1162",FALSE,21,"Male","Current",1.21,45,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",2
+"1163",FALSE,18,"Male","Current",3.51,57,"White","12",TRUE,TRUE,"2+ times per week",3
+"1164",TRUE,12,"Female","Never",1.03,72,"Nonwhite","12",FALSE,TRUE,"Never",3
+"1165",TRUE,10,"Male","Former",0.85,68,"White","0-8",FALSE,TRUE,"<1 time per month",1
+"1166",TRUE,5,"Female","Never",NA,67,"Nonwhite","0-8",FALSE,TRUE,"Never",4
+"1168",TRUE,17,"Male","Never",1.18,61,"Nonwhite","0-8",TRUE,TRUE,"Never",4
+"1169",FALSE,19,"Male","Current",1.86,58,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"1170",FALSE,21,"Male","Former",0.27,59,"White","0-8",TRUE,TRUE,"1-4 times per month",3
+"1171",FALSE,21,"Female","Never",1.1,65,"White","0-8",FALSE,TRUE,"Never",2
+"1172",TRUE,8,"Female","Never",0.44,72,"Nonwhite","0-8",FALSE,FALSE,"Never",2
+"1173",FALSE,18,"Male","Current",NA,68,"White","Missing",FALSE,TRUE,"Never",3
+"1174",FALSE,21,"Male","Never",1.27,63,"White","0-8",TRUE,TRUE,"Never",5
+"1175",FALSE,21,"Male","Current",2.9,45,"White","College Grad",TRUE,TRUE,"1-4 times per month",5
+"1176",FALSE,4,"Male","Former",2.31,69,"White","12",FALSE,TRUE,"Never",5
+"1177",FALSE,21,"Female","Former",4,66,"White","College Grad",FALSE,FALSE,"Never",3
+"1178",FALSE,21,"Male","Former",6.87,61,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"1179",FALSE,21,"Male","Current",6.31,49,"White","0-8",TRUE,TRUE,"Never",3
+"1180",FALSE,3,"Female","Never",3.51,65,"White","Some College",FALSE,TRUE,"Never",1
+"1181",FALSE,21,"Male","Current",3.51,45,"White","12",TRUE,TRUE,"1-4 times per month",4
+"1182",FALSE,21,"Male","Current",9.81,62,"White","College Grad",TRUE,TRUE,"<1 time per month",4
+"1183",FALSE,17,"Male","Current",1.61,52,"White","9-11",TRUE,TRUE,"2+ times per week",1
+"1184",FALSE,12,"Male","Never",2.83,45,"Nonwhite","12",TRUE,TRUE,"1-4 times per month",5
+"1185",TRUE,19,"Female","Never",0.14,65,"Nonwhite","0-8",FALSE,FALSE,"Never",0
+"1186",FALSE,21,"Female","Current",1.69,57,"White","9-11",TRUE,TRUE,"Never",0
+"1187",TRUE,21,"Female","Never",0.71,58,"White","9-11",FALSE,TRUE,"Never",2
+"1188",TRUE,21,"Female","Current",0.65,46,"White","0-8",FALSE,FALSE,"Never",4
+"1189",FALSE,21,"Female","Never",4.91,72,"White","0-8",FALSE,FALSE,"Never",2
+"1190",TRUE,21,"Female","Never",0.54,65,"Nonwhite","0-8",FALSE,FALSE,"Never",4
+"1191",FALSE,17,"Female","Current",2.83,54,"White","9-11",FALSE,TRUE,"Never",4
+"1192",FALSE,21,"Male","Current",3.26,46,"White","College Grad",TRUE,TRUE,"<1 time per month",5
+"1193",FALSE,21,"Female","Never",2.1,69,"White","Some College",FALSE,TRUE,"Never",5
+"1194",FALSE,21,"Female","Never",2.93,66,"White","Some College",FALSE,TRUE,"Never",2
+"1195",TRUE,7,"Male","Current",6.04,70,"White","College Grad",FALSE,TRUE,"Just about everyday/everyday",5
+"1197",FALSE,21,"Female","Former",5.46,65,"White","Some College",FALSE,FALSE,"Just about everyday/everyday",5
+"1198",TRUE,21,"Female","Current",3.26,57,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",4
+"1199",TRUE,14,"Female","Current",0.52,74,"White","9-11",FALSE,FALSE,"Never",3
+"1200",TRUE,21,"Male","Never",4.56,48,"White","12",TRUE,TRUE,"Never",5
+"1201",FALSE,21,"Female","Former",4.6,54,"White","0-8",TRUE,TRUE,"<1 time per month",4
+"1202",FALSE,5,"Female","Never",0.52,71,"White","0-8",FALSE,FALSE,"Never",2
+"1203",TRUE,20,"Male","Former",2.16,54,"White","0-8",TRUE,TRUE,"Never",3
+"1204",TRUE,20,"Male","Former",6.96,50,"White","Some College",TRUE,TRUE,"2+ times per week",5
+"1205",FALSE,19,"Male","Current",2.55,56,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",5
+"1206",FALSE,21,"Female","Never",2.93,66,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"1207",FALSE,21,"Male","Former",5.42,56,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",5
+"1208",FALSE,12,"Female","Never",2.69,45,"White","12",FALSE,TRUE,"Just about everyday/everyday",5
+"1209",FALSE,21,"Female","Never",3.89,54,"White","12",FALSE,TRUE,"Just about everyday/everyday",5
+"1210",FALSE,12,"Female","Never",6.96,67,"White","Some College",FALSE,TRUE,"2+ times per week",5
+"1211",TRUE,21,"Female","Former",5.11,48,"White","College Grad",FALSE,TRUE,"Just about everyday/everyday",5
+"1212",FALSE,13,"Male","Never",2.93,69,"White","College Grad",FALSE,TRUE,"<1 time per month",5
+"1213",FALSE,21,"Male","Current",2.83,51,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"1214",FALSE,17,"Male","Never",4.65,68,"White","12",FALSE,TRUE,"2+ times per week",5
+"1215",FALSE,21,"Male","Current",2.75,48,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",3
+"1217",FALSE,21,"Female","Current",4.17,68,"White","College Grad",FALSE,TRUE,"Just about everyday/everyday",4
+"1218",FALSE,21,"Female","Current",0.17,48,"White","9-11",FALSE,FALSE,"<1 time per month",2
+"1219",FALSE,21,"Female","Never",1.69,74,"White","9-11",FALSE,FALSE,"Never",5
+"1221",FALSE,21,"Female","Never",1.13,65,"White","College Grad",TRUE,FALSE,"<1 time per month",3
+"1222",FALSE,21,"Female","Never",2.14,63,"White","0-8",FALSE,TRUE,"1-4 times per month",4
+"1223",FALSE,12,"Male","Former",2.09,67,"White","9-11",TRUE,FALSE,"1-4 times per month",5
+"1224",FALSE,21,"Female","Never",1.95,58,"White","Some College",FALSE,FALSE,"Never",5
+"1227",TRUE,10,"Female","Never",8.34,61,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",5
+"1228",FALSE,20,"Male","Former",2.83,63,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"1229",FALSE,21,"Male","Current",4.17,52,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"1230",FALSE,21,"Female","Never",2.43,62,"White","9-11",FALSE,FALSE,"<1 time per month",3
+"1231",FALSE,10,"Female","Never",4.65,66,"White","Some College",FALSE,TRUE,"2+ times per week",4
+"1232",FALSE,21,"Female","Never",5.64,45,"Nonwhite","Some College",TRUE,FALSE,"1-4 times per month",3
+"1233",FALSE,21,"Male","Never",2.83,59,"White","Some College",TRUE,TRUE,"<1 time per month",1
+"1234",FALSE,5,"Male","Never",3.16,65,"White","Some College",FALSE,TRUE,"<1 time per month",5
+"1235",FALSE,21,"Male","Former",8.34,55,"White","9-11",TRUE,TRUE,"2+ times per week",4
+"1236",TRUE,21,"Female","Never",1.14,52,"White","9-11",FALSE,TRUE,"2+ times per week",3
+"1237",FALSE,21,"Female","Current",5.5,50,"White","Some College",TRUE,TRUE,"<1 time per month",2
+"1238",TRUE,14,"Male","Current",1.46,62,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"1239",FALSE,21,"Female","Never",3.85,51,"White","12",FALSE,TRUE,"Just about everyday/everyday",4
+"1240",TRUE,21,"Male","Current",8.34,53,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"1241",TRUE,21,"Female","Current",NA,45,"White","Missing",FALSE,TRUE,"1-4 times per month",4
+"1242",FALSE,15,"Male","Former",3.16,72,"White","9-11",FALSE,TRUE,"2+ times per week",5
+"1243",FALSE,21,"Male","Former",0.9,72,"Nonwhite","12",FALSE,TRUE,"<1 time per month",5
+"1244",FALSE,13,"Male","Current",2.26,65,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",5
+"1245",FALSE,21,"Female","Never",4.34,66,"White","12",FALSE,FALSE,"<1 time per month",5
+"1246",FALSE,17,"Male","Current",3.03,50,"White","9-11",TRUE,FALSE,"<1 time per month",5
+"1248",TRUE,20,"Female","Never",1.2,69,"White","9-11",FALSE,FALSE,"<1 time per month",5
+"1249",FALSE,19,"Female","Never",0.89,47,"Nonwhite","0-8",FALSE,FALSE,"<1 time per month",2
+"1250",FALSE,15,"Male","Current",3.87,57,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",4
+"1251",FALSE,21,"Female","Current",2.61,55,"White","9-11",TRUE,FALSE,"<1 time per month",4
+"1252",FALSE,21,"Female","Never",0.9,62,"Nonwhite","9-11",FALSE,TRUE,"Never",4
+"1253",FALSE,21,"Male","Current",2.55,48,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",5
+"1254",FALSE,21,"Male","Former",3.03,47,"White","College Grad",TRUE,TRUE,"1-4 times per month",5
+"1255",FALSE,21,"Male","Never",1.99,66,"White","0-8",FALSE,TRUE,"Never",4
+"1256",FALSE,21,"Female","Never",0.78,73,"White","12",FALSE,FALSE,"Never",4
+"1258",FALSE,18,"Female","Never",3.16,70,"White","9-11",FALSE,TRUE,"Never",1
+"1259",FALSE,16,"Male","Never",3.16,67,"White","0-8",TRUE,TRUE,"2+ times per week",5
+"1261",FALSE,11,"Male","Current",1.19,74,"White","0-8",FALSE,TRUE,"Never",5
+"1262",FALSE,17,"Male","Current",2.65,64,"White","Some College",TRUE,TRUE,"1-4 times per month",5
+"1263",FALSE,21,"Male","Never",1.78,70,"White","0-8",FALSE,TRUE,"Never",5
+"1264",FALSE,13,"Male","Never",1.87,48,"White","0-8",TRUE,TRUE,"Never",5
+"1265",FALSE,15,"Male","Current",1.84,65,"White","0-8",TRUE,TRUE,"Never",2
+"1266",FALSE,21,"Male","Never",0.93,65,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"1267",TRUE,21,"Female","Never",1.67,67,"White","12",TRUE,TRUE,"1-4 times per month",2
+"1268",FALSE,16,"Female","Never",1.42,66,"White","0-8",FALSE,TRUE,"Never",3
+"1269",FALSE,21,"Female","Never",0.55,66,"White","0-8",FALSE,FALSE,"1-4 times per month",5
+"1270",TRUE,13,"Female","Never",NA,70,"White","9-11",FALSE,TRUE,"Never",5
+"1271",FALSE,9,"Male","Never",6.51,67,"White","0-8",TRUE,TRUE,"2+ times per week",5
+"1272",FALSE,16,"Female","Never",2.51,73,"White","9-11",FALSE,FALSE,"Never",5
+"1273",FALSE,14,"Female","Former",1.58,70,"White","9-11",TRUE,FALSE,"<1 time per month",3
+"1274",FALSE,18,"Male","Current",1.87,54,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"1275",FALSE,18,"Male","Former",4.15,53,"White","0-8",TRUE,TRUE,"2+ times per week",4
+"1276",FALSE,20,"Male","Former",7.46,66,"White","0-8",TRUE,TRUE,"<1 time per month",5
+"1277",FALSE,16,"Male","Current",2.12,71,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"1278",FALSE,15,"Male","Current",0.74,72,"White","0-8",TRUE,TRUE,"<1 time per month",4
+"1280",FALSE,21,"Female","Never",4.17,51,"White","Some College",TRUE,TRUE,"1-4 times per month",3
+"1281",FALSE,11,"Male","Current",3.72,65,"White","9-11",TRUE,TRUE,"<1 time per month",5
+"1282",TRUE,21,"Female","Current",1.09,67,"White","0-8",FALSE,FALSE,"<1 time per month",0
+"1283",FALSE,11,"Male","Current",0.17,58,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"1284",FALSE,21,"Female","Never",1.21,48,"White","0-8",TRUE,TRUE,"Never",1
+"1285",FALSE,21,"Male","Current",4.15,65,"White","0-8",FALSE,FALSE,"<1 time per month",5
+"1286",FALSE,9,"Male","Current",2.84,69,"White","0-8",TRUE,TRUE,"<1 time per month",5
+"1287",FALSE,21,"Female","Never",2.93,55,"White","12",TRUE,TRUE,"1-4 times per month",2
+"1288",TRUE,4,"Male","Current",6.46,73,"White","0-8",FALSE,FALSE,"1-4 times per month",4
+"1289",FALSE,21,"Female","Never",2.33,63,"White","12",FALSE,TRUE,"<1 time per month",2
+"1290",FALSE,21,"Male","Never",1.88,56,"White","0-8",TRUE,TRUE,"2+ times per week",1
+"1291",FALSE,21,"Female","Never",2.35,45,"White","College Grad",TRUE,TRUE,"1-4 times per month",4
+"1292",FALSE,17,"Female","Current",1.29,50,"White","Some College",TRUE,TRUE,"<1 time per month",5
+"1293",TRUE,8,"Female","Never",0.61,72,"White","0-8",FALSE,FALSE,"<1 time per month",5
+"1294",FALSE,21,"Female","Never",8.83,67,"White","College Grad",FALSE,TRUE,"<1 time per month",5
+"1295",FALSE,21,"Female","Never",0.66,52,"White","0-8",TRUE,FALSE,"<1 time per month",4
+"1296",FALSE,10,"Male","Never",1.19,65,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"1297",FALSE,21,"Male","Never",1.87,48,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",3
+"1298",FALSE,21,"Female","Never",4.91,54,"White","Some College",FALSE,TRUE,"1-4 times per month",1
+"1299",TRUE,9,"Female","Former",0.54,59,"White","12",FALSE,FALSE,"<1 time per month",0
+"1300",FALSE,21,"Female","Former",3.51,54,"White","0-8",TRUE,TRUE,"<1 time per month",2
+"1301",FALSE,21,"Female","Never",6.51,56,"White","0-8",FALSE,TRUE,"Never",3
+"1302",FALSE,19,"Male","Former",9.29,72,"White","12",TRUE,TRUE,"Never",4
+"1303",FALSE,16,"Female","Never",0.48,73,"White","9-11",FALSE,FALSE,"<1 time per month",3
+"1304",FALSE,21,"Female","Never",NA,72,"White","9-11",FALSE,TRUE,"Never",5
+"1305",FALSE,21,"Female","Never",2.82,48,"White","12",FALSE,TRUE,"<1 time per month",4
+"1306",FALSE,3,"Male","Former",7.5,52,"White","0-8",TRUE,TRUE,"<1 time per month",1
+"1307",FALSE,21,"Female","Never",NA,58,"White","12",TRUE,TRUE,"Never",5
+"1308",FALSE,21,"Male","Former",2.38,50,"White","0-8",TRUE,TRUE,"2+ times per week",5
+"1309",FALSE,6,"Female","Never",2.38,73,"White","0-8",FALSE,TRUE,"Never",5
+"1310",FALSE,21,"Female","Never",1.37,57,"White","0-8",TRUE,TRUE,"Never",2
+"1311",FALSE,21,"Female","Never",3.72,63,"White","0-8",FALSE,TRUE,"Never",5
+"1312",FALSE,18,"Male","Never",2.38,65,"White","12",TRUE,FALSE,"<1 time per month",5
+"1313",FALSE,21,"Male","Current",1.33,47,"White","0-8",TRUE,TRUE,"Never",5
+"1314",FALSE,21,"Male","Former",2.46,52,"White","0-8",TRUE,FALSE,"<1 time per month",5
+"1315",FALSE,21,"Female","Never",8.29,45,"White","College Grad",TRUE,TRUE,"Never",5
+"1317",FALSE,21,"Female","Never",6.51,50,"White","College Grad",FALSE,TRUE,"1-4 times per month",5
+"1318",FALSE,21,"Male","Current",0.69,67,"White","0-8",TRUE,TRUE,"2+ times per week",4
+"1319",FALSE,21,"Female","Never",5.86,46,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",4
+"1320",FALSE,21,"Female","Current",2.63,50,"White","0-8",FALSE,TRUE,"<1 time per month",3
+"1321",FALSE,20,"Female","Never",1.09,71,"White","0-8",FALSE,FALSE,"Never",4
+"1322",TRUE,18,"Male","Never",1.82,67,"White","0-8",FALSE,TRUE,"2+ times per week",5
+"1323",FALSE,21,"Female","Former",3.87,54,"White","Some College",FALSE,TRUE,"2+ times per week",4
+"1324",FALSE,16,"Female","Current",2.63,69,"White","0-8",FALSE,TRUE,"Never",0
+"1325",FALSE,11,"Male","Never",2.93,68,"Nonwhite","0-8",TRUE,TRUE,"Just about everyday/everyday",2
+"1326",TRUE,5,"Male","Former",6.04,65,"White","College Grad",FALSE,TRUE,"<1 time per month",5
+"1327",FALSE,21,"Male","Current",3.57,53,"White","0-8",TRUE,TRUE,"2+ times per week",1
+"1328",FALSE,21,"Male","Current",6.96,49,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"1329",FALSE,21,"Female","Current",7.74,54,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",4
+"1330",FALSE,11,"Male","Current",2.19,47,"Nonwhite","Some College",TRUE,TRUE,"<1 time per month",5
+"1331",TRUE,21,"Female","Former",2.63,62,"White","9-11",FALSE,TRUE,"<1 time per month",5
+"1332",TRUE,21,"Female","Current",3.26,47,"White","12",FALSE,TRUE,"2+ times per week",2
+"1333",FALSE,21,"Male","Never",6.96,49,"White","12",TRUE,TRUE,"2+ times per week",2
+"1334",FALSE,21,"Female","Never",3.56,50,"White","9-11",FALSE,TRUE,"2+ times per week",4
+"1335",TRUE,21,"Male","Never",6.96,62,"White","College Grad",TRUE,TRUE,"1-4 times per month",4
+"1336",FALSE,21,"Female","Never",2.93,63,"Nonwhite","Some College",FALSE,TRUE,"<1 time per month",2
+"1337",FALSE,20,"Female","Current",2.63,55,"White","0-8",FALSE,TRUE,"Never",5
+"1338",FALSE,21,"Female","Former",3.87,61,"White","12",FALSE,TRUE,"Just about everyday/everyday",4
+"1339",TRUE,21,"Female","Never",4.95,52,"White","9-11",TRUE,TRUE,"1-4 times per month",4
+"1340",TRUE,12,"Male","Never",1.07,70,"White","12",FALSE,TRUE,"1-4 times per month",2
+"1341",TRUE,13,"Male","Current",1.32,74,"White","9-11",FALSE,TRUE,"2+ times per week",1
+"1342",TRUE,10,"Male","Current",2.35,73,"White","0-8",FALSE,FALSE,"<1 time per month",1
+"1343",TRUE,21,"Female","Never",1.73,55,"White","0-8",FALSE,TRUE,"Never",3
+"1344",TRUE,7,"Female","Never",2.02,69,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"1345",TRUE,10,"Male","Current",6.51,65,"White","College Grad",TRUE,TRUE,"<1 time per month",5
+"1346",FALSE,9,"Male","Never",3.85,53,"White","12",TRUE,TRUE,"<1 time per month",5
+"1347",TRUE,9,"Male","Never",1.11,70,"White","Some College",FALSE,FALSE,"Just about everyday/everyday",4
+"1348",TRUE,21,"Female","Current",1.68,50,"White","12",FALSE,TRUE,"Never",4
+"1349",FALSE,16,"Male","Never",NA,69,"White","12",FALSE,TRUE,"2+ times per week",5
+"1350",FALSE,21,"Female","Current",1.92,52,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"1351",TRUE,6,"Male","Current",3.87,74,"White","0-8",TRUE,FALSE,"<1 time per month",4
+"1352",TRUE,13,"Male","Former",2.38,74,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",5
+"1353",TRUE,21,"Female","Never",2.38,74,"White","0-8",FALSE,TRUE,"Never",5
+"1354",TRUE,21,"Female","Never",4.17,59,"White","12",FALSE,TRUE,"1-4 times per month",0
+"1355",FALSE,21,"Male","Never",0.86,48,"White","0-8",TRUE,FALSE,"<1 time per month",5
+"1356",FALSE,20,"Male","Current",2.75,53,"White","12",TRUE,TRUE,"Never",4
+"1357",TRUE,16,"Female","Current",3.51,46,"White","0-8",TRUE,TRUE,"Never",1
+"1358",FALSE,21,"Male","Current",2.75,51,"White","9-11",TRUE,TRUE,"2+ times per week",5
+"1359",FALSE,14,"Female","Current",2.83,57,"White","9-11",FALSE,TRUE,"<1 time per month",5
+"1360",FALSE,21,"Female","Never",8.34,49,"White","College Grad",TRUE,TRUE,"2+ times per week",2
+"1361",FALSE,21,"Female","Former",1.3,65,"White","12",FALSE,TRUE,"1-4 times per month",2
+"1362",FALSE,21,"Male","Former",5.84,45,"White","9-11",TRUE,FALSE,"1-4 times per month",4
+"1363",TRUE,12,"Female","Never",0.24,74,"White","9-11",FALSE,FALSE,"Never",1
+"1364",FALSE,21,"Male","Former",2.75,48,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"1365",TRUE,4,"Male","Current",4.17,62,"White","9-11",FALSE,TRUE,"2+ times per week",4
+"1366",TRUE,21,"Female","Never",2.38,46,"White","Some College",TRUE,FALSE,"Just about everyday/everyday",5
+"1367",TRUE,21,"Female","Current",4.2,49,"White","12",TRUE,TRUE,"1-4 times per month",4
+"1369",TRUE,21,"Male","Former",2.49,66,"White","9-11",FALSE,TRUE,"<1 time per month",1
+"1371",FALSE,15,"Male","Former",1.62,64,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",4
+"1372",FALSE,15,"Male","Former",2.75,54,"White","9-11",TRUE,TRUE,"<1 time per month",0
+"1373",FALSE,21,"Female","Current",2.12,70,"White","Some College",FALSE,FALSE,"Just about everyday/everyday",4
+"1374",FALSE,4,"Male","Current",4.17,61,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"1375",FALSE,21,"Female","Never",1.26,71,"White","9-11",FALSE,FALSE,"<1 time per month",5
+"1376",FALSE,21,"Female","Never",4.91,56,"White","12",FALSE,TRUE,"1-4 times per month",5
+"1377",FALSE,21,"Female","Never",7.5,59,"White","12",FALSE,TRUE,"<1 time per month",2
+"1378",FALSE,20,"Male","Current",1.2,54,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",5
+"1379",FALSE,21,"Female","Current",1.1,57,"White","12",FALSE,TRUE,"1-4 times per month",4
+"1380",TRUE,21,"Male","Never",0.73,51,"White","12",FALSE,TRUE,"<1 time per month",3
+"1381",FALSE,4,"Male","Never",0.51,45,"White","0-8",FALSE,TRUE,"Never",3
+"1382",FALSE,7,"Female","Never",3.16,70,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"1383",FALSE,21,"Female","Never",0.99,70,"Nonwhite","0-8",FALSE,TRUE,"Never",2
+"1384",FALSE,21,"Male","Current",3.26,50,"White","12",TRUE,TRUE,"<1 time per month",5
+"1385",FALSE,17,"Male","Current",3.55,48,"White","12",TRUE,FALSE,"Just about everyday/everyday",4
+"1386",FALSE,21,"Male","Current",7.31,54,"White","Some College",TRUE,FALSE,"Just about everyday/everyday",4
+"1387",FALSE,12,"Female","Never",1.54,73,"White","0-8",FALSE,TRUE,"<1 time per month",2
+"1388",FALSE,14,"Male","Current",6.31,55,"White","College Grad",TRUE,TRUE,"<1 time per month",3
+"1389",FALSE,21,"Male","Former",2.38,48,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",3
+"1390",FALSE,21,"Female","Never",1.33,65,"White","0-8",TRUE,TRUE,"<1 time per month",3
+"1391",FALSE,21,"Male","Former",3.16,68,"White","0-8",TRUE,TRUE,"Never",5
+"1392",FALSE,21,"Male","Former",0.89,64,"White","9-11",FALSE,TRUE,"2+ times per week",4
+"1393",TRUE,21,"Male","Current",3.85,49,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",5
+"1394",FALSE,21,"Female","Current",4.17,52,"White","12",TRUE,TRUE,"1-4 times per month",1
+"1395",FALSE,19,"Male","Current",3.95,74,"White","0-8",FALSE,FALSE,"2+ times per week",5
+"1396",FALSE,21,"Female","Former",5.84,53,"White","College Grad",TRUE,TRUE,"2+ times per week",4
+"1397",FALSE,21,"Male","Former",4.91,47,"White","12",TRUE,TRUE,"2+ times per week",5
+"1398",FALSE,21,"Male","Never",4.17,55,"White","12",FALSE,TRUE,"Never",5
+"1399",FALSE,21,"Male","Never",5.22,48,"White","0-8",TRUE,FALSE,"Just about everyday/everyday",4
+"1400",FALSE,21,"Male","Former",4.17,50,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"1401",FALSE,21,"Male","Former",6.31,48,"White","9-11",TRUE,TRUE,"2+ times per week",5
+"1402",TRUE,21,"Female","Never",1.71,66,"White","9-11",FALSE,FALSE,"<1 time per month",2
+"1403",FALSE,21,"Female","Never",2.35,49,"White","12",FALSE,TRUE,"2+ times per week",2
+"1404",FALSE,21,"Male","Former",4.66,51,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"1405",FALSE,21,"Male","Never",3.51,57,"White","9-11",TRUE,TRUE,"<1 time per month",5
+"1406",FALSE,21,"Male","Never",2.16,48,"White","9-11",TRUE,TRUE,"1-4 times per month",3
+"1407",FALSE,21,"Female","Never",0.9,61,"White","12",FALSE,FALSE,"<1 time per month",5
+"1408",FALSE,15,"Male","Former",2.38,70,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"1409",FALSE,14,"Female","Never",3.16,65,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"1410",FALSE,21,"Female","Never",2.38,63,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"1411",FALSE,6,"Male","Current",0.42,70,"White","0-8",FALSE,FALSE,"Just about everyday/everyday",5
+"1412",FALSE,18,"Male","Former",1.59,65,"White","12",FALSE,TRUE,"Just about everyday/everyday",0
+"1413",FALSE,21,"Female","Never",8.34,57,"White","9-11",TRUE,TRUE,"<1 time per month",5
+"1414",FALSE,12,"Female","Never",1.94,65,"White","Some College",FALSE,TRUE,"1-4 times per month",5
+"1415",TRUE,11,"Female","Never",1.06,67,"White","0-8",FALSE,FALSE,"1-4 times per month",2
+"1417",TRUE,10,"Male","Current",0.77,67,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",0
+"1419",FALSE,21,"Female","Former",2.32,65,"White","12",FALSE,FALSE,"Just about everyday/everyday",5
+"1420",FALSE,21,"Male","Current",1.59,65,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",3
+"1421",FALSE,21,"Male","Former",1.14,47,"White","College Grad",TRUE,TRUE,"<1 time per month",5
+"1422",FALSE,20,"Female","Never",1.88,66,"White","9-11",FALSE,FALSE,"1-4 times per month",0
+"1424",FALSE,21,"Female","Current",2.33,49,"White","9-11",FALSE,TRUE,"<1 time per month",1
+"1425",FALSE,21,"Female","Never",5.84,54,"White","12",FALSE,TRUE,"<1 time per month",1
+"1426",FALSE,16,"Female","Never",1.24,70,"White","Some College",FALSE,FALSE,"Never",1
+"1427",FALSE,19,"Female","Never",0.94,68,"White","9-11",FALSE,FALSE,"<1 time per month",5
+"1428",FALSE,15,"Male","Current",2.38,65,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",3
+"1429",FALSE,21,"Female","Former",1.72,47,"White","12",TRUE,FALSE,"1-4 times per month",2
+"1430",FALSE,21,"Male","Former",1.65,64,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",5
+"1431",TRUE,21,"Female","Current",3.84,62,"White","12",TRUE,FALSE,"Just about everyday/everyday",5
+"1432",TRUE,21,"Female","Never",NA,66,"White","0-8",FALSE,FALSE,"<1 time per month",0
+"1433",FALSE,11,"Male","Current",3.51,54,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",3
+"1434",FALSE,21,"Male","Current",2.83,60,"White","0-8",TRUE,TRUE,"2+ times per week",5
+"1435",FALSE,20,"Male","Former",4.91,68,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",5
+"1436",FALSE,16,"Female","Never",0.81,74,"White","9-11",FALSE,FALSE,"Just about everyday/everyday",3
+"1437",FALSE,21,"Male","Current",4.17,48,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"1438",FALSE,21,"Male","Never",2.9,49,"White","12",TRUE,TRUE,"1-4 times per month",5
+"1439",FALSE,21,"Male","Never",1.87,51,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"1441",FALSE,15,"Male","Current",2.93,67,"Nonwhite","0-8",TRUE,TRUE,"Never",2
+"1442",FALSE,21,"Male","Current",3.03,51,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",4
+"1443",FALSE,21,"Female","Never",6.51,45,"White","Some College",FALSE,TRUE,"<1 time per month",4
+"1445",TRUE,17,"Male","Never",2.93,65,"White","Some College",FALSE,TRUE,"Never",2
+"1446",TRUE,21,"Female","Current",2.21,58,"White","12",FALSE,TRUE,"Never",5
+"1447",FALSE,21,"Male","Former",3.57,53,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",5
+"1448",FALSE,21,"Female","Never",3.87,61,"White","12",FALSE,TRUE,"Just about everyday/everyday",2
+"1449",FALSE,14,"Male","Current",3.16,69,"White","Some College",FALSE,TRUE,"1-4 times per month",4
+"1450",FALSE,21,"Female","Never",3.18,67,"White","Some College",TRUE,FALSE,"<1 time per month",3
+"1452",FALSE,21,"Female","Never",0.73,71,"White","0-8",FALSE,TRUE,"Never",4
+"1453",FALSE,20,"Female","Never",1.85,67,"White","College Grad",FALSE,TRUE,"1-4 times per month",5
+"1454",FALSE,21,"Male","Former",1.44,61,"White","0-8",TRUE,TRUE,"2+ times per week",5
+"1455",FALSE,3,"Female","Current",1.33,51,"White","9-11",TRUE,FALSE,"Just about everyday/everyday",4
+"1456",FALSE,21,"Male","Current",2.75,45,"White","12",TRUE,TRUE,"2+ times per week",4
+"1457",FALSE,19,"Female","Never",1.2,69,"White","12",TRUE,FALSE,"<1 time per month",2
+"1458",FALSE,21,"Female","Never",2.12,59,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"1459",FALSE,21,"Male","Current",2.02,55,"White","12",TRUE,TRUE,"1-4 times per month",2
+"1460",FALSE,20,"Male","Never",4.65,70,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",4
+"1461",FALSE,21,"Male","Current",4.92,52,"White","0-8",TRUE,TRUE,"2+ times per week",5
+"1462",FALSE,11,"Female","Never",1.17,67,"White","0-8",FALSE,TRUE,"Never",0
+"1463",FALSE,21,"Female","Never",2.27,65,"White","0-8",FALSE,FALSE,"Never",2
+"1464",FALSE,21,"Female","Never",1.66,66,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"1465",FALSE,21,"Male","Never",0.9,67,"White","0-8",TRUE,TRUE,"1-4 times per month",4
+"1466",FALSE,21,"Male","Never",1.76,72,"White","0-8",TRUE,TRUE,"<1 time per month",5
+"1467",FALSE,21,"Female","Never",1.97,60,"White","0-8",FALSE,TRUE,"1-4 times per month",2
+"1468",TRUE,21,"Male","Former",1.87,48,"White","College Grad",TRUE,TRUE,"Never",5
+"1469",FALSE,20,"Male","Never",2,52,"White","0-8",TRUE,TRUE,"1-4 times per month",3
+"1470",FALSE,18,"Male","Former",4.65,66,"White","Some College",FALSE,TRUE,"2+ times per week",5
+"1471",FALSE,21,"Female","Never",4.65,65,"White","Some College",FALSE,TRUE,"2+ times per week",4
+"1472",FALSE,6,"Male","Former",0.9,67,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"1473",FALSE,7,"Male","Current",2.62,73,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"1474",FALSE,11,"Female","Never",2.62,69,"White","Some College",FALSE,TRUE,"1-4 times per month",5
+"1475",FALSE,21,"Male","Former",0.78,59,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"1476",FALSE,17,"Female","Current",1.16,73,"White","0-8",TRUE,FALSE,"Never",0
+"1477",FALSE,9,"Male","Current",6.87,62,"White","0-8",FALSE,FALSE,"1-4 times per month",4
+"1478",FALSE,16,"Male","Former",2.16,66,"White","0-8",TRUE,TRUE,"1-4 times per month",5
+"1479",TRUE,16,"Male","Never",1.11,74,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"1480",TRUE,19,"Male","Former",1.76,73,"White","0-8",FALSE,TRUE,"1-4 times per month",3
+"1482",FALSE,21,"Male","Former",1.68,51,"White","Some College",TRUE,TRUE,"2+ times per week",5
+"1483",FALSE,21,"Male","Former",6.31,56,"White","College Grad",TRUE,TRUE,"Never",4
+"1484",FALSE,9,"Male","Former",2.83,61,"White","Some College",FALSE,TRUE,"1-4 times per month",4
+"1485",FALSE,21,"Male","Former",2.83,58,"White","0-8",TRUE,TRUE,"2+ times per week",4
+"1486",FALSE,21,"Male","Never",1.25,72,"White","0-8",FALSE,TRUE,"Never",4
+"1487",FALSE,21,"Female","Never",2.83,52,"White","12",FALSE,TRUE,"1-4 times per month",3
+"1488",FALSE,21,"Male","Never",3.23,58,"White","Some College",TRUE,TRUE,"1-4 times per month",5
+"1489",FALSE,21,"Male","Former",0.79,72,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",2
+"1490",FALSE,18,"Male","Former",1.49,68,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"1491",FALSE,21,"Female","Never",4.91,57,"White","12",FALSE,TRUE,"Never",4
+"1492",FALSE,21,"Male","Current",3.85,54,"White","12",TRUE,TRUE,"2+ times per week",5
+"1493",FALSE,19,"Female","Never",1.05,72,"White","0-8",FALSE,FALSE,"Never",2
+"1494",FALSE,21,"Male","Never",3.16,66,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"1495",TRUE,21,"Female","Never",1.17,51,"White","0-8",FALSE,FALSE,"1-4 times per month",1
+"1496",FALSE,21,"Female","Never",0.87,51,"White","0-8",FALSE,TRUE,"Never",4
+"1497",FALSE,21,"Female","Never",2.82,63,"White","0-8",FALSE,TRUE,"Never",2
+"1498",FALSE,21,"Female","Never",3.51,60,"White","Some College",TRUE,TRUE,"<1 time per month",1
+"1499",FALSE,21,"Female","Former",1.59,49,"White","0-8",TRUE,TRUE,"1-4 times per month",3
+"1500",TRUE,20,"Male","Former",8.36,66,"White","12",TRUE,TRUE,"2+ times per week",4
+"1501",FALSE,21,"Male","Current",4.91,52,"White","0-8",TRUE,TRUE,"2+ times per week",4
+"1503",FALSE,21,"Male","Current",2.63,62,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",5
+"1505",TRUE,6,"Male","Never",2.21,70,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"1506",FALSE,21,"Female","Never",6.04,64,"White","Some College",FALSE,TRUE,"Never",3
+"1507",TRUE,6,"Male","Current",1,50,"White","9-11",FALSE,FALSE,"1-4 times per month",5
+"1508",TRUE,21,"Female","Never",0.91,70,"Nonwhite","0-8",FALSE,FALSE,"<1 time per month",5
+"1509",FALSE,21,"Male","Current",4.84,55,"White","9-11",TRUE,TRUE,"1-4 times per month",4
+"1510",TRUE,21,"Male","Current",1.14,67,"White","0-8",FALSE,FALSE,"Never",3
+"1511",TRUE,21,"Female","Never",1.84,65,"Nonwhite","0-8",FALSE,TRUE,"Never",5
+"1512",TRUE,17,"Female","Never",0.83,70,"White","0-8",FALSE,FALSE,"Never",3
+"1513",TRUE,21,"Female","Current",1.47,48,"White","0-8",FALSE,TRUE,"2+ times per week",3
+"1514",FALSE,21,"Female","Never",2.07,46,"White","12",FALSE,TRUE,"Never",3
+"1515",FALSE,18,"Female","Never",2.38,73,"White","0-8",FALSE,TRUE,"Never",2
+"1516",FALSE,4,"Female","Current",0.87,73,"White","0-8",FALSE,FALSE,"Never",4
+"1517",FALSE,10,"Male","Never",0.79,71,"White","0-8",FALSE,TRUE,"2+ times per week",0
+"1518",FALSE,21,"Female","Current",5.84,50,"White","12",TRUE,TRUE,"<1 time per month",3
+"1519",FALSE,21,"Male","Former",2.13,60,"White","0-8",TRUE,FALSE,"Never",4
+"1520",FALSE,21,"Female","Never",3.72,67,"White","Some College",FALSE,TRUE,"Never",3
+"1521",FALSE,19,"Male","Never",2.38,73,"White","0-8",FALSE,TRUE,"Never",4
+"1522",FALSE,14,"Female","Never",2.38,74,"White","0-8",FALSE,TRUE,"Never",4
+"1523",FALSE,21,"Female","Never",3.51,61,"White","0-8",FALSE,TRUE,"Never",5
+"1524",FALSE,17,"Male","Never",0.73,65,"White","0-8",FALSE,FALSE,"1-4 times per month",1
+"1525",FALSE,21,"Male","Former",2.38,55,"White","12",TRUE,TRUE,"1-4 times per month",5
+"1526",FALSE,21,"Male","Former",2.75,45,"White","12",TRUE,TRUE,"Never",4
+"1527",FALSE,21,"Female","Never",3.16,66,"White","9-11",FALSE,TRUE,"<1 time per month",3
+"1528",TRUE,6,"Female","Former",0.79,70,"White","0-8",FALSE,TRUE,"Never",1
+"1529",FALSE,14,"Male","Former",3.72,72,"White","0-8",TRUE,TRUE,"Never",5
+"1530",FALSE,21,"Male","Former",2.83,56,"White","12",TRUE,TRUE,"Never",5
+"1531",FALSE,21,"Male","Former",2.38,63,"White","9-11",TRUE,TRUE,"Never",5
+"1532",FALSE,21,"Female","Never",6.87,48,"White","Some College",FALSE,TRUE,"1-4 times per month",4
+"1533",FALSE,21,"Female","Never",NA,45,"White","12",FALSE,TRUE,"Never",0
+"1534",FALSE,21,"Male","Former",2.42,69,"White","0-8",FALSE,TRUE,"<1 time per month",4
+"1536",FALSE,7,"Male","Current",6.31,58,"White","9-11",TRUE,TRUE,"2+ times per week",4
+"1537",FALSE,21,"Male","Current",2.51,66,"White","College Grad",TRUE,FALSE,"1-4 times per month",4
+"1538",TRUE,10,"Male","Current",2.35,70,"White","0-8",FALSE,TRUE,"Never",4
+"1539",FALSE,11,"Male","Former",2.33,50,"White","Missing",TRUE,TRUE,"<1 time per month",3
+"1540",FALSE,21,"Male","Former",2.75,48,"White","12",TRUE,TRUE,"<1 time per month",1
+"1541",FALSE,21,"Male","Current",1.14,50,"White","9-11",TRUE,TRUE,"2+ times per week",4
+"1542",FALSE,21,"Female","Never",4.91,51,"White","Some College",TRUE,TRUE,"2+ times per week",1
+"1543",FALSE,21,"Male","Former",2.27,64,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",5
+"1544",FALSE,21,"Male","Former",2.75,46,"White","12",TRUE,TRUE,"2+ times per week",5
+"1545",FALSE,21,"Male","Former",5.84,59,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"1546",FALSE,21,"Female","Current",0.92,70,"Nonwhite","9-11",FALSE,FALSE,"<1 time per month",1
+"1547",FALSE,21,"Female","Never",1.92,53,"White","0-8",TRUE,TRUE,"Never",2
+"1548",FALSE,21,"Female","Former",5.46,70,"White","College Grad",FALSE,FALSE,"Just about everyday/everyday",4
+"1549",FALSE,21,"Female","Never",1.2,72,"White","Some College",FALSE,FALSE,"1-4 times per month",3
+"1550",FALSE,21,"Female","Current",3.56,48,"White","12",FALSE,FALSE,"1-4 times per month",4
+"1551",FALSE,21,"Male","Never",NA,55,"White","12",TRUE,TRUE,"Just about everyday/everyday",1
+"1552",FALSE,21,"Female","Never",9.83,67,"White","College Grad",TRUE,FALSE,"<1 time per month",5
+"1553",FALSE,21,"Male","Never",4.56,56,"White","Some College",TRUE,TRUE,"1-4 times per month",4
+"1554",FALSE,21,"Female","Current",2.21,45,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"1555",FALSE,21,"Female","Current",1.74,45,"White","9-11",FALSE,FALSE,"2+ times per week",3
+"1556",FALSE,21,"Male","Current",NA,51,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"1557",FALSE,21,"Male","Former",9.69,61,"White","9-11",TRUE,FALSE,"<1 time per month",5
+"1558",FALSE,21,"Female","Never",5.42,50,"White","12",TRUE,TRUE,"<1 time per month",3
+"1559",FALSE,21,"Male","Former",1.56,65,"White","9-11",FALSE,TRUE,"Never",3
+"1560",FALSE,17,"Male","Current",2.93,69,"Nonwhite","0-8",TRUE,TRUE,"Never",3
+"1561",FALSE,21,"Female","Never",3.46,65,"White","9-11",FALSE,TRUE,"2+ times per week",5
+"1562",TRUE,17,"Female","Never",0.94,74,"White","0-8",FALSE,FALSE,"Never",1
+"1564",FALSE,21,"Female","Never",5.42,55,"White","College Grad",TRUE,TRUE,"Never",3
+"1565",TRUE,14,"Male","Never",0.65,69,"White","0-8",FALSE,TRUE,"1-4 times per month",5
+"1566",FALSE,11,"Male","Current",0.9,71,"White","0-8",FALSE,TRUE,"Never",3
+"1567",FALSE,21,"Female","Never",3.57,74,"White","0-8",FALSE,FALSE,"Never",5
+"1568",FALSE,10,"Male","Current",3.26,71,"White","0-8",FALSE,TRUE,"<1 time per month",5
+"1569",TRUE,12,"Female","Never",0.83,65,"White","0-8",FALSE,FALSE,"Never",0
+"1570",TRUE,4,"Male","Current",0.17,50,"Nonwhite","0-8",FALSE,TRUE,"Never",2
+"1571",FALSE,21,"Male","Current",1.74,56,"White","9-11",TRUE,TRUE,"Never",1
+"1572",FALSE,21,"Female","Never",1.05,56,"White","12",TRUE,FALSE,"Never",5
+"1573",FALSE,21,"Female","Never",2.93,67,"Nonwhite","0-8",FALSE,TRUE,"Never",1
+"1574",FALSE,18,"Male","Former",1.67,65,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"1575",TRUE,7,"Male","Former",0.65,56,"White","0-8",FALSE,TRUE,"Never",4
+"1576",FALSE,21,"Male","Never",3.26,56,"White","9-11",TRUE,TRUE,"2+ times per week",5
+"1577",FALSE,21,"Male","Current",3.87,62,"White","9-11",TRUE,TRUE,"Never",5
+"1578",TRUE,6,"Male","Current",2.93,69,"White","9-11",FALSE,TRUE,"Never",5
+"1579",TRUE,3,"Female","Current",0.69,46,"Nonwhite","0-8",TRUE,FALSE,"<1 time per month",3
+"1580",TRUE,7,"Male","Current",4.15,68,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"1581",FALSE,12,"Female","Current",3.18,71,"White","12",FALSE,FALSE,"<1 time per month",3
+"1582",FALSE,17,"Male","Former",3.16,68,"White","College Grad",FALSE,TRUE,"1-4 times per month",5
+"1583",FALSE,21,"Male","Never",6.51,69,"White","College Grad",FALSE,TRUE,"1-4 times per month",5
+"1584",FALSE,19,"Male","Former",NA,73,"White","9-11",FALSE,TRUE,"2+ times per week",5
+"1586",FALSE,14,"Male","Former",6.51,65,"White","9-11",FALSE,TRUE,"1-4 times per month",4
+"1587",FALSE,14,"Female","Former",2.83,53,"White","9-11",FALSE,TRUE,"1-4 times per month",4
+"1588",FALSE,6,"Male","Former",4.65,65,"White","0-8",FALSE,TRUE,"2+ times per week",5
+"1589",FALSE,21,"Female","Never",2.84,72,"White","9-11",FALSE,TRUE,"Never",5
+"1590",FALSE,5,"Male","Current",4.91,50,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"1591",FALSE,21,"Male","Former",3.85,46,"White","12",TRUE,TRUE,"Just about everyday/everyday",5
+"1592",FALSE,21,"Male","Current",2.38,70,"White","0-8",FALSE,TRUE,"1-4 times per month",1
+"1593",FALSE,21,"Female","Former",NA,50,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"1594",FALSE,21,"Male","Current",0.94,65,"White","12",TRUE,TRUE,"1-4 times per month",5
+"1595",FALSE,21,"Male","Former",1.87,51,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",5
+"1596",FALSE,21,"Female","Never",4.17,53,"White","9-11",TRUE,TRUE,"Never",4
+"1597",FALSE,10,"Male","Never",5.81,68,"White","9-11",FALSE,TRUE,"2+ times per week",5
+"1598",FALSE,13,"Male","Current",4.91,57,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"1599",FALSE,21,"Female","Never",3.84,61,"White","9-11",TRUE,FALSE,"Never",3
+"1600",FALSE,20,"Female","Never",1.67,69,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",5
+"1601",FALSE,21,"Male","Never",1.52,69,"White","0-8",FALSE,TRUE,"Never",4
+"1602",FALSE,21,"Male","Never",6.51,74,"White","9-11",FALSE,TRUE,"1-4 times per month",4
+"1603",FALSE,21,"Female","Never",3.26,47,"White","12",TRUE,TRUE,"<1 time per month",3
+"1604",FALSE,21,"Female","Never",6.51,66,"White","Some College",FALSE,TRUE,"Never",3
+"1605",FALSE,21,"Male","Former",3.26,47,"White","12",TRUE,TRUE,"Just about everyday/everyday",4
+"1606",FALSE,21,"Female","Never",2.48,49,"White","12",FALSE,FALSE,"<1 time per month",3
+"1607",FALSE,21,"Female","Never",1.73,68,"White","9-11",FALSE,TRUE,"<1 time per month",4
+"1608",FALSE,21,"Female","Current",1.15,63,"White","9-11",FALSE,FALSE,"Never",5
+"1609",FALSE,21,"Female","Current",3.51,48,"White","12",TRUE,TRUE,"1-4 times per month",0
+"1610",FALSE,21,"Female","Never",NA,53,"White","0-8",TRUE,TRUE,"1-4 times per month",1
+"1611",FALSE,16,"Female","Current",1.34,54,"White","12",FALSE,TRUE,"<1 time per month",3
+"1612",FALSE,18,"Male","Former",1.64,69,"Nonwhite","0-8",FALSE,TRUE,"Never",5
+"1613",FALSE,21,"Male","Current",3.23,50,"White","College Grad",TRUE,TRUE,"1-4 times per month",5
+"1614",FALSE,6,"Male","Former",1.29,69,"White","9-11",FALSE,FALSE,"Just about everyday/everyday",0
+"1615",FALSE,21,"Male","Never",NA,57,"White","9-11",TRUE,TRUE,"1-4 times per month",5
+"1616",FALSE,21,"Male","Current",NA,48,"White","9-11",FALSE,FALSE,"Just about everyday/everyday",NA
+"1617",FALSE,7,"Male","Current",NA,51,"Nonwhite","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"1618",FALSE,21,"Female","Never",NA,51,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1619",TRUE,13,"Male","Current",NA,58,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1620",FALSE,21,"Female","Never",NA,45,"Nonwhite","9-11",FALSE,FALSE,"Never",NA
+"1621",FALSE,21,"Male","Never",NA,54,"Nonwhite","0-8",TRUE,FALSE,"2+ times per week",NA
+"1622",FALSE,21,"Male","Never",NA,74,"Nonwhite","0-8",FALSE,TRUE,"Never",NA
+"1623",TRUE,21,"Female","Current",NA,54,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1624",FALSE,21,"Female","Never",NA,48,"White","12",TRUE,TRUE,"2+ times per week",NA
+"1625",TRUE,8,"Female","Never",NA,70,"White","12",FALSE,FALSE,"2+ times per week",NA
+"1626",FALSE,21,"Female","Never",NA,60,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1627",FALSE,21,"Male","Former",NA,53,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1628",FALSE,21,"Male","Current",NA,48,"White","9-11",TRUE,FALSE,"1-4 times per month",NA
+"1629",FALSE,21,"Male","Former",NA,61,"White","9-11",TRUE,TRUE,"1-4 times per month",NA
+"1630",FALSE,20,"Male","Never",NA,63,"White","12",FALSE,FALSE,"1-4 times per month",NA
+"1631",FALSE,21,"Male","Current",NA,46,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",NA
+"1632",FALSE,21,"Female","Never",NA,69,"White","12",FALSE,FALSE,"Just about everyday/everyday",NA
+"1633",FALSE,21,"Female","Current",NA,58,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1634",TRUE,21,"Female","Current",NA,53,"White","9-11",FALSE,TRUE,"1-4 times per month",NA
+"1635",FALSE,21,"Male","Current",NA,45,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",NA
+"1636",FALSE,19,"Male","Never",NA,53,"White","0-8",TRUE,TRUE,"2+ times per week",NA
+"1637",FALSE,19,"Male","Former",NA,60,"White","0-8",TRUE,FALSE,"1-4 times per month",NA
+"1638",FALSE,18,"Female","Current",NA,54,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1639",FALSE,21,"Male","Former",NA,54,"White","9-11",TRUE,TRUE,"2+ times per week",NA
+"1640",FALSE,15,"Male","Current",NA,56,"White","12",TRUE,FALSE,"Just about everyday/everyday",NA
+"1641",FALSE,10,"Male","Current",NA,62,"White","9-11",FALSE,TRUE,"Never",NA
+"1642",FALSE,21,"Male","Never",NA,57,"Nonwhite","12",TRUE,TRUE,"1-4 times per month",NA
+"1643",FALSE,21,"Female","Never",NA,60,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1644",FALSE,14,"Male","Former",NA,67,"White","Some College",FALSE,TRUE,"1-4 times per month",NA
+"1645",FALSE,21,"Male","Current",NA,45,"Nonwhite","0-8",TRUE,FALSE,"2+ times per week",NA
+"1646",TRUE,8,"Male","Former",NA,55,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1647",FALSE,21,"Male","Former",NA,67,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1648",TRUE,21,"Female","Never",NA,74,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1649",FALSE,21,"Male","Former",NA,67,"White","College Grad",FALSE,TRUE,"Never",NA
+"1650",FALSE,21,"Female","Current",NA,52,"White","12",TRUE,TRUE,"<1 time per month",NA
+"1651",FALSE,21,"Male","Current",NA,63,"Nonwhite","0-8",FALSE,FALSE,"Just about everyday/everyday",NA
+"1652",FALSE,21,"Female","Former",NA,59,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",NA
+"1653",FALSE,7,"Male","Current",NA,74,"White","9-11",FALSE,TRUE,"Never",NA
+"1654",FALSE,7,"Female","Never",NA,70,"White","0-8",FALSE,FALSE,"Just about everyday/everyday",NA
+"1655",TRUE,21,"Female","Current",NA,45,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1656",TRUE,21,"Female","Former",NA,61,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1657",FALSE,21,"Male","Never",NA,56,"White","12",TRUE,TRUE,"Never",NA
+"1658",FALSE,9,"Male","Current",NA,63,"White","Some College",TRUE,TRUE,"1-4 times per month",NA
+"1659",FALSE,21,"Female","Current",NA,50,"White","0-8",TRUE,FALSE,"1-4 times per month",NA
+"1660",FALSE,21,"Female","Never",NA,50,"White","12",TRUE,FALSE,"1-4 times per month",NA
+"1661",FALSE,21,"Female","Never",NA,73,"White","0-8",FALSE,TRUE,"1-4 times per month",NA
+"1662",FALSE,21,"Female","Never",NA,54,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1663",FALSE,16,"Female","Former",NA,58,"White","9-11",FALSE,TRUE,"1-4 times per month",NA
+"1664",TRUE,21,"Male","Current",NA,54,"White","12",FALSE,TRUE,"Just about everyday/everyday",NA
+"1665",FALSE,21,"Female","Current",NA,61,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",NA
+"1666",FALSE,21,"Male","Former",NA,59,"White","0-8",TRUE,TRUE,"2+ times per week",NA
+"1667",FALSE,13,"Female","Never",NA,61,"White","9-11",TRUE,FALSE,"1-4 times per month",NA
+"1668",TRUE,15,"Female","Current",NA,61,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1669",FALSE,21,"Female","Never",NA,58,"White","12",FALSE,TRUE,"2+ times per week",NA
+"1670",FALSE,21,"Male","Former",NA,57,"White","0-8",TRUE,TRUE,"2+ times per week",NA
+"1671",FALSE,21,"Female","Never",NA,55,"White","9-11",FALSE,TRUE,"Never",NA
+"1672",FALSE,21,"Female","Never",NA,45,"White","12",FALSE,TRUE,"Never",NA
+"1673",FALSE,21,"Female","Never",NA,48,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1674",FALSE,21,"Female","Never",NA,50,"White","12",FALSE,TRUE,"2+ times per week",NA
+"1675",FALSE,21,"Female","Never",NA,55,"White","0-8",FALSE,TRUE,"Never",NA
+"1676",TRUE,16,"Female","Former",NA,69,"White","0-8",FALSE,FALSE,"2+ times per week",NA
+"1677",FALSE,21,"Female","Never",NA,59,"White","12",TRUE,TRUE,"Never",NA
+"1678",FALSE,21,"Male","Former",NA,50,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"1679",FALSE,21,"Female","Former",NA,58,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1680",FALSE,21,"Female","Never",NA,49,"White","College Grad",FALSE,TRUE,"1-4 times per month",NA
+"1681",FALSE,21,"Female","Never",NA,56,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1682",FALSE,21,"Female","Never",NA,45,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1683",FALSE,21,"Male","Former",NA,63,"White","0-8",TRUE,TRUE,"2+ times per week",NA
+"1684",FALSE,21,"Female","Current",NA,66,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1685",TRUE,16,"Male","Former",NA,58,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"1686",FALSE,20,"Male","Never",NA,64,"White","0-8",TRUE,TRUE,"2+ times per week",NA
+"1687",FALSE,21,"Male","Never",NA,65,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1688",FALSE,21,"Female","Current",NA,46,"White","9-11",TRUE,FALSE,"Just about everyday/everyday",NA
+"1689",FALSE,21,"Female","Never",NA,60,"White","9-11",FALSE,TRUE,"Never",NA
+"1690",FALSE,21,"Female","Current",NA,54,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1691",FALSE,14,"Male","Never",NA,69,"White","9-11",TRUE,FALSE,"Never",NA
+"1692",FALSE,21,"Male","Former",NA,66,"White","12",FALSE,TRUE,"Never",NA
+"1693",FALSE,15,"Male","Never",NA,61,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"1694",FALSE,21,"Female","Former",NA,51,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1695",FALSE,21,"Female","Current",NA,51,"White","College Grad",TRUE,TRUE,"1-4 times per month",NA
+"1696",FALSE,21,"Female","Current",NA,46,"White","12",FALSE,TRUE,"Just about everyday/everyday",NA
+"1697",FALSE,21,"Male","Former",NA,51,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1698",TRUE,21,"Male","Never",NA,59,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",NA
+"1699",TRUE,20,"Male","Current",NA,63,"White","9-11",FALSE,TRUE,"1-4 times per month",NA
+"1700",FALSE,21,"Male","Former",NA,61,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",NA
+"1701",TRUE,21,"Female","Never",NA,51,"White","Some College",FALSE,TRUE,"<1 time per month",NA
+"1702",FALSE,21,"Male","Current",NA,52,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",NA
+"1703",FALSE,21,"Female","Never",NA,59,"Nonwhite","0-8",FALSE,TRUE,"1-4 times per month",NA
+"1704",FALSE,21,"Male","Former",NA,59,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1705",FALSE,17,"Male","Former",NA,67,"White","12",FALSE,TRUE,"Never",NA
+"1706",FALSE,21,"Male","Current",NA,47,"White","Some College",TRUE,TRUE,"<1 time per month",NA
+"1707",FALSE,21,"Female","Never",NA,70,"White","9-11",FALSE,TRUE,"1-4 times per month",NA
+"1708",TRUE,21,"Female","Former",NA,52,"White","0-8",FALSE,TRUE,"1-4 times per month",NA
+"1709",FALSE,21,"Male","Former",NA,63,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",NA
+"1710",FALSE,21,"Female","Never",NA,55,"Nonwhite","0-8",FALSE,TRUE,"Never",NA
+"1711",FALSE,21,"Male","Former",NA,53,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1712",TRUE,7,"Male","Current",NA,57,"White","0-8",FALSE,FALSE,"Never",NA
+"1713",TRUE,21,"Female","Current",NA,65,"White","0-8",FALSE,FALSE,"2+ times per week",NA
+"1714",FALSE,21,"Male","Former",NA,46,"White","9-11",FALSE,TRUE,"2+ times per week",NA
+"1715",FALSE,21,"Female","Current",NA,46,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1716",FALSE,19,"Male","Current",NA,62,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",NA
+"1718",FALSE,21,"Female","Never",NA,47,"Nonwhite","9-11",FALSE,TRUE,"Never",NA
+"1719",FALSE,15,"Male","Current",NA,51,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1720",TRUE,21,"Female","Never",NA,54,"White","12",TRUE,FALSE,"Never",NA
+"1721",FALSE,21,"Male","Never",NA,49,"Nonwhite","0-8",TRUE,TRUE,"2+ times per week",NA
+"1722",FALSE,21,"Female","Former",NA,59,"White","College Grad",FALSE,TRUE,"2+ times per week",NA
+"1723",FALSE,13,"Female","Current",NA,63,"Nonwhite","9-11",TRUE,FALSE,"1-4 times per month",NA
+"1724",FALSE,13,"Male","Former",NA,45,"White","9-11",TRUE,TRUE,"1-4 times per month",NA
+"1725",FALSE,21,"Female","Current",NA,54,"Nonwhite","9-11",FALSE,TRUE,"2+ times per week",NA
+"1726",TRUE,5,"Female","Never",NA,72,"White","0-8",FALSE,FALSE,"Never",NA
+"1727",FALSE,21,"Female","Never",NA,65,"Nonwhite","0-8",TRUE,FALSE,"Never",NA
+"1728",FALSE,21,"Male","Former",NA,48,"White","0-8",TRUE,TRUE,"Never",NA
+"1729",FALSE,21,"Female","Current",NA,52,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",NA
+"1730",FALSE,21,"Female","Current",NA,53,"White","12",TRUE,FALSE,"1-4 times per month",NA
+"1731",FALSE,21,"Female","Never",NA,47,"White","9-11",TRUE,TRUE,"Never",NA
+"1732",TRUE,17,"Female","Current",NA,57,"White","12",TRUE,TRUE,"2+ times per week",NA
+"1733",FALSE,16,"Female","Never",NA,70,"White","0-8",FALSE,TRUE,"1-4 times per month",NA
+"1734",FALSE,21,"Female","Former",NA,55,"White","12",FALSE,TRUE,"Never",NA
+"1735",FALSE,21,"Female","Current",NA,55,"White","0-8",FALSE,FALSE,"Never",NA
+"1736",FALSE,20,"Male","Current",NA,62,"Nonwhite","Some College",TRUE,TRUE,"2+ times per week",NA
+"1737",FALSE,21,"Male","Former",NA,48,"White","9-11",TRUE,TRUE,"<1 time per month",NA
+"1738",FALSE,15,"Female","Never",NA,69,"White","0-8",FALSE,FALSE,"Never",NA
+"1739",FALSE,21,"Female","Former",NA,47,"White","9-11",TRUE,FALSE,"1-4 times per month",NA
+"1740",FALSE,21,"Female","Never",NA,62,"Nonwhite","College Grad",TRUE,TRUE,"<1 time per month",NA
+"1741",FALSE,19,"Female","Current",NA,48,"White","Some College",TRUE,FALSE,"1-4 times per month",NA
+"1742",FALSE,21,"Female","Never",NA,61,"White","Some College",TRUE,TRUE,"Never",NA
+"1743",FALSE,5,"Male","Former",NA,51,"Nonwhite","Some College",TRUE,TRUE,"2+ times per week",NA
+"1744",FALSE,21,"Male","Former",NA,56,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"1745",FALSE,21,"Male","Former",NA,59,"White","College Grad",TRUE,TRUE,"Never",NA
+"1746",TRUE,21,"Female","Never",NA,64,"White","12",FALSE,FALSE,"Never",NA
+"1747",TRUE,21,"Male","Current",NA,72,"Nonwhite","0-8",FALSE,FALSE,"1-4 times per month",NA
+"1748",FALSE,13,"Male","Never",NA,68,"Nonwhite","0-8",FALSE,TRUE,"Never",NA
+"1749",FALSE,21,"Male","Current",NA,45,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1750",FALSE,15,"Male","Current",NA,55,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1751",FALSE,17,"Male","Never",NA,68,"White","0-8",FALSE,TRUE,"Never",NA
+"1752",TRUE,9,"Female","Current",NA,51,"White","9-11",FALSE,TRUE,"Never",NA
+"1753",FALSE,8,"Male","Current",NA,59,"White","0-8",TRUE,TRUE,"Never",NA
+"1754",TRUE,6,"Male","Current",NA,66,"White","0-8",FALSE,TRUE,"1-4 times per month",NA
+"1755",FALSE,21,"Female","Never",NA,46,"White","0-8",FALSE,FALSE,"<1 time per month",NA
+"1756",TRUE,21,"Female","Never",NA,47,"White","9-11",TRUE,TRUE,"Never",NA
+"1757",FALSE,18,"Female","Never",NA,59,"White","9-11",FALSE,TRUE,"Never",NA
+"1758",FALSE,21,"Female","Never",NA,69,"White","12",TRUE,TRUE,"Never",NA
+"1759",FALSE,21,"Male","Current",NA,50,"White","12",TRUE,TRUE,"<1 time per month",NA
+"1760",FALSE,18,"Female","Never",NA,57,"White","12",TRUE,TRUE,"Never",NA
+"1761",TRUE,8,"Male","Current",NA,73,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1762",FALSE,21,"Male","Never",NA,64,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1763",TRUE,13,"Male","Current",NA,50,"White","9-11",TRUE,TRUE,"2+ times per week",NA
+"1764",FALSE,21,"Female","Former",NA,53,"White","12",FALSE,TRUE,"Never",NA
+"1765",FALSE,12,"Female","Current",NA,53,"Nonwhite","9-11",TRUE,FALSE,"Never",NA
+"1766",FALSE,6,"Female","Never",NA,74,"Nonwhite","12",FALSE,FALSE,"2+ times per week",NA
+"1767",FALSE,21,"Female","Never",NA,55,"White","12",TRUE,TRUE,"Never",NA
+"1768",FALSE,21,"Male","Former",NA,50,"White","College Grad",TRUE,TRUE,"Never",NA
+"1769",FALSE,21,"Female","Current",NA,48,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1770",TRUE,21,"Female","Never",NA,50,"White","9-11",TRUE,TRUE,"Never",NA
+"1771",FALSE,21,"Female","Never",NA,68,"White","9-11",FALSE,FALSE,"Never",NA
+"1772",FALSE,6,"Male","Current",NA,66,"White","9-11",FALSE,TRUE,"Never",NA
+"1773",TRUE,21,"Female","Never",NA,45,"White","12",FALSE,TRUE,"Never",NA
+"1774",FALSE,11,"Male","Former",NA,61,"White","9-11",TRUE,TRUE,"2+ times per week",NA
+"1775",FALSE,21,"Male","Current",NA,53,"White","12",TRUE,TRUE,"<1 time per month",NA
+"1776",FALSE,20,"Female","Never",NA,70,"White","College Grad",FALSE,FALSE,"<1 time per month",NA
+"1777",FALSE,21,"Male","Former",NA,47,"White","9-11",TRUE,TRUE,"Never",NA
+"1778",FALSE,16,"Female","Current",NA,51,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1779",FALSE,21,"Female","Never",NA,60,"White","9-11",FALSE,TRUE,"Never",NA
+"1780",FALSE,7,"Male","Current",NA,64,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1781",FALSE,18,"Male","Former",NA,59,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1782",FALSE,15,"Male","Former",NA,63,"White","0-8",TRUE,TRUE,"Never",NA
+"1783",FALSE,14,"Male","Former",NA,63,"White","9-11",TRUE,TRUE,"1-4 times per month",NA
+"1784",FALSE,21,"Male","Never",NA,72,"White","0-8",FALSE,TRUE,"Never",NA
+"1785",FALSE,21,"Female","Never",NA,63,"White","0-8",FALSE,TRUE,"Never",NA
+"1786",FALSE,21,"Male","Never",NA,50,"White","12",TRUE,TRUE,"Never",NA
+"1787",FALSE,21,"Male","Former",NA,47,"White","College Grad",TRUE,TRUE,"<1 time per month",NA
+"1788",FALSE,21,"Male","Never",NA,52,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1789",FALSE,21,"Male","Former",NA,50,"White","0-8",TRUE,TRUE,"Never",NA
+"1790",FALSE,15,"Female","Never",NA,48,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1791",FALSE,21,"Female","Never",NA,52,"White","12",TRUE,TRUE,"Never",NA
+"1792",FALSE,21,"Female","Never",NA,71,"White","12",FALSE,FALSE,"Never",NA
+"1793",FALSE,12,"Female","Current",NA,60,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1794",FALSE,21,"Female","Former",NA,51,"White","College Grad",FALSE,FALSE,"Just about everyday/everyday",NA
+"1795",FALSE,6,"Female","Current",NA,53,"White","Some College",TRUE,FALSE,"<1 time per month",NA
+"1796",FALSE,21,"Female","Never",NA,49,"White","9-11",TRUE,TRUE,"Never",NA
+"1797",TRUE,21,"Female","Never",NA,52,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1798",TRUE,21,"Female","Former",NA,48,"White","Some College",FALSE,TRUE,"<1 time per month",NA
+"1799",FALSE,21,"Female","Never",NA,55,"White","Some College",FALSE,TRUE,"1-4 times per month",NA
+"1800",FALSE,21,"Male","Never",NA,66,"White","College Grad",FALSE,FALSE,"Just about everyday/everyday",NA
+"1801",TRUE,15,"Male","Former",NA,61,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1802",FALSE,21,"Female","Never",NA,45,"White","Some College",TRUE,FALSE,"<1 time per month",NA
+"1803",TRUE,21,"Male","Current",NA,53,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1804",FALSE,12,"Female","Never",NA,54,"White","Some College",TRUE,TRUE,"1-4 times per month",NA
+"1805",FALSE,21,"Female","Current",NA,50,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",NA
+"1806",FALSE,21,"Male","Current",NA,53,"Nonwhite","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1807",TRUE,17,"Female","Former",NA,54,"White","0-8",FALSE,FALSE,"1-4 times per month",NA
+"1808",FALSE,21,"Female","Never",NA,56,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",NA
+"1809",FALSE,19,"Male","Current",NA,56,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"1810",FALSE,21,"Male","Never",NA,55,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1811",TRUE,5,"Female","Never",NA,73,"Nonwhite","0-8",FALSE,FALSE,"1-4 times per month",NA
+"1812",FALSE,18,"Female","Never",NA,73,"White","0-8",FALSE,FALSE,"Never",NA
+"1813",TRUE,18,"Female","Never",NA,48,"Nonwhite","9-11",TRUE,FALSE,"1-4 times per month",NA
+"1814",FALSE,21,"Male","Never",NA,66,"Nonwhite","0-8",FALSE,TRUE,"<1 time per month",NA
+"1815",FALSE,21,"Female","Never",NA,68,"White","12",FALSE,FALSE,"<1 time per month",NA
+"1816",FALSE,21,"Male","Current",NA,55,"Nonwhite","12",TRUE,TRUE,"1-4 times per month",NA
+"1817",FALSE,21,"Male","Former",NA,71,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",NA
+"1818",FALSE,9,"Male","Former",NA,67,"White","0-8",FALSE,TRUE,"Never",NA
+"1819",TRUE,21,"Male","Never",NA,50,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",NA
+"1820",FALSE,21,"Male","Never",NA,58,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1821",TRUE,9,"Male","Former",NA,64,"White","College Grad",FALSE,TRUE,"2+ times per week",NA
+"1822",FALSE,21,"Male","Former",NA,54,"White","12",TRUE,TRUE,"Never",NA
+"1823",TRUE,15,"Female","Current",NA,64,"White","12",FALSE,FALSE,"Just about everyday/everyday",NA
+"1824",FALSE,21,"Male","Current",NA,46,"White","Some College",TRUE,TRUE,"1-4 times per month",NA
+"1825",TRUE,21,"Male","Former",NA,48,"Nonwhite","College Grad",TRUE,TRUE,"Just about everyday/everyday",NA
+"1826",FALSE,21,"Male","Former",NA,50,"White","Some College",TRUE,TRUE,"1-4 times per month",NA
+"1827",TRUE,21,"Female","Never",NA,67,"White","9-11",FALSE,FALSE,"Never",NA
+"1828",FALSE,21,"Female","Never",NA,56,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1829",TRUE,10,"Male","Current",NA,56,"White","0-8",FALSE,TRUE,"1-4 times per month",NA
+"1830",TRUE,10,"Female","Never",NA,71,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",NA
+"1831",FALSE,18,"Male","Current",NA,45,"White","Some College",TRUE,TRUE,"1-4 times per month",NA
+"1832",TRUE,21,"Female","Former",NA,55,"White","12",TRUE,FALSE,"Just about everyday/everyday",NA
+"1833",FALSE,21,"Male","Former",NA,59,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"1834",FALSE,5,"Male","Former",NA,70,"White","9-11",FALSE,TRUE,"1-4 times per month",NA
+"1835",FALSE,21,"Female","Current",NA,48,"White","9-11",FALSE,TRUE,"Never",NA
+"1836",TRUE,21,"Female","Current",NA,52,"White","0-8",FALSE,TRUE,"1-4 times per month",NA
+"1837",TRUE,21,"Male","Former",NA,55,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",NA
+"1838",FALSE,21,"Male","Current",NA,49,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",NA
+"1839",FALSE,21,"Male","Former",NA,48,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1840",FALSE,12,"Male","Never",NA,56,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",NA
+"1841",FALSE,21,"Male","Current",NA,53,"White","0-8",TRUE,FALSE,"Just about everyday/everyday",NA
+"1842",FALSE,15,"Female","Current",NA,49,"White","Some College",FALSE,FALSE,"1-4 times per month",NA
+"1843",FALSE,21,"Male","Former",NA,48,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1844",FALSE,21,"Female","Never",NA,45,"White","9-11",FALSE,TRUE,"Never",NA
+"1845",FALSE,21,"Male","Never",NA,68,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",NA
+"1846",FALSE,21,"Female","Former",NA,53,"White","College Grad",FALSE,TRUE,"Just about everyday/everyday",NA
+"1847",TRUE,21,"Female","Current",NA,56,"White","12",TRUE,FALSE,"<1 time per month",NA
+"1848",FALSE,21,"Female","Never",NA,63,"White","College Grad",FALSE,TRUE,"1-4 times per month",NA
+"1849",FALSE,21,"Male","Never",NA,45,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1850",TRUE,17,"Female","Never",NA,46,"Nonwhite","0-8",FALSE,FALSE,"<1 time per month",NA
+"1851",FALSE,11,"Male","Never",NA,71,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1852",FALSE,11,"Male","Current",NA,69,"Nonwhite","0-8",FALSE,TRUE,"Just about everyday/everyday",NA
+"1853",TRUE,21,"Female","Current",NA,55,"Nonwhite","0-8",FALSE,TRUE,"Never",NA
+"1854",FALSE,21,"Male","Never",NA,48,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1855",FALSE,12,"Male","Never",NA,72,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",NA
+"1856",FALSE,21,"Male","Former",NA,59,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1857",FALSE,21,"Male","Current",NA,59,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",NA
+"1858",FALSE,21,"Female","Former",NA,61,"White","Some College",FALSE,TRUE,"1-4 times per month",NA
+"1859",FALSE,21,"Male","Former",NA,56,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1860",FALSE,21,"Male","Never",NA,51,"White","9-11",FALSE,FALSE,"1-4 times per month",NA
+"1861",FALSE,12,"Male","Current",NA,68,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1862",FALSE,21,"Female","Current",NA,47,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1863",FALSE,18,"Male","Never",NA,59,"White","12",FALSE,FALSE,"1-4 times per month",NA
+"1864",TRUE,21,"Female","Current",NA,49,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",NA
+"1865",TRUE,21,"Female","Never",NA,52,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",NA
+"1866",TRUE,14,"Female","Current",NA,60,"White","9-11",FALSE,FALSE,"<1 time per month",NA
+"1867",FALSE,21,"Female","Current",NA,47,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",NA
+"1868",FALSE,11,"Female","Former",NA,69,"White","0-8",FALSE,FALSE,"Never",NA
+"1869",FALSE,21,"Male","Former",NA,54,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1870",FALSE,21,"Male","Former",NA,55,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1871",TRUE,21,"Female","Current",NA,58,"White","12",TRUE,FALSE,"1-4 times per month",NA
+"1872",FALSE,21,"Male","Current",NA,46,"White","College Grad",TRUE,TRUE,"1-4 times per month",NA
+"1873",FALSE,21,"Female","Never",NA,49,"White","9-11",TRUE,TRUE,"1-4 times per month",NA
+"1874",FALSE,21,"Female","Never",NA,53,"White","12",TRUE,FALSE,"<1 time per month",NA
+"1875",FALSE,21,"Female","Never",NA,51,"White","Some College",TRUE,TRUE,"Never",NA
+"1876",TRUE,12,"Female","Never",NA,61,"White","9-11",FALSE,TRUE,"Never",NA
+"1877",TRUE,13,"Female","Current",NA,55,"White","0-8",FALSE,TRUE,"Never",NA
+"1878",FALSE,21,"Female","Never",NA,56,"White","College Grad",TRUE,TRUE,"1-4 times per month",NA
+"1879",FALSE,21,"Female","Former",NA,66,"White","Some College",FALSE,TRUE,"Just about everyday/everyday",NA
+"1880",TRUE,21,"Female","Never",NA,71,"White","0-8",FALSE,FALSE,"Never",NA
+"1881",TRUE,21,"Female","Never",NA,65,"White","9-11",FALSE,TRUE,"Never",NA
+"1882",TRUE,21,"Male","Former",NA,66,"Nonwhite","0-8",FALSE,TRUE,"2+ times per week",NA
+"1883",TRUE,16,"Female","Former",NA,68,"White","0-8",FALSE,TRUE,"Never",NA
+"1884",FALSE,21,"Male","Former",NA,46,"Nonwhite","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1885",TRUE,11,"Male","Former",NA,67,"Nonwhite","0-8",FALSE,TRUE,"Never",NA
+"1886",FALSE,21,"Male","Former",NA,48,"White","9-11",TRUE,TRUE,"Never",NA
+"1887",FALSE,17,"Female","Current",NA,62,"Nonwhite","0-8",FALSE,FALSE,"Never",NA
+"1888",FALSE,21,"Female","Never",NA,58,"White","12",FALSE,FALSE,"Never",NA
+"1889",FALSE,20,"Female","Current",NA,52,"White","12",TRUE,TRUE,"<1 time per month",NA
+"1890",FALSE,21,"Female","Current",NA,48,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1891",FALSE,21,"Male","Current",NA,48,"Nonwhite","0-8",TRUE,TRUE,"2+ times per week",NA
+"1892",FALSE,21,"Female","Never",NA,72,"White","College Grad",TRUE,FALSE,"Never",NA
+"1893",FALSE,21,"Female","Never",NA,60,"White","9-11",TRUE,TRUE,"Never",NA
+"1894",FALSE,21,"Male","Current",NA,51,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1895",FALSE,10,"Male","Former",NA,68,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1896",FALSE,21,"Female","Current",NA,48,"White","9-11",TRUE,TRUE,"2+ times per week",NA
+"1897",FALSE,13,"Female","Former",NA,73,"White","0-8",FALSE,FALSE,"1-4 times per month",NA
+"1898",FALSE,21,"Female","Never",NA,54,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",NA
+"1899",FALSE,20,"Female","Never",NA,61,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1900",FALSE,11,"Female","Never",NA,50,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1901",FALSE,21,"Female","Never",NA,58,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1902",FALSE,21,"Male","Current",NA,45,"White","9-11",TRUE,TRUE,"1-4 times per month",NA
+"1903",FALSE,21,"Female","Current",NA,46,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",NA
+"1904",TRUE,21,"Male","Never",NA,45,"White","College Grad",TRUE,TRUE,"Never",NA
+"1905",FALSE,21,"Male","Current",NA,49,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1906",FALSE,21,"Male","Current",NA,49,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1907",TRUE,21,"Male","Current",NA,53,"White","College Grad",TRUE,TRUE,"1-4 times per month",NA
+"1908",FALSE,21,"Male","Former",NA,54,"White","9-11",TRUE,TRUE,"1-4 times per month",NA
+"1909",FALSE,21,"Female","Never",NA,46,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1910",FALSE,21,"Male","Never",NA,51,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",NA
+"1911",FALSE,17,"Male","Former",NA,63,"White","0-8",FALSE,TRUE,"Never",NA
+"1912",FALSE,21,"Male","Current",NA,55,"Nonwhite","9-11",FALSE,TRUE,"2+ times per week",NA
+"1913",FALSE,21,"Female","Never",NA,72,"White","Some College",FALSE,FALSE,"<1 time per month",NA
+"1914",FALSE,16,"Male","Former",NA,71,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1915",FALSE,18,"Female","Never",NA,68,"White","College Grad",FALSE,FALSE,"1-4 times per month",NA
+"1916",TRUE,4,"Male","Current",NA,54,"White","0-8",FALSE,FALSE,"Never",NA
+"1917",TRUE,21,"Female","Never",NA,72,"White","0-8",FALSE,TRUE,"Never",NA
+"1918",FALSE,21,"Female","Current",NA,46,"White","Some College",TRUE,TRUE,"1-4 times per month",NA
+"1919",FALSE,13,"Male","Current",NA,63,"White","12",TRUE,TRUE,"2+ times per week",NA
+"1920",FALSE,21,"Male","Former",NA,50,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1921",FALSE,18,"Female","Never",NA,73,"White","9-11",FALSE,FALSE,"<1 time per month",NA
+"1922",FALSE,21,"Male","Former",NA,47,"Nonwhite","12",TRUE,TRUE,"Never",NA
+"1923",FALSE,21,"Male","Never",NA,50,"White","College Grad",TRUE,TRUE,"Never",NA
+"1924",FALSE,21,"Female","Current",NA,54,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1925",TRUE,21,"Male","Never",NA,46,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1926",FALSE,20,"Female","Former",NA,58,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1927",TRUE,21,"Female","Never",NA,52,"White","12",TRUE,TRUE,"Never",NA
+"1928",FALSE,21,"Female","Never",NA,52,"White","9-11",FALSE,TRUE,"Never",NA
+"1929",FALSE,21,"Female","Current",NA,56,"White","0-8",FALSE,TRUE,"1-4 times per month",NA
+"1930",FALSE,21,"Male","Former",NA,46,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1931",FALSE,21,"Female","Never",NA,47,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1932",TRUE,21,"Female","Never",NA,66,"White","0-8",FALSE,TRUE,"<1 time per month",NA
+"1933",FALSE,21,"Male","Former",NA,56,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1934",TRUE,21,"Male","Current",NA,58,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1935",FALSE,21,"Female","Former",NA,55,"White","9-11",TRUE,TRUE,"Never",NA
+"1936",TRUE,21,"Female","Current",NA,56,"White","9-11",TRUE,FALSE,"1-4 times per month",NA
+"1937",FALSE,21,"Female","Never",NA,52,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1938",FALSE,21,"Male","Former",NA,64,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",NA
+"1939",FALSE,21,"Female","Never",NA,65,"White","Some College",FALSE,FALSE,"<1 time per month",NA
+"1940",TRUE,21,"Male","Former",NA,71,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"1941",FALSE,21,"Female","Current",NA,45,"White","9-11",TRUE,TRUE,"1-4 times per month",NA
+"1942",TRUE,10,"Male","Current",NA,71,"White","0-8",FALSE,TRUE,"1-4 times per month",NA
+"1943",FALSE,21,"Female","Never",NA,74,"White","College Grad",FALSE,TRUE,"Never",NA
+"1944",FALSE,17,"Female","Never",NA,50,"White","12",TRUE,TRUE,"<1 time per month",NA
+"1945",FALSE,21,"Female","Never",NA,57,"White","Some College",TRUE,TRUE,"<1 time per month",NA
+"1946",FALSE,21,"Female","Former",NA,61,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1947",FALSE,21,"Female","Never",NA,60,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1948",TRUE,17,"Male","Former",NA,65,"White","0-8",FALSE,TRUE,"Never",NA
+"1949",FALSE,21,"Male","Former",NA,64,"White","Some College",FALSE,FALSE,"Never",NA
+"1950",FALSE,21,"Male","Current",NA,65,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1951",FALSE,21,"Female","Never",NA,57,"White","Some College",FALSE,TRUE,"Never",NA
+"1952",FALSE,21,"Female","Never",NA,54,"White","12",FALSE,TRUE,"Never",NA
+"1953",FALSE,21,"Male","Current",NA,56,"White","0-8",TRUE,FALSE,"1-4 times per month",NA
+"1954",FALSE,21,"Male","Former",NA,59,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1955",FALSE,21,"Male","Never",NA,57,"White","12",TRUE,TRUE,"2+ times per week",NA
+"1956",FALSE,21,"Female","Never",NA,48,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1957",TRUE,12,"Female","Never",NA,64,"White","9-11",FALSE,FALSE,"<1 time per month",NA
+"1958",FALSE,21,"Female","Never",NA,69,"White","College Grad",FALSE,TRUE,"<1 time per month",NA
+"1959",FALSE,14,"Male","Current",NA,65,"White","9-11",FALSE,TRUE,"Never",NA
+"1960",FALSE,21,"Male","Former",NA,71,"White","9-11",FALSE,TRUE,"Never",NA
+"1961",FALSE,13,"Male","Former",NA,48,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"1962",FALSE,21,"Female","Never",NA,55,"White","Some College",FALSE,TRUE,"Never",NA
+"1963",FALSE,9,"Male","Former",NA,73,"White","0-8",FALSE,TRUE,"Just about everyday/everyday",NA
+"1964",FALSE,21,"Female","Never",NA,53,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"1965",FALSE,21,"Male","Former",NA,59,"White","9-11",TRUE,TRUE,"Never",NA
+"1966",FALSE,21,"Male","Never",NA,67,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",NA
+"1967",TRUE,21,"Female","Current",NA,49,"White","College Grad",TRUE,TRUE,"<1 time per month",NA
+"1968",FALSE,21,"Male","Never",NA,59,"White","9-11",TRUE,TRUE,"Never",NA
+"1969",FALSE,21,"Female","Never",NA,65,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1970",FALSE,20,"Female","Never",NA,68,"White","College Grad",FALSE,TRUE,"Never",NA
+"1971",FALSE,21,"Male","Never",NA,60,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"1972",TRUE,20,"Female","Never",NA,54,"White","0-8",FALSE,FALSE,"<1 time per month",NA
+"1973",FALSE,21,"Male","Never",NA,55,"White","0-8",TRUE,TRUE,"Never",NA
+"1974",TRUE,21,"Male","Former",NA,58,"White","Some College",TRUE,FALSE,"2+ times per week",NA
+"1975",FALSE,21,"Male","Never",NA,53,"White","0-8",TRUE,FALSE,"Just about everyday/everyday",NA
+"1976",FALSE,19,"Female","Never",NA,73,"White","12",FALSE,FALSE,"Never",NA
+"1977",FALSE,21,"Female","Never",NA,69,"White","12",FALSE,TRUE,"Never",NA
+"1978",FALSE,17,"Male","Current",NA,50,"White","12",TRUE,TRUE,"2+ times per week",NA
+"1979",FALSE,21,"Male","Never",NA,73,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1980",FALSE,21,"Female","Former",NA,70,"White","0-8",FALSE,TRUE,"Never",NA
+"1981",FALSE,10,"Female","Former",NA,58,"White","9-11",TRUE,TRUE,"<1 time per month",NA
+"1982",TRUE,21,"Male","Current",NA,57,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"1983",FALSE,21,"Female","Current",NA,46,"White","Some College",FALSE,TRUE,"<1 time per month",NA
+"1984",FALSE,21,"Male","Current",NA,56,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"1985",FALSE,21,"Female","Current",NA,62,"White","9-11",FALSE,TRUE,"1-4 times per month",NA
+"1986",FALSE,21,"Female","Never",NA,62,"White","12",FALSE,FALSE,"1-4 times per month",NA
+"1987",TRUE,21,"Male","Current",NA,52,"White","12",FALSE,TRUE,"<1 time per month",NA
+"1988",FALSE,21,"Male","Former",NA,53,"White","Some College",TRUE,TRUE,"1-4 times per month",NA
+"1989",FALSE,21,"Female","Current",NA,54,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"1990",FALSE,21,"Male","Former",NA,46,"White","Some College",TRUE,TRUE,"1-4 times per month",NA
+"1991",FALSE,12,"Male","Current",NA,67,"White","0-8",TRUE,TRUE,"2+ times per week",NA
+"1992",FALSE,21,"Male","Current",NA,50,"White","Some College",TRUE,FALSE,"<1 time per month",NA
+"1993",FALSE,21,"Male","Current",NA,52,"White","Some College",TRUE,TRUE,"1-4 times per month",NA
+"1994",FALSE,21,"Male","Former",NA,49,"White","9-11",TRUE,TRUE,"Just about everyday/everyday",NA
+"1995",TRUE,21,"Female","Current",NA,52,"White","12",FALSE,TRUE,"Just about everyday/everyday",NA
+"1996",FALSE,21,"Male","Never",NA,48,"White","Some College",TRUE,FALSE,"Never",NA
+"1997",FALSE,21,"Female","Never",NA,45,"White","9-11",TRUE,FALSE,"Never",NA
+"1998",TRUE,21,"Female","Never",NA,46,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"1999",FALSE,21,"Female","Never",NA,53,"White","12",TRUE,FALSE,"<1 time per month",NA
+"2000",TRUE,21,"Male","Former",NA,46,"White","College Grad",TRUE,TRUE,"2+ times per week",NA
+"2001",TRUE,21,"Female","Current",NA,62,"White","9-11",FALSE,TRUE,"1-4 times per month",NA
+"2002",FALSE,21,"Male","Current",NA,49,"White","0-8",TRUE,TRUE,"2+ times per week",NA
+"2003",FALSE,15,"Male","Current",NA,53,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",NA
+"2004",FALSE,21,"Female","Never",NA,45,"White","12",TRUE,FALSE,"1-4 times per month",NA
+"2005",FALSE,21,"Female","Never",NA,58,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"2006",FALSE,13,"Female","Former",NA,61,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"2007",FALSE,21,"Male","Never",NA,52,"White","College Grad",TRUE,FALSE,"2+ times per week",NA
+"2008",TRUE,21,"Female","Current",NA,48,"Nonwhite","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"2009",TRUE,17,"Male","Current",NA,74,"White","0-8",FALSE,TRUE,"Never",NA
+"2010",FALSE,15,"Male","Current",NA,47,"White","College Grad",TRUE,FALSE,"Just about everyday/everyday",NA
+"2011",FALSE,21,"Female","Never",NA,59,"White","Some College",TRUE,TRUE,"2+ times per week",NA
+"2012",FALSE,21,"Female","Never",NA,68,"Nonwhite","9-11",FALSE,TRUE,"Never",NA
+"2013",FALSE,16,"Male","Former",NA,63,"White","12",TRUE,TRUE,"<1 time per month",NA
+"2014",FALSE,11,"Male","Never",NA,70,"White","0-8",FALSE,TRUE,"Never",NA
+"2015",FALSE,21,"Female","Former",NA,48,"White","College Grad",FALSE,TRUE,"Never",NA
+"2016",FALSE,21,"Female","Never",NA,50,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"2017",FALSE,15,"Male","Former",NA,69,"White","9-11",TRUE,TRUE,"Never",NA
+"2018",TRUE,12,"Male","Never",NA,56,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"2019",FALSE,21,"Male","Current",NA,45,"White","9-11",TRUE,TRUE,"2+ times per week",NA
+"2020",FALSE,11,"Male","Current",NA,45,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"2021",FALSE,21,"Female","Never",NA,53,"White","Some College",FALSE,TRUE,"1-4 times per month",NA
+"2022",FALSE,21,"Male","Former",NA,55,"White","0-8",TRUE,TRUE,"Never",NA
+"2023",FALSE,21,"Female","Never",NA,45,"White","12",FALSE,TRUE,"1-4 times per month",NA
+"2024",FALSE,21,"Female","Former",NA,51,"White","12",TRUE,TRUE,"2+ times per week",NA
+"2025",FALSE,21,"Male","Never",NA,48,"White","9-11",TRUE,FALSE,"Just about everyday/everyday",NA
+"2026",FALSE,14,"Male","Never",NA,60,"White","Some College",TRUE,TRUE,"Just about everyday/everyday",NA
+"2027",FALSE,18,"Male","Never",NA,70,"Nonwhite","9-11",TRUE,TRUE,"1-4 times per month",NA
+"2028",FALSE,21,"Male","Former",NA,58,"White","12",TRUE,TRUE,"2+ times per week",NA
+"2029",FALSE,17,"Female","Never",NA,66,"White","12",FALSE,FALSE,"2+ times per week",NA
+"2030",FALSE,21,"Male","Current",NA,48,"White","12",TRUE,TRUE,"1-4 times per month",NA
+"2031",FALSE,7,"Male","Current",NA,45,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",NA
+"2032",FALSE,21,"Female","Never",NA,52,"White","College Grad",FALSE,TRUE,"1-4 times per month",NA
+"2033",FALSE,21,"Male","Former",NA,45,"White","9-11",TRUE,TRUE,"<1 time per month",NA
+"2034",FALSE,21,"Female","Never",NA,54,"White","12",FALSE,TRUE,"Never",NA
+"2035",TRUE,21,"Female","Never",NA,57,"White","Some College",FALSE,TRUE,"Never",NA
+"2036",FALSE,21,"Female","Never",NA,64,"White","12",FALSE,FALSE,"Never",NA
+"2037",FALSE,20,"Male","Never",NA,59,"Nonwhite","9-11",TRUE,TRUE,"1-4 times per month",NA
+"2038",FALSE,21,"Male","Former",NA,55,"White","Some College",TRUE,TRUE,"2+ times per week",NA
+"2039",TRUE,21,"Female","Never",NA,47,"White","12",FALSE,FALSE,"Never",NA
+"2040",FALSE,16,"Female","Never",NA,74,"White","0-8",FALSE,FALSE,"1-4 times per month",NA
+"2041",TRUE,11,"Male","Current",NA,58,"White","9-11",TRUE,FALSE,"2+ times per week",NA
+"2042",FALSE,21,"Male","Former",NA,51,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"2043",TRUE,21,"Male","Former",NA,61,"Nonwhite","College Grad",TRUE,TRUE,"<1 time per month",NA
+"2044",FALSE,15,"Male","Current",NA,57,"Nonwhite","0-8",TRUE,TRUE,"2+ times per week",NA
+"2045",FALSE,21,"Male","Never",NA,46,"White","0-8",TRUE,TRUE,"1-4 times per month",NA
+"2046",TRUE,21,"Female","Current",NA,49,"Nonwhite","Some College",TRUE,TRUE,"1-4 times per month",NA
+"2047",FALSE,8,"Male","Current",NA,52,"White","9-11",TRUE,TRUE,"2+ times per week",NA
+"2048",FALSE,21,"Female","Never",NA,64,"White","12",FALSE,TRUE,"2+ times per week",NA
+"2049",FALSE,21,"Male","Never",NA,66,"White","9-11",FALSE,TRUE,"<1 time per month",NA
+"2050",FALSE,21,"Female","Never",NA,51,"Nonwhite","12",TRUE,FALSE,"<1 time per month",NA
+"2051",FALSE,21,"Female","Never",NA,52,"White","12",FALSE,TRUE,"<1 time per month",NA
+"2052",FALSE,21,"Female","Current",NA,50,"White","0-8",FALSE,TRUE,"1-4 times per month",NA
+"2053",FALSE,21,"Female","Never",NA,48,"White","12",FALSE,TRUE,"2+ times per week",NA
+"2054",TRUE,18,"Female","Current",NA,52,"Nonwhite","0-8",TRUE,FALSE,"2+ times per week",NA
+"2055",FALSE,21,"Female","Never",NA,56,"White","0-8",TRUE,TRUE,"Never",NA
+"2056",FALSE,21,"Male","Former",NA,68,"Nonwhite","0-8",FALSE,TRUE,"Never",NA
+"2057",TRUE,21,"Male","Never",NA,51,"Nonwhite","College Grad",TRUE,TRUE,"1-4 times per month",NA
+"2058",TRUE,15,"Female","Current",NA,57,"White","9-11",TRUE,FALSE,"Never",NA
+"2059",FALSE,21,"Female","Never",NA,51,"White","Some College",TRUE,FALSE,"<1 time per month",NA
+"2060",FALSE,21,"Female","Never",NA,48,"White","12",TRUE,TRUE,"2+ times per week",NA
+"2061",FALSE,21,"Female","Current",NA,51,"White","Some College",FALSE,TRUE,"<1 time per month",NA
+"2062",FALSE,21,"Male","Never",NA,59,"White","College Grad",FALSE,TRUE,"Just about everyday/everyday",NA
+"2063",FALSE,19,"Male","Current",NA,63,"White","9-11",TRUE,TRUE,"1-4 times per month",NA
+"2064",FALSE,7,"Male","Never",NA,71,"White","12",TRUE,TRUE,"Just about everyday/everyday",NA
+"2065",FALSE,21,"Male","Never",NA,53,"White","9-11",TRUE,TRUE,"Never",NA
+"2066",FALSE,21,"Female","Never",NA,48,"White","Some College",FALSE,TRUE,"1-4 times per month",NA
+"2067",FALSE,21,"Female","Never",NA,53,"White","12",FALSE,TRUE,"Never",NA
+"2068",FALSE,21,"Female","Former",NA,45,"White","College Grad",FALSE,TRUE,"1-4 times per month",NA
+"2069",TRUE,21,"Male","Current",NA,50,"Nonwhite","12",TRUE,TRUE,"2+ times per week",NA
+"2070",TRUE,21,"Female","Never",NA,62,"Nonwhite","9-11",TRUE,FALSE,"Never",NA
+"2071",TRUE,14,"Male","Never",NA,52,"White","College Grad",TRUE,TRUE,"Just about everyday/everyday",NA
+"2072",FALSE,21,"Female","Never",NA,66,"White","0-8",FALSE,TRUE,"Never",NA
+"2073",FALSE,14,"Male","Never",NA,53,"White","0-8",TRUE,TRUE,"Never",NA
+"2074",TRUE,21,"Male","Never",NA,67,"White","0-8",FALSE,TRUE,"Never",NA
+"2075",TRUE,21,"Female","Current",NA,72,"White","0-8",FALSE,FALSE,"1-4 times per month",NA
+"2076",FALSE,21,"Male","Current",NA,57,"White","0-8",TRUE,TRUE,"Never",NA
+"2077",TRUE,18,"Male","Former",NA,72,"White","0-8",FALSE,TRUE,"Never",NA
+"2078",FALSE,21,"Male","Current",NA,45,"White","9-11",FALSE,TRUE,"Just about everyday/everyday",NA
+"2079",FALSE,21,"Female","Never",NA,55,"White","12",TRUE,FALSE,"Never",NA
+"2080",TRUE,21,"Female","Current",NA,47,"White","9-11",TRUE,TRUE,"Never",NA
+"2081",TRUE,21,"Female","Never",NA,57,"White","0-8",FALSE,TRUE,"Never",NA
+"2082",FALSE,21,"Female","Current",NA,54,"White","0-8",FALSE,TRUE,"Never",NA
+"2083",FALSE,21,"Female","Current",NA,55,"White","0-8",FALSE,FALSE,"1-4 times per month",NA
+"2084",TRUE,21,"Female","Never",NA,51,"White","0-8",FALSE,FALSE,"Never",NA
+"2085",FALSE,11,"Male","Former",NA,73,"White","0-8",TRUE,TRUE,"Just about everyday/everyday",NA
+"2086",TRUE,4,"Male","Current",NA,45,"White","College Grad",FALSE,FALSE,"Just about everyday/everyday",NA
+"2087",FALSE,21,"Female","Former",NA,51,"White","9-11",FALSE,TRUE,"Never",NA
+"2088",FALSE,7,"Male","Never",NA,70,"White","0-8",FALSE,FALSE,"2+ times per week",NA
+"2089",FALSE,21,"Female","Never",NA,65,"White","12",FALSE,TRUE,"Never",NA
+"2090",FALSE,21,"Male","Former",NA,59,"White","0-8",TRUE,FALSE,"Never",NA
+"2091",FALSE,21,"Male","Current",NA,45,"White","0-8",TRUE,FALSE,"1-4 times per month",NA
+"2092",FALSE,21,"Female","Current",NA,47,"White","0-8",TRUE,TRUE,"<1 time per month",NA
+"2093",FALSE,21,"Female","Never",NA,73,"White","0-8",FALSE,TRUE,"Never",NA
+"2094",TRUE,18,"Male","Former",NA,60,"White","0-8",FALSE,TRUE,"2+ times per week",NA
+"2095",FALSE,21,"Female","Former",NA,58,"White","College Grad",FALSE,TRUE,"Never",NA

@@ -229,14 +229,13 @@ data.frame(
 ### Problem 2 Supplementary
 
 # sequence of sample sizes
-sizes <- c(seq(50, 1000, 100), seq(1000, 10000, 500))
 ATE_estimates <- c()
 
 # iterate over sample sizes
 set.seed(0927)
-for (n in sizes) {
+for (i in 1:1000) {
   # fit model to simulated sample
-  dfSim <- Fun_datagen(Fun.n = n, Fun.y.type = "binary", Fun.p = 2/3)
+  dfSim <- Fun_datagen(Fun.n = 1000, Fun.y.type = "binary", Fun.p = 2/3)
   log.reg <- rigr::regress("odds", y ~ A + Xc + Xb, data=dfSim)
   
   # estimate ATE
@@ -249,18 +248,17 @@ for (n in sizes) {
   ATE_estimates <- c(ATE_estimates, ATE.gcomp)
 }
 
-# plot ATE estimates vs sample size
-data.frame(sizes, ATE_estimates) %>% 
-  ggplot(aes(x = sizes, y = ATE_estimates)) + 
-  geom_line(lwd = 0.2) + 
-  geom_abline(intercept = ATE.gcomp.robin$estimate[[1]], slope = 0, 
-              color = "red") + 
-  xlab("Sample size") + ylab("ATE estimate") +
+# plot ATE estimates and mark RobinCar estimate
+data.frame(ATE_estimates) %>% 
+  ggplot(aes(x = ATE_estimates, y = ..density..)) +
+  geom_histogram(fill = "goldenrod") +
+  geom_vline(xintercept = ATE.gcomp.robin$estimate[[1]], color = "coral4", lwd = 1) +
+  xlab("ATE estimates") + ylab("Density") +
   theme_bw()
 
 ### The plot illustrates g-computation with this logistic regression model as 
-### producing asymptotically unbiased estimates of ATE (treating the RobinCar 
-### estimate as the truth)
+### producing unbiased estimates of ATE (treating the RobinCar estimate as the 
+### truth)
 ```
 
 #### (a) (b) 
@@ -332,14 +330,13 @@ data.frame(
 ### Problem 3 Supplementary
 
 # sequence of sample sizes
-sizes <- c(seq(50, 1000, 100), seq(1000, 10000, 500))
 ATE_estimates <- c()
 
 # iterate over sample sizes
 set.seed(0927)
-for (n in sizes) {
+for (i in 1:1000) {
   # fit model to simulated sample
-  dfSim <- Fun_datagen(Fun.n = n, Fun.y.type = "count", Fun.p = 2/3)
+  dfSim <- Fun_datagen(Fun.n = 1000, Fun.y.type = "count", Fun.p = 2/3)
   neg.binom <- MASS::glm.nb(y ~ A + Xc + Xb, data=dfSim)
   
   # estimate ATE
@@ -352,18 +349,17 @@ for (n in sizes) {
   ATE_estimates <- c(ATE_estimates, ATE.gcomp)
 }
 
-# plot ATE estimates vs sample size
-data.frame(sizes, ATE_estimates) %>% 
-  ggplot(aes(x = sizes, y = ATE_estimates)) + 
-  geom_line(lwd = 0.2) + 
-  geom_abline(intercept = ATE.gcomp.robin$estimate[[1]], slope = 0, 
-              color = "red") + 
-  xlab("Sample size") + ylab("ATE estimate") +
+# plot ATE estimates and mark RobinCar estimate
+data.frame(ATE_estimates) %>% 
+  ggplot(aes(x = ATE_estimates, y = ..density..)) +
+  geom_histogram(fill = "goldenrod") +
+  geom_vline(xintercept = ATE.gcomp.robin$estimate[[1]], color = "coral4", lwd = 1) +
+  xlab("ATE estimates") + ylab("Density") +
   theme_bw()
 
 ### The plot illustrates g-computation with this negative binomial model as 
-### producing asymptotically biased (under)estimates of ATE (treating the 
-### RobinCar estimate as the truth)
+### producing biased underestimates of ATE (treating the RobinCar estimate as the 
+### truth)
 ```
 
 #### (a)
