@@ -18,8 +18,8 @@ rm(list=ls())
 
 # load relevant packages
 library(tidyverse)      # data manipulation
-library(rigr)           # regression
-library(knitr)          # table formatting
+library(knitr)          # table format
+library(gridExtra)      # plot format
 library(DOS)            # 
 library(exactRankTests) #
 library(CausalGAM)      # ATE estimators
@@ -36,9 +36,14 @@ set.seed(0927)
 
 # data loading
 nhanes <- read.csv("nhanesi_class_dataset.csv")
+
+# color selection
+colors <- c("#FC600A", # dark orange
+            "#C21460", # dark pink
+            "#3F0000") # darker red
 ```
 
-```{r opt-match, include = F}
+```{r optmatch-caliper-function, include = F}
 ### -----------------------------------------------------------
 ### external code, from Ting Ye
 
@@ -248,6 +253,11 @@ The outcome of interest is years.lived.since.1971.up.to.1992, the number of year
 ```{r problem-1}
 ### -----------------------------------------------------------
 ### Problem 1
+
+# count NAs present in each column
+# colSums(is.na(nhanes))
+
+# handle NAs
 nhanes <- nhanes %>%
   # cast character variables to factors
   mutate_if(is.character, as.factor) %>%
@@ -269,22 +279,22 @@ Fit a propensity score model adjusting for the confounders and the two missing i
 ### Problem 2
 ps_formula <- physically.inactive ~ sex + smoking.status + 
   income.poverty.ratio + age.at.interview + race + education + 
-  working.last.three.months + married + alcohol.consumption + dietary.adequacy #+
-  # income.poverty.ratio.missingind + dietary.adequacy.missingind
+  working.last.three.months + married + alcohol.consumption + dietary.adequacy + income.poverty.ratio.missingind + dietary.adequacy.missingind
 
 # fit a (logistic regression) propensity model
-ps_model <- rigr::regress("odds", data = nhanes, ps_formula)
+ps_model <- glm(ps_formula, family = "binomial", data = nhanes)
 # calculate propensity scores and inverse probability weights
 nhanes$ps.score = predict(ps_model, type = "response")
 
-# truncate propensity scores that are outside range of scores from control group
+# truncate propensity scores that are below min score of treated or above max
+# score of control
 score_range <- nhanes %>% 
   filter(!physically.inactive) %>%
   summarize(max = max(ps.score), min = min(ps.score))
 
 nhanes <- nhanes %>%
   filter(score_range$min < ps.score & ps.score < score_range$max)
-# removes 5 participants
+# removes 7 participants
 ```
 
 # 3
@@ -307,7 +317,11 @@ match_res1 <- optmatch_caliper(nhanes,
                                nocontrols.per.match = 1, calipersd = 0.5,
                                ps.formula = ps_formula,
                                mahal.formula = mahal_formula)
-match_res1$p
+match1_love <- match_res1$p + 
+  xlim(-.1, .3) +
+  labs(subtitle = "Matching treated to control 1:1") +
+  theme_bw()
+match1_love
 
 # Remark: The table one can be conveniently constructed using the tableone package in R, using the following sample code.
 nhanes_treated <- match_res1$datatemp[match_res1$treated.subject.index,]
@@ -326,16 +340,39 @@ print(tb1, showAllLevels = T, smd = F, quote = F, noSpaces = T, printToggle = F)
 
 Consider matching 2 controls to each treated unit. Is there adequate balance to do so? If there is, consider matching 3 controls to each treated unit and decide if there is adequate balance to do so.
 
-```{r question-4}
+Matching treated and control units 1:1 gives us a subset with almost perfect balance across matching covariates. Matching 1:2 worsens age imbalance and matching 1:3 induces similar imbalance as the unmatched sample.
+
+```{r question-4, fig.width=6, fig.height=5, fig.cap="Love plots for covariate balance across matching"}
 ### -----------------------------------------------------------
 ### Problem 4
-```
 
+# perform matching 1 treated to 2 controls
+match_res2 <- optmatch_caliper(nhanes, 
+                               nocontrols.per.match = 2, calipersd = 0.5,
+                               ps.formula = ps_formula,
+                               mahal.formula = mahal_formula)
+match2_love <- match_res2$p + xlim(-.1, .3) + theme_bw() +
+  labs(subtitle = "Matching treated to control 1:2")
+
+# perform matching 1 treated to 3 controls
+match_res3 <- optmatch_caliper(nhanes, 
+                               nocontrols.per.match = 3, calipersd = 0.5,
+                               ps.formula = ps_formula,
+                               mahal.formula = mahal_formula)
+match3_love <- match_res3$p + xlim(-.1, .3) + theme_bw() +
+  labs(subtitle = "Matching treated to control 1:3")
+
+# generate combination of all three love plots
+gridExtra::grid.arrange(match1_love + xlab(""), 
+                        match2_love + xlab(""), 
+                        match3_love + xlab("Standardized difference in means"))
+```
 
 # 5
 
 Which matching that you have considered do you feel is best? Justify your answer.
 
+I most prefer matching 1:1 
 
 # 6
 
@@ -346,8 +383,8 @@ Using the pair matching from Q3, find a point estimate and 95% confidence interv
 ### Problem 6
 
 # Remark: For example, we can apply the Wilcoxon signed rank test, as follows
-wilcox.exact(df_treated$years.lived.since.1971.up.to.1992,
-             df_control$years.lived.since.1971.up.to.1992,
+wilcox.exact(nhanes_treated$years.lived.since.1971.up.to.1992,
+             nhanes_control$years.lived.since.1971.up.to.1992,
              paired = T, conf.int = T, exact = T)
 
 # We can also fit a regression model controlling for the matched set indicators,
@@ -358,20 +395,52 @@ matched.reg.model = lm(
     education + working.last.three.months + married + alcohol.consumption +
     dietary.adequacy + income.poverty.ratio.missingind + 
     dietary.adequacy.missingind,
-  data = df_matched)
+  data = nhanes_matched)
 
 coef(matched.reg.model)[2]      # Point estimate of treatment effect
 confint(matched.reg.model)[2,]  # Confidence interval
+```
+```{r question-6-supplementary}
+# ### -----------------------------------------------------------
+# ### Problem 6 Supplementary
+# 
+# # Q: Sensitivity analysis: Do results change when matching 1:2? 
+# 
+# # implement 1 treated : 2 control matching
+# nhanes_treated2 <- match_res2$datatemp[match_res2$treated.subject.index,]
+# nhanes_control2 <- match_res2$datatemp[match_res2$matched.control.subject.index,]
+# nhanes_matched2 <- rbind(nhanes_treated2, nhanes_control2)
+# 
+# # Remark: For example, we can apply the Wilcoxon signed rank test, as follows
+# wilcox.exact(nhanes_treated2$years.lived.since.1971.up.to.1992,
+#              nhanes_control2$years.lived.since.1971.up.to.1992,
+#              paired = T, conf.int = T, exact = T)
+# 
+# # We can also fit a regression model controlling for the matched set indicators,
+# # as follows
+# matched.reg.model2 = lm(
+#   years.lived.since.1971.up.to.1992 ~ physically.inactive + matchvec + sex +
+#     smoking.status + income.poverty.ratio + age.at.interview + race + 
+#     education + working.last.three.months + married + alcohol.consumption +
+#     dietary.adequacy + income.poverty.ratio.missingind + 
+#     dietary.adequacy.missingind,
+#   data = nhanes_matched2)
+# 
+# coef(matched.reg.model2)[2]      # Point estimate of treatment effect
+# confint(matched.reg.model2)[2,]  # Confidence interval
 ```
 
 # 7
 
 Can you think of any potential unmeasured confounders?
 
+**Incomplete**
 
 # 8
 
-Using one of your matchings (e.g., your pair matching) to perform a sensitivity analysis. Up to what value of $\Gamma$ is there still evidence that being physically active causes you to live longer?
+Use one of your matching settings (e.g., your pair matching) to perform a sensitivity analysis. Up to what value of $\Gamma$ is there still evidence that being physically active causes you to live longer?
+
+With significance level of $\alpha = 0.5$, values up to $\Gamma = 1.85$ will lead us to believe being physically active causes individuals to live longer.
 
 ```{r question-8}
 ### -----------------------------------------------------------
@@ -380,8 +449,21 @@ Using one of your matchings (e.g., your pair matching) to perform a sensitivity 
 # Below are some key codes:
 diff = nhanes_treated$years.lived.since.1971.up.to.1992 - nhanes_control$years.lived.since.1971.up.to.1992
 
-senWilcox(diff, gamma = 1, conf.int = F, alpha = 0.05, alternative = "less")
-senWilcox(diff, gamma = 1.6, conf.int = F, alpha = 0.05, alternative = "less")
+data.frame("Worst-case p-value" = c(
+  # pvalues
+  senWilcox(diff, gamma = 1, 
+            conf.int = F, alpha = 0.05, alternative = "less")[[1]],
+  senWilcox(diff, gamma = 1.7, 
+            conf.int=F, alpha = 0.05, alternative = "less")[[1]],
+  senWilcox(diff, gamma = 1.75, 
+            conf.int=F, alpha = 0.05, alternative = "less")[[1]],
+  senWilcox(diff, gamma = 1.85, 
+            conf.int=F, alpha = 0.05, alternative = "less")[[1]],
+  senWilcox(diff, gamma = 1.9, 
+            conf.int=F, alpha = 0.05, alternative = "less")[[1]]),
+  # corresponding gamma values
+  gamma = c(1, 1.55, 1.6, 1.85, 1.9)) %>% 
+  knitr::kable(digits = 3, col.names = c("Worst-case p-value", "Gamma"))
 ```
 
 # 9
@@ -391,8 +473,33 @@ Apply three alternative methods on the data without matching: outcome regression
 ```{r question-9}
 ### -----------------------------------------------------------
 ### Problem 9
-```
 
+# estimate ATE with outcome regression (g-computation), IPW, and AIPW
+outcome_formula_t <- years.lived.since.1971.up.to.1992 ~ physically.inactive + sex + smoking.status + income.poverty.ratio + age.at.interview + race + education + working.last.three.months + married + alcohol.consumption + dietary.adequacy + income.poverty.ratio.missingind + dietary.adequacy.missingind
+
+outcome_formula_c <- outcome_formula_t
+
+CausalGAM::estimate.ATE(pscore.formula = ps_formula,
+                        pscore.family = binomial,
+                        outcome.formula.t = outcome_formula_t,
+                        outcome.formula.c = outcome_formula_c,
+                        outcome.family = gaussian,
+                        treatment.var = "physically.inactive",
+                        data = subset(nhanes, select = -c(X, ps.score)),
+                        var.gam.plot = F)
+# g-comp ATE estimate and bootstrap s.e.* : -1.8117 | 0.2837
+# IPW    ATE estimate and bootstrap s.e.* : -1.5613 | 0.3036
+# AIPW   ATE estimate and bootstrap s.e.* : -1.82   | 0.2998
+# *bootstrap resamples size: n = 501 
+
+
+# estimate ATE using weighting and the entropy balancing method
+treatment <- as.numeric(nhanes$physically.inactive)
+covariates <- subset(nhanes, select = -c(X, physically.inactive, ps.score)) %>%
+  mutate_if(is.logical, as.integer)
+
+ebal::ebalance(Treatment = treatment, X = covariates)
+```
 
 # 10
 
