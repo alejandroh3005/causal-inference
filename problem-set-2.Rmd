@@ -274,6 +274,8 @@ nhanes <- nhanes %>%
 
 Fit a propensity score model adjusting for the confounders and the two missing indicators in Q1. To find a subset of the units with overlap, follow the procedure of Dehejia and Wahba (1999, Journal of American Statistical Association): exclude from further analysis any treated unit whose propensity score is greater than the maximum propensity score of the control units and exclude any control unit whose propensity score is less than the minimum propensity score of the treated units. How many (if any) units are excluded by this procedure?
 
+7 participatns are removed by truncation of propensity scores.
+
 ```{r question-2}
 ### -----------------------------------------------------------
 ### Problem 2
@@ -301,7 +303,7 @@ nhanes <- nhanes %>%
 
 Form optimal matched pairs using rank based Mahalanobis distance with a propensity score caliper, using the following prognostically important variables in the Mahalanobis distance – smoking status, sex and age at time of interview. Assess the balance on the confounders between the treated and control matched pairs. Compare it with the balance before matching in terms of the standardized differences (Lecture 2, page 22). Construct a Love plot. Generate a table 1 for the matched samples.
 
-```{r question-3}
+```{r question-3, message=F, warning=F}
 ### -----------------------------------------------------------
 ### Problem 3
 
@@ -372,11 +374,13 @@ gridExtra::grid.arrange(match1_love + xlab(""),
 
 Which matching that you have considered do you feel is best? Justify your answer.
 
-I most prefer matching 1:1 
+I most prefer matching 1:1, because it gives near perfect balance between the matched pairs. 
 
 # 6
 
 Using the pair matching from Q3, find a point estimate and 95% confidence interval for the effect of being physically inactive compared to being physically active on `years.lived.since.1971.up.to.1992`. Using your chosen matching from Q5 [if it is not pair matching], find a point estimate and 95% confidence interval for the effect of being physically inactive compared to being physically active on `years.lived.since.1971.up.to.1992.`
+
+My calculated 95% CI for the effect of being physically inactive on years lived since 1971 up to 1992 is [-2.603, -1.228]. 
 
 ```{r question-6}
 ### -----------------------------------------------------------
@@ -397,8 +401,10 @@ matched.reg.model = lm(
     dietary.adequacy.missingind,
   data = nhanes_matched)
 
-coef(matched.reg.model)[2]      # Point estimate of treatment effect
-confint(matched.reg.model)[2,]  # Confidence interval
+# coef(matched.reg.model)[2]      # Point estimate of treatment effect
+# confint(matched.reg.model)[2,]  # Confidence interval
+#    2.5 %    97.5 % 
+# -2.602726 -1.228433 
 ```
 ```{r question-6-supplementary}
 # ### -----------------------------------------------------------
@@ -434,7 +440,7 @@ confint(matched.reg.model)[2,]  # Confidence interval
 
 Can you think of any potential unmeasured confounders?
 
-**Incomplete**
+At this time I cannot.
 
 # 8
 
@@ -470,6 +476,8 @@ data.frame("Worst-case p-value" = c(
 
 Apply three alternative methods on the data without matching: outcome regression, IPW, and AIPW. These three estimators and their standard errors can be directly obtained using the R package `CausalGAM`. Compare the point estimators and standard errors of these three methods to the matching method. Also apply the entropy balancing method to estimate the average treatment effect for treated using the R package `ebal`.
 
+The table below lists results of three ATE estimators. Using the entropy balancing method to estimate the average treatment effect for treated, my result was 18.02.
+
 ```{r question-9}
 ### -----------------------------------------------------------
 ### Problem 9
@@ -491,61 +499,73 @@ CausalGAM::estimate.ATE(pscore.formula = ps_formula,
 # IPW    ATE estimate and bootstrap s.e.* : -1.5613 | 0.3036
 # AIPW   ATE estimate and bootstrap s.e.* : -1.82   | 0.2998
 # *bootstrap resamples size: n = 501 
-
+data.frame(estimator = c("Outcome regression", "IPW", "AIPW"),
+           estimate = c(-18.117, -1.5613, -1.82),
+           boostrap.se = c(0.2837, 0.3036, 0.2998)) %>%
+  kable(digits = 3, caption = "ATE estimates and standard errors from bootstrap
+        resamples (n = 501)")
 
 # estimate ATE using weighting and the entropy balancing method
 treatment <- as.numeric(nhanes$physically.inactive)
-covariates <- subset(nhanes, select = -c(X, physically.inactive, ps.score)) %>%
+covariates <- subset(nhanes, 
+                     select = -c(X, physically.inactive, ps.score)) %>%
   mutate_if(is.logical, as.integer)
 
-ebal::ebalance(Treatment = treatment, X = covariates)
+ebal_res <- ebal::ebalance(Treatment = treatment, X = covariates)
+weighted_nhanes <- data.frame(ebal_res$co.xdata)
+
+# estimate of ATE among treated
+# mean(weighted_nhanes$years.lived.since.1971.up.to.1992)
+# [1] 18.02167
 ```
 
 # 10
 
 Conduct sensitivity analysis on IPW and AIPW estimator. Up to what value of $\Gamma$ is there still evidence that being physically active causes you to live longer?
 
-```{r question-10}
-### -----------------------------------------------------------
-### Problem 10
+We will conclude that being physically active causes you to live longer up to values of $\Gamma = 1.2$ for the IPW estimator and $\Gamma = 1.4$ for the AIPW estimator. *Code in appendix will validate that 1.3 and 1.4 will generate CIs that cover zero, for their respective estimators.*.
 
-# Below are some key codes:
-library(devtools)
-install_github("qingyuanzhao/bootsens")
-library(bootsens)
-
-# IPW
-A <- nhanes$physically.inactive
-X <- model.matrix(glm(ps.formula, family = binomial, data = nhanes))
-X <- X[,-1]
-Y <- nhanes$years.lived.since.1971.up.to.1992
-
-## IPW, assuming no unmeasured confounder (i.e. gamma = 0 or Gamma = e^0 = 1)
-extrema.os(A, X, Y) # point estimate
-bootsens.os(A, X, Y, parallel = F) # bootstrap confidence interval (CI)
-
-## IPW, Sensitivity analysis (gamma = log(1.2), i.e. Gamma = 1.2)
-extrema.os(A, X, Y, gamma = log(1.2)) # point estimate
-bootsens.os(A, X, Y, gamma = log(1.2), parallel = F) # bootstrap CI
-
-# the IPW estimator is robust to Gamma = 1.2
-## AIPW, assuming no unmeasured confounder (i.e. gamma = 0 or Gamma = e^0 = 1)
-extrema.os(A, X, Y, reg.adjust = T) # point estimate
-bootsens.os(A, X, Y, reg.adjust = T, parallel = F) # bootstrap CI
-
-## AIPW, Sensitivity analysis (Gamma = exp(gamma))
-extrema.os(A, X, Y, reg.adjust = T,gamma = log(1.2)) # point estimate
-bootsens.os(A, X, Y, reg.adjust = T, gamma = log(1.2),parallel = F) # bootstrap CI
-bootsens.os(A, X, Y, reg.adjust = T, gamma = log(1.4),parallel = F) # bootstrap CI
-
-# AIPW is robust to Gamma=1.4, because it has higher power compared to the IPW
+```{r question-10, warning=FALSE, message=FALSE, include=F}
+# ### -----------------------------------------------------------
+# ### Problem 10
+# 
+# # Below are some key codes:
+# library(devtools)
+# install_github("qingyuanzhao/bootsens")
+# library(bootsens)
+# 
+# # IPW
+# A <- nhanes$physically.inactive
+# X <- model.matrix(glm(ps_formula, family = binomial, data = nhanes))
+# X <- X[,-1]
+# Y <- nhanes$years.lived.since.1971.up.to.1992
+# 
+# ## IPW, assuming no unmeasured confounder (i.e. gamma = 0 or Gamma = e^0 = 1)
+# extrema.os(A, X, Y) # point estimate
+# bootsens.os(A, X, Y, parallel = F) # bootstrap confidence interval (CI)
+# 
+# ## IPW, Sensitivity analysis (gamma = log(1.2), i.e. Gamma = 1.2)
+# extrema.os(A, X, Y, gamma = log(1.2)) # point estimate
+# bootsens.os(A, X, Y, gamma = log(1.2), parallel = F) # bootstrap CI
+# bootsens.os(A, X, Y, gamma = log(1.3), parallel = F) # bootstrap CI
+# # the IPW estimator is robust to Gamma = 1.2
+# 
+# ## AIPW, assuming no unmeasured confounder (i.e. gamma = 0 or Gamma = e^0 = 1)
+# extrema.os(A, X, Y, reg.adjust = T) # point estimate
+# bootsens.os(A, X, Y, reg.adjust = T, parallel = F) # bootstrap CI
+# 
+# ## AIPW, Sensitivity analysis (Gamma = exp(gamma))
+# extrema.os(A, X, Y, reg.adjust = T,gamma = log(1.2)) # point estimate
+# bootsens.os(A, X, Y, reg.adjust = T, gamma = log(1.2),parallel = F) # bootstrap CI
+# bootsens.os(A, X, Y, reg.adjust = T, gamma = log(1.4),parallel = F) # bootstrap CI
+# bootsens.os(A, X, Y, reg.adjust = T, gamma = log(1.5),parallel = F) # bootstrap CI
+# # AIPW is robust to Gamma=1.4, because it has higher power compared to the IPW
 ```
-
 
 # Bonus (ungraded)
 
 Given the treatment $A$, observed outcome $Y$, and covariates $X$, under
-the assumption that $A \perp Y(0) \mid X$ and $P(A = 1 \mid X) < 1$, develop the IPW and AIPW identification formulas for the average treatment effect for the treated $E[Y(1) − Y(0) \mid A = 1]$.
+the assumption that $A \perp Y(0) \mid X$ and $P(A = 1 \mid X) < 1$, develop the IPW and AIPW identification formulas for the average treatment effect for the treated $E[Y(1) - Y(0) \mid A = 1]$.
 
 
 
